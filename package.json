@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --poll=2000",
     "build": "ng build --prod",
     "deploy": "ng deploy",
     "test": "ng test",
@@ -21,12 +21,21 @@
     "@angular/platform-browser": "~11.2.8",
     "@angular/platform-browser-dynamic": "~11.2.8",
     "@angular/router": "~11.2.8",
+    "@fortawesome/angular-fontawesome": "^0.8.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-regular-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@ng-bootstrap/ng-bootstrap": "^9.1.0",
+    "@popperjs/core": "^2.9.2",
+    "@types/xlsx": "^0.0.34",
     "bootstrap": "^4.5.0",
     "luxon": "^1.26.0",
     "luxon-angular": "^3.1.0",
     "rxjs": "~6.6.0",
+    "ts-xlsx": "^0.0.11",
     "tslib": "^2.0.0",
+    "xlsx": "^0.17.0",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
@@ -47,6 +56,7 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~4.1.5"
-  }
+    "typescript": "^4.1.5"
+  },
+  "type": "module"
 }

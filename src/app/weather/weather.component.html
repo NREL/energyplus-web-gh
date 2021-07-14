@@ -1,0 +1,89 @@
+<div class="container container-fluid">
+    <header role="banner" id="page-header"></header>
+    <div class="row">
+        <section class="col-sm-12">
+            <a id="main-content"></a>
+            <h1 class="page-header">Weather Data</h1>
+            <div>
+                <section style="width:70rem;font-size:0.9rem;">
+                    <p>Weather data for more than 2100 locations are now available in EnergyPlus weather format — 1042 locations in the USA, 71 locations in Canada, and more than 1000 locations in 100 other countries throughout the world. 
+                        The weather data are arranged by World Meteorological Organization region and Country.</p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h3>View Weather Data</h3>
+                            <p>Select a region below to view weather data.</p>
+                            <div class="btn-group-vertical" role="group">
+                                <a href="weather-region/africa_wmo_region_1" class="btn btn-body border" type="button" style="text-align:left;font-size:0.9rem;">Africa (WMO Region 1)</a>
+                                <a href="weather-region/asia_wmo_region_2" class="btn btn-body border" type="button" style="text-align:left;font-size:0.9rem;">Asia (WMO Region 2)</a>
+                                <a href="weather-region/south_america_wmo_region_3" class="btn btn-body border" type="button" style="text-align:left;font-size:0.9rem;">South America (WMO Region 3)</a>
+                                <a href="weather-region/north_and_central_america_wmo_region_4" class="btn btn-body border" type="button" style="text-align:left;font-size:0.9rem;">North and Central America (WMO Region 4)</a>
+                                <a href="weather-region/southwest_pacific_wmo_region_5" class="btn btn-body border" type="button" style="text-align:left;font-size:0.9rem;">Southwest Pacific (WMO Region 5)</a>
+                                <a href="weather-region/europe_wmo_region_6" class="btn btn-body border" type="button" style="text-align:left;font-size:0.9rem;">Europe (WMO Region 6)</a>
+                            </div>
+                        </div>
+                        <div class="col-md-1 pad-top-150"></div>
+                        <div class="col-md-4">
+                            <h3>Search Weather Data</h3>
+                            <div class="hi-top">
+                                <form action="weather" method="post" id="weather-search-form" accept-charset="UTF_8">
+                                    <div class="form-type-textfield form-item-keyword form-item form-group">
+                                        <label for="edit-keyword" style="margin-top:30px;"><strong>Keyword Search</strong></label>
+                                        <input class="form-control form-text" type="text" id="edit-keyword" name="keyword" value size="60" maxlength="128" style="width:24rem;">
+                                    </div>
+                                    <button class="btn btn-primary form-submit" id="edit-submit" name="op" value="Search" type="submit" style="font-size:0.9rem;padding-left:15px;padding-right:15px;">Seach</button>
+                                    <input type="hidden" name="form_build_id" value="form-S0prcmDyCQ4HP8DbrzyVwBYK7qQKtzmRDlf-gZImUNQ">
+                                    <input type="hidden" name="form_id" value="weather_search_form">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-top:20px;">
+                        <div class="col-md-12">
+                            <h3>Browse Weather Data</h3>
+                            <p>Click on the markers in the map below to access weather data.</p>
+                            <div id="geomap" style="width:725px;margin-left:160px;">
+                                <script src="https://gist.github.com/Myoldmopar/8c58eba49c0a40fdbbfd8cce36a0a96e.js"></script>
+                                <link rel="stylesheet" href="https://github.githubassets.com/assets/gist-embed-be17d52734db769251e4a7901baa0d2f.css">
+                                <div id="gist107753486" class="gist">
+                                    <div class="gist-file" translate="no">
+                                        <div class="gist-data js-gist-file-update-container js-task-list-container file-box">
+                                            <div id="file-master-geojson" class="file my-2">
+                                                <div itemprop="text" class="Box-body blob-wrapper data type-json" style="margin-top:-8px;">
+                                                    <div class="render-wrapper">
+                                                        <div class="render-container is-render-pending js-render-target" data-identity="210548ae-0842-4e62-b157-2f2e625a1c440" data-host="https://render.githubusercontent.com" data-type="geojson">
+                                                            <svg style="box-sizing: content-box; color: var(--color-icon-primary);" viewBox="0 0 16 16" fill="none" data-view-component="true" width="64" height="64" class="octospinner mx-auto anim-rotate">
+                                                                <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke"></circle>
+                                                                <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke"></path>
+                                                            </svg>
+                                                            <div class="render-viewer-error">Sorry, something went wrong. <a href="https://gist.github.com/Myoldmopar/8c58eba49c0a40fdbbfd8cce36a0a96e.js">Reload?</a></div>
+                                                            <div class="render-viewer-fatal">Sorry, we cannot display this file.</div>
+                                                            <div class="render-viewer-invalid">Sorry, this file is invalid so it cannot be displayed.</div>
+                                                            <iframe class="render-viewer " src="https://render.githubusercontent.com/view/geojson?color_mode=auto&amp;commit=830a33ec7e57aec610446d02c53e664c711c48d6&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f676973742f4d796f6c646d6f7061722f38633538656261343963306134306664626266643863636533366130613936652f7261772f383330613333656337653537616563363130343436643032633533653636346337313163343864362f6d61737465722e67656f6a736f6e&amp;nwo=Myoldmopar%2F8c58eba49c0a40fdbbfd8cce36a0a96e&amp;path=master.geojson&amp;repository_id=107753486&amp;repository_type=Gist#210548ae-0842-4e62-b157-2f2e625a1c44" sandbox="allow-scripts allow-same-origin allow-top-navigation" title="File display">
+                                                                Viewer requires iframe.
+                                                            </iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="gist-meta" style="margin-top:-20px;">
+                                            <a href="https://gist.github.com/Myoldmopar/8c58eba49c0a40fdbbfd8cce36a0a96e/raw/830a33ec7e57aec610446d02c53e664c711c48d6/master.geojson" style="float:right">view raw</a>
+                                            <a href="https://gist.github.com/Myoldmopar/8c58eba49c0a40fdbbfd8cce36a0a96e#file-master-geojson">master.geojson</a>
+                                            hosted with ❤ by <a href="https://github.com">GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="hi-top">The Auxiliary Programs document that is packaged with EnergyPlus includes information about weather data in general, the EnergyPlus weather data format, and weather file conversion. 
+                        If you cannot find weather data for your location, see the 
+                        <a href="weather/simulation">Weather Data for Simulation</a>
+                         page for other sources of weather data.  Information about the sources of weather data is available on the 
+                        <a href="weather/sources">Weather Data Sources</a> page.
+                    </p>
+                </section>
+            </div>
+        </section>
+    </div>
+</div>
