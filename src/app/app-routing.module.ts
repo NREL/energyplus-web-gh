@@ -9,6 +9,7 @@ import { LicensingComponent } from './licensing/licensing.component';
 import { WeatherComponent } from './weather/weather.component';
 import { WeatherRegionComponent } from './weather-region/weather-region.component';
 import { ReferencesComponent } from './references/references.component';
+import { ReferenceTemplateComponent } from './reference/reference.component';
 
 const routes: Routes = [{
   path: '',
@@ -37,6 +38,9 @@ const routes: Routes = [{
 }, {
   path: 'references',
   component: ReferencesComponent
+}, {
+  path: 'reference/:id',
+  component: ReferenceTemplateComponent
 }, {
   path: '**',
   redirectTo: ''

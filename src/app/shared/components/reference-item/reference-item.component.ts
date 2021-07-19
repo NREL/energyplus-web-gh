@@ -1,11 +1,8 @@
 import { formatDate } from '@angular/common';
-import { Component, Directive, ElementRef, HostListener, Input, OnInit, Renderer2 } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Component, Input, OnInit } from '@angular/core';
 import { ReferenceItem } from '../../classes/constants';
-import { references_1 } from '../../classes/reference_1';
-import { references_2 } from '../../classes/reference_2';
-import { references_3 } from '../../classes/reference_3';
-import { references_4 } from '../../classes/reference_4';
+import { ActivatedRoute } from '@angular/router';
+import { references } from '../../classes/reference';
 
 @Component({
     selector: 'app-reference-item',
@@ -15,18 +12,18 @@ import { references_4 } from '../../classes/reference_4';
 
 export class ReferenceItemComponent implements OnInit {
 
-  @Input() referenceItem: ReferenceItem
   @Input() sort: Boolean = true;
   @Input() image: any = "https://energyplus.net/misc/arrow-asc.png";
   @Input() isSelected: String = 'publication_date';
+  @Input() reference_item: ReferenceItem;
 
-  readonly references = references_1.concat(references_2, references_3, references_4);
+  readonly references = references;
   readonly resultsPerPage = 30;
 
   page = 1;
   totalPages = Math.ceil((this.references.length) / this.resultsPerPage) || 1;
 
-  public reference: any[] = this.references.sort((a, b) => (formatDate(a.publication_date, 'MM-dd-yy', 'en_US') < formatDate(b.publication_date, 'MM-dd-yy', 'en_US') ? 1 : -1)).reduce((arr, item, i) => {
+  reference: any[] = this.references.sort((a, b) => (formatDate(a.publication_date, 'MM-dd-yy', 'en_US') < formatDate(b.publication_date, 'MM-dd-yy', 'en_US') ? 1 : -1)).reduce((arr, item, i) => {
     return i % this.resultsPerPage === 0 ? [...arr, [item]] : [...arr.slice(0, -1), [...arr.slice(-1)[0], item]];
   }, []);
 
@@ -82,4 +79,8 @@ export class ReferenceItemComponent implements OnInit {
     }, []);
   }
 
+  referenceTemplate(reference_item: ReferenceItem): void {
+    this.reference_item = reference_item;
+    console.log("why?! ", this.reference_item);
+  }
 }

@@ -14,4 +14,12 @@ export type ReferenceItem = {
     osti_id: number,
     doi: string,
     url: string,
+    description: string,
+    resource_type: string, // document_type;
+    sponsoring_org: string,
+    subject: string,
+    volume: string,
+    issue: string,
+    page_start: number,
+    page_end: number
 }
