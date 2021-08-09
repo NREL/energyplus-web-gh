@@ -20,7 +20,13 @@ import { DownloadsComponent } from './downloads/downloads.component';
 import { ReferencesComponent } from './references/references.component';
 import { ReferenceItemComponent } from './shared/components/reference-item/reference-item.component';
 import { PaginationComponent } from './shared/components/pagination/pagination.component';
-import { faExclamationTriangle, faPen } from '@fortawesome/free-solid-svg-icons';
+import { ContributingComponent } from './contributing/contributing.component';
+import { WeatherSimulationComponent } from './weather-simulation/weather-simulation.component';
+import { WeatherSourcesComponent } from './weather-sources/weather-sources.component';
+import { WeatherRegionComponent } from './weather-region/weather-region.component';
+import { WeatherCountryComponent } from './weather-country/weather-country.component';
+import { WeatherLocationComponent } from './weather-location/weather-location.component';
+import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
 import { faBuilding } from '@fortawesome/free-regular-svg-icons';
 import { faTasks } from '@fortawesome/free-solid-svg-icons';
@@ -48,6 +54,12 @@ import { faFile } from '@fortawesome/free-regular-svg-icons';
     ReferencesComponent,
     ReferenceItemComponent,
     PaginationComponent,
+    ContributingComponent,
+    WeatherSimulationComponent,
+    WeatherSourcesComponent,
+    WeatherRegionComponent,
+    WeatherCountryComponent,
+    WeatherLocationComponent,
   ],
   imports: [
     BrowserModule,

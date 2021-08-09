@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './quick-start.component.html',
   styleUrls: ['./quick-start.component.scss']
 })
+
 export class QuickStartComponent {
 
   constructor() {

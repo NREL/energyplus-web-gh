@@ -42,6 +42,9 @@ export class ReferenceItemComponent implements OnInit {
     if (!this.reference) {
       throw new Error('ReferenceItemComponent attribute "reference" is required');
     }
+    this.reference = this.references.sort((a, b) => (formatDate(a.publication_date, 'MM-dd-yy', 'en_US') < formatDate(b.publication_date, 'MM-dd-yy', 'en_US') ? 1 : -1)).reduce((arr, item, i) => {
+      return i % this.resultsPerPage === 0 ? [...arr, [item]] : [...arr.slice(0, -1), [...arr.slice(-1)[0], item]];
+    }, []);
   }
 
   onClickSort(sort_by: string): void {
@@ -79,8 +82,4 @@ export class ReferenceItemComponent implements OnInit {
     }, []);
   }
 
-  referenceTemplate(reference_item: ReferenceItem): void {
-    this.reference_item = reference_item;
-    console.log("why?! ", this.reference_item);
-  }
 }

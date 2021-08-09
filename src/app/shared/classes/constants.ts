@@ -23,3 +23,26 @@ export type ReferenceItem = {
     page_start: number,
     page_end: number
 }
+
+export type Regions = {
+    region: string,
+    region_name: string,
+    countries: Countries[],
+}
+
+export type Countries = {
+    acronym: string,
+    name: string,
+    location: Locations[],
+}
+
+export type Locations = {
+    title: string,
+    region: string,
+    country: string,
+    state: string,
+    epw: string,
+    ddy: string,
+    stat: string,
+    all: string
+}

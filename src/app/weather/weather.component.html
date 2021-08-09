@@ -1,11 +1,11 @@
 <div class="container container-fluid">
     <header role="banner" id="page-header"></header>
     <div class="row">
-        <section class="col-sm-12">
+        <section class="col-sm-12" style="margin-left:-15px;">
             <a id="main-content"></a>
-            <h1 class="page-header">Weather Data</h1>
+            <h1 class="page-header" style="width:1130px;">Weather Data</h1>
             <div>
-                <section style="width:70rem;font-size:0.9rem;">
+                <section style="width:71rem;font-size:0.9rem;">
                     <p>Weather data for more than 2100 locations are now available in EnergyPlus weather format — 1042 locations in the USA, 71 locations in Canada, and more than 1000 locations in 100 other countries throughout the world. 
                         The weather data are arranged by World Meteorological Organization region and Country.</p>
                     <div class="row">
@@ -13,12 +13,7 @@
                             <h3>View Weather Data</h3>
                             <p>Select a region below to view weather data.</p>
                             <div class="btn-group-vertical" role="group">
-                                <a href="weather-region/africa_wmo_region_1" class="btn btn-body border" type="button" style="text-align:left;font-size:0.9rem;">Africa (WMO Region 1)</a>
-                                <a href="weather-region/asia_wmo_region_2" class="btn btn-body border" type="button" style="text-align:left;font-size:0.9rem;">Asia (WMO Region 2)</a>
-                                <a href="weather-region/south_america_wmo_region_3" class="btn btn-body border" type="button" style="text-align:left;font-size:0.9rem;">South America (WMO Region 3)</a>
-                                <a href="weather-region/north_and_central_america_wmo_region_4" class="btn btn-body border" type="button" style="text-align:left;font-size:0.9rem;">North and Central America (WMO Region 4)</a>
-                                <a href="weather-region/southwest_pacific_wmo_region_5" class="btn btn-body border" type="button" style="text-align:left;font-size:0.9rem;">Southwest Pacific (WMO Region 5)</a>
-                                <a href="weather-region/europe_wmo_region_6" class="btn btn-body border" type="button" style="text-align:left;font-size:0.9rem;">Europe (WMO Region 6)</a>
+                              <a *ngFor="let weather of weather_regions" routerLink="/weather-region/{{ weather.region }}" class="btn btn-body border btn-hover" type="button" style="text-align:left;font-size:0.9rem;">{{ weather.region_name }}</a>
                             </div>
                         </div>
                         <div class="col-md-1 pad-top-150"></div>
@@ -76,7 +71,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="hi-top">The Auxiliary Programs document that is packaged with EnergyPlus includes information about weather data in general, the EnergyPlus weather data format, and weather file conversion. 
+                    <p class="hi-top" style="margin-top:20px;">The Auxiliary Programs document that is packaged with EnergyPlus includes information about weather data in general, the EnergyPlus weather data format, and weather file conversion. 
                         If you cannot find weather data for your location, see the 
                         <a href="weather/simulation">Weather Data for Simulation</a>
                          page for other sources of weather data.  Information about the sources of weather data is available on the 

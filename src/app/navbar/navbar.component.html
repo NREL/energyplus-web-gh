@@ -13,14 +13,14 @@
         <a class="nav-link" routerLink="/downloads" routerLinkActive="active-link" #rlaDownloads="routerLinkActive" (click)="menuCollapsed = true" style="padding-left:18px;padding-top:18px;padding-bottom:20px;margin-bottom:8px;">Downloads</a>
       </li>
       <li class="nav-item" [class.active]="rlaDocumentation.isActive" style="width:120px;">
-          <div ngbDropdown placement="bottom-right" class="btn-group">
-            <a class="nav-link" routerLink="/documentation" routerLinkActive="active-link" #rlaDocumentation="routerLinkActive" (click)="menuCollapsed = true" style="padding-top:18px;padding-bottom:20px;margin-bottom:8px;width:118px;text-align:right;padding-right:120px;">Documentation</a>
-            <ul ngbDropdownMenu class="dropdown-menu rounded-0" style="margin-top:-8px;">
-              <li><a class="nav-link dropdown-item" routerLink="/references" routerLinkActive #rlaReference="routerLinkActive" (click)="menuCollapsed = true" style="height:35px;font-size:0.9rem;">References</a></li>
-            </ul>
-            <button *ngIf="rlaDocumentation.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="margin-left:-15px;box-shadow:none;padding-bottom:15px;"></button>
-            <button *ngIf="rlaReference.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="margin-left:-15px;box-shadow:none;padding-bottom:15px;"></button>
-          </div>
+        <div ngbDropdown placement="bottom-right" class="btn-group">
+          <a class="nav-link" routerLink="/documentation" routerLinkActive="active-link" #rlaDocumentation="routerLinkActive" (click)="menuCollapsed = true" style="padding-top:18px;padding-bottom:20px;margin-bottom:8px;width:118px;text-align:right;padding-right:120px;">Documentation</a>
+          <ul ngbDropdownMenu class="dropdown-menu rounded-0" style="margin-top:-8px;">
+            <li><a class="nav-link dropdown-item" routerLink="/references" routerLinkActive #rlaReference="routerLinkActive" (click)="menuCollapsed = true" style="height:35px;font-size:0.9rem;">References</a></li>
+          </ul>
+          <button *ngIf="rlaDocumentation.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="margin-left:-15px;box-shadow:none;padding-bottom:15px;"></button>
+          <button *ngIf="rlaReference.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="margin-left:-15px;box-shadow:none;padding-bottom:15px;"></button>
+        </div>
       </li>
       <li class="nav-item" [class.active]="rlaQuickStart.isActive">
         <a class="nav-link" routerLink="/quick-start" routerLinkActive="active-link" #rlaQuickStart="routerLinkActive" (click)="menuCollapsed = true" style="padding-top:18px;padding-bottom:20px;margin-bottom:8px;width:110px;text-align:center;">QuickStart</a>
@@ -29,10 +29,26 @@
         <a class="nav-link" routerLink="/support-training" routerLinkActive="active-link" #rlaSupportTraining="routerLinkActive" (click)="menuCollapsed = true" style="padding-top: 18px;padding-bottom:20px;margin-bottom:8px;padding-left:12px;">Support & Training</a>
       </li>
       <li class="nav-item" [class.active]="rlaLicensing.isActive" style="width:100px;">
-        <a class="nav-link" routerLink="/licensing" routerLinkActive="active-link" #rlaLicensing="routerLinkActive" (click)="menuCollapsed = true" style="padding-top:18px;padding-bottom:20px;margin-bottom:8px;padding-left:18px;">Licensing</a>
+        <div ngbDropdown placement="bottom-right" class="btn-group">
+          <a class="nav-link" routerLink="/licensing" routerLinkActive="active-link" #rlaLicensing="routerLinkActive" (click)="menuCollapsed = true" style="padding-top:18px;padding-bottom:20px;margin-bottom:8px;padding-left:18px;padding-right:25px;">Licensing</a>
+          <ul ngbDropdownMenu class="dropdown-menu rounded-0" style="margin-top:-8px;">
+            <li><a class="nav-link dropdown-item" routerLink="/contributing" routerLinkActive #rlaContributing="routerLinkActive" (click)="menuCollapsed = true" style="height:35px;font-size:0.9rem;">Contributing</a></li>
+          </ul>
+          <button *ngIf="rlaLicensing.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="box-shadow:none;padding-bottom:15px;margin-left:-22px;"></button>
+          <button *ngIf="rlaContributing.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="box-shadow:none;padding-bottom:15px;margin-left:-22px;"></button>
+        </div>
       </li>
       <li class="nav-item" [class.active]="rlaWeather.isActive" style="width:100px;">
-        <a class="nav-link" routerLink="/weather" routerLinkActive="active-link" #rlaWeather="routerLinkActive" (click)="menuCollapsed = true" style="padding-top: 18px;padding-bottom:20px;margin-bottom:8px;padding-left:18px;">Weather</a>
+        <div ngbDropdown placement="bottom-right" class="btn-group">
+          <a class="nav-link" routerLink="/weather" routerLinkActive="active-link" #rlaWeather="routerLinkActive" (click)="menuCollapsed = true" style="padding-top:18px;padding-bottom:20px;margin-bottom:8px;padding-left:18px;padding-right:25px;">Weather</a>
+          <ul ngbDropdownMenu class="dropdown-menu rounded-0" style="margin-top:-8px;">
+            <li><a class="nav-link dropdown-item" routerLink="/weather/simulation" routerLinkActive #rlaSimulation="routerLinkActive" (click)="menuCollapsed = true" style="height:35px;font-size:0.9rem;">Weather Data for Simulation</a></li>
+            <li><a class="nav-link dropdown-item" routerLink="/weather/sources" routerLinkActive #rlaSources="routerLinkActive" (click)="menuCollapsed = true" style="height:35px;font-size:0.9rem;">Weather Sources</a></li>
+          </ul>
+          <button *ngIf="rlaWeather.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="box-shadow:none;padding-bottom:15px;margin-left:-22px;"></button>
+          <button *ngIf="rlaSimulation.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="margin-left:-10px;box-shadow:none;padding-bottom:15px;"></button>
+          <button *ngIf="rlaSources.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="margin-left:-10px;box-shadow:none;padding-bottom:15px;"></button>
+        </div>
       </li>
     </ul>
   </div>
