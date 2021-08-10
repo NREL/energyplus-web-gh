@@ -9,6 +9,7 @@ import { LicensingComponent } from './licensing/licensing.component';
 import { WeatherComponent } from './weather/weather.component';
 import { WeatherRegionComponent } from './weather-region/weather-region.component';
 import { WeatherCountryComponent } from './weather-country/weather-country.component';
+import { WeatherLocationUsCanComponent } from './weather-location-us-can.component/weather-location-us-can.component';
 import { ReferencesComponent } from './references/references.component';
 import { ReferenceTemplateComponent } from './reference/reference.component';
 import { ContributingComponent } from './contributing/contributing.component';
@@ -50,8 +51,11 @@ const routes: Routes = [{
   path: 'weather-region/:region/:country',
   component: WeatherCountryComponent
 }, {
-  path: 'weather-region/:region/:country/:location',
+  path: 'weather-region/:region/:country/:state',
   component: WeatherLocationComponent
+}, {
+  path: 'weather-region/:region/:country/:state/:location',
+  component: WeatherLocationUsCanComponent
 }, {
   path: 'references',
   component: ReferencesComponent

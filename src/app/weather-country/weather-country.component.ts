@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { WeatherRegions } from '../shared/classes/weather';
+import { WeatherRegions, WeatherLocations } from '../shared/classes/weather';
 import { Regions, Countries } from '../shared/classes/constants';
 
 @Component({
@@ -12,20 +12,26 @@ import { Regions, Countries } from '../shared/classes/constants';
 export class WeatherCountryComponent {
 
   @Input() region: Regions;
-  @Input() weather_regions: Regions[] = WeatherRegions;
-  @Input() weather_country: Countries;
+  @Input() country: Countries;
+  @Input() states: string[] = [];
 
   constructor(private route: ActivatedRoute) {
-    for (let region of this.weather_regions) {
+    for (let region of WeatherRegions) {
       if (region['region'] == route.url['_value'][1].path) {
         this.region = region;
       }
 		}
 
 		for (let country of this.region['countries']) {
-			if (country['acronym'] == route['url']['_value'][2]['path']) {
-        this.weather_country = country;
+			if (country['acronym'] == route.url['_value'][2]['path'] || country['name'] == route.url['_value'][2]['path']) {
+        this.country = country;
 			}
+    }
+
+    for (let location of WeatherLocations) {
+      if (location['state'] != "" && location['state'] != "CA-Zones - California Climate Zones" && !this.states.includes(location['state']) && location['country'] == this.country.acronym) {
+        this.states.push(location['state']);
+      }
     }
   }
 

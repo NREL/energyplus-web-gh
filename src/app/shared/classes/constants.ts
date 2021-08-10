@@ -44,5 +44,6 @@ export type Locations = {
     epw: string,
     ddy: string,
     stat: string,
+    mos: string,
     all: string
 }
