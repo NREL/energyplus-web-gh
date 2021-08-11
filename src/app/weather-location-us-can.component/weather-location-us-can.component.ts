@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { WeatherLocations } from '../shared/classes/weather';
+import { WeatherRegions } from '../shared/classes/weather';
 import { Locations } from '../shared/classes/constants';
 
 @Component({
@@ -11,22 +11,31 @@ import { Locations } from '../shared/classes/constants';
 
 export class WeatherLocationUsCanComponent implements OnInit {
   @Input() location: Locations;
-  @Input() state: string;
+  @Input() state_name: string;
+  @Input() state_route: string;
+  @Input() weather_locations: Locations[];
 
 	constructor(private route: ActivatedRoute) {
-    for (let location of WeatherLocations) {
-      if (location['country'] == route.url['_value'][2].path) {
-        if (location['title'] == route.url['_value'][3].path) {
-          this.location = location;
+    var weather_locations = []
+
+    for (let region of WeatherRegions) {
+      if (region["region"] == "north_and_central_america_wmo_region_4") {
+        for (let country of region["countries"]) {
+          if (country["acronym"] == "USA" || country["acronym"] == "CAN") {
+            weather_locations = weather_locations.concat(country["location"]);
+          }
         }
       }
     }
 
-    if (this.location.state == "CA-Zones - California Climate Zones") {
-      this.state = "California Climate Zones";
-    } else {
-      this.state = this.location.state.split(' ')[this.location.state.split(' ').length - 1]
+    for (let location of weather_locations) {
+      if (location['title'] == route.url['_value'][4].path) {
+        this.location = location;
+      }
     }
+
+    this.state_route = this.location.state_route;
+    this.state_name = this.location.state_name;
 
     if (this.location.country == 'CAN') {
       this.location.country = 'Canada';
@@ -34,6 +43,9 @@ export class WeatherLocationUsCanComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    if (!this.location) {
+      throw new Error('WeatherLocationUsCanComponent attribute "locations" is required.');
+    }
 
   }
 }

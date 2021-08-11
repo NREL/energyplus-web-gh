@@ -13,7 +13,7 @@ export class WeatherCountryComponent implements OnInit {
 
   @Input() region: Regions;
   @Input() country: Countries;
-  @Input() states: string[] = [];
+  @Input() states: any[] = [];
 
   constructor(private route: ActivatedRoute) {
     for (let region of WeatherRegions) {
@@ -29,13 +29,17 @@ export class WeatherCountryComponent implements OnInit {
     }
 
     for (let location of WeatherLocations) {
-      if (location['state'] != "" && location['state'] != "CA-Zones - California Climate Zones" && !this.states.includes(location['state']) && location['country'] == this.country.acronym) {
-        this.states.push(location['state']);
+      if (location['state_route'] != "" && location['state_name'] != "" && location['state_route']!= "CA-Zones" && location['state_name'] != "California Climate Zones" && location['country'] == this.country.acronym) {
+        this.states.push({state_route: location['state_route'], state_name: location['state_name']});
       }
     }
+    this.states = this.states.filter((value, index, array) => !array.filter((v, i) => JSON.stringify(value) == JSON.stringify(v) && i < index).length);
   }
 
   ngOnInit(): void {
+    if (!this.states) {
+      throw new Error('WeatherCountryComponent attribute "states" is required.');
+    }
 
   }
 }

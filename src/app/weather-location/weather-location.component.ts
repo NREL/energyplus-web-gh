@@ -19,6 +19,8 @@ export class WeatherLocationComponent implements OnInit {
 	@Input() can_state: string;
 	@Input() us_states: Locations[] = [];
 	@Input() can_states: Locations[] = [];
+	@Input() state_route: string;
+	@Input() state_name: string;
 
   constructor(private route: ActivatedRoute) {
     for (let region of WeatherRegions) {
@@ -34,34 +36,25 @@ export class WeatherLocationComponent implements OnInit {
 		}
 
 		if (this.country.acronym == 'USA') {
-			this.us_state = route.url['_value'][3].path;
+			var us_state = route.url['_value'][3].path;
 
 			for (let location of this.country['location']) {
-				if (location['state'] == this.us_state || location['state'].split(' - ')[0] == this.us_state || location['state'].split(' - ')[1] == this.us_state) {
+				if (location['state_route'] == us_state || location['state_name'] == us_state) {
+					this.state_route = location['state_route'];
+					this.us_state = location['state_name'];
 					this.us_states.push(location);
 				}
 			}
-
-			if (this.us_state == 'CA-Zones' || this.us_state == 'California Climate Zones') {
-				this.us_state = "California Climate Zones";
-			} else {
-				var length = this.us_state.split(' ').length;
-				this.us_state = this.us_state.split(' ')[length - 1];
-			}
-
 		} else if (this.country.acronym == 'CAN') {
-			console.log("weather-location-us-can CAN route: ", route.url['_value'][3].path)
-			this.can_state = route.url['_value'][3].path;
+			var can_state = route.url['_value'][3].path;
 
 			for (let location of this.country['location']) {
-				if (location['state'] == this.can_state || location['state'].split(' ')[location['state'].split(' ').length - 1] == this.can_state) {
+				if (location['state_route'] == can_state || location['state_name'] == can_state) {
+					this.state_route = location['state_route'];
+					this.can_state = location['state_name'];
 					this.can_states.push(location);
 				}
 			}
-
-			var length = this.can_state.split(' ').length;
-			this.can_state = this.can_state.split(' ')[length - 1];
-
 		} else {
 			for (let location of this.country['location']) {
 				if (location['title'] == route.url['_value'][3].path) {
