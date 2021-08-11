@@ -32,7 +32,7 @@ export class ReferenceTemplateComponent implements OnInit {
 
   ngOnInit(): void {
     if (!this.reference_item) {
-      throw new Error('ReferenceItemComponent attribute "reference_item" is required');
+      throw new Error('ReferenceTemplateComponent attribute "reference_item" is required');
 		}
 	}
 

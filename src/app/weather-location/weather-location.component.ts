@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { WeatherRegions } from '../shared/classes/weather';
 import { Regions, Countries, Locations } from '../shared/classes/constants';
@@ -9,7 +9,7 @@ import { Regions, Countries, Locations } from '../shared/classes/constants';
   styleUrls: ['./weather-location.component.scss']
 })
 
-export class WeatherLocationComponent {
+export class WeatherLocationComponent implements OnInit {
 
   @Input() region: Regions;
 	@Input() country: Countries;
@@ -37,7 +37,7 @@ export class WeatherLocationComponent {
 			this.us_state = route.url['_value'][3].path;
 
 			for (let location of this.country['location']) {
-				if (location['state'].split(' - ')[0] == this.us_state || location['state'].split(' - ')[1] == this.us_state || location['state'] == this.us_state || location['state'].split(' ')[location['state'].split(' ').length - 1] == this.us_state) {
+				if (location['state'] == this.us_state || location['state'].split(' - ')[0] == this.us_state || location['state'].split(' - ')[1] == this.us_state) {
 					this.us_states.push(location);
 				}
 			}
@@ -50,7 +50,9 @@ export class WeatherLocationComponent {
 			}
 
 		} else if (this.country.acronym == 'CAN') {
+			console.log("weather-location-us-can CAN route: ", route.url['_value'][3].path)
 			this.can_state = route.url['_value'][3].path;
+
 			for (let location of this.country['location']) {
 				if (location['state'] == this.can_state || location['state'].split(' ')[location['state'].split(' ').length - 1] == this.can_state) {
 					this.can_states.push(location);
@@ -67,6 +69,12 @@ export class WeatherLocationComponent {
 				}
 			}
 		}
-  }
+	}
+	
+	ngOnInit(): void {
+		if (!this.location && !this.us_states && !this.can_states) {
+			throw new Error('WeatherLocationComponent attribute "location" or "us_states" or "can_states" is required.');
+		}
+	}
 
 }

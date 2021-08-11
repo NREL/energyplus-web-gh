@@ -17,7 +17,7 @@ export class WeatherComponent implements OnInit {
 
   ngOnInit(): void {
     if (!this.regions) {
-      throw new Error('ReferenceItemComponent attribute "regions" is required');
+      throw new Error('WeatherComponent attribute "regions" is required');
 		}
   }
 

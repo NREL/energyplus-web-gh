@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { WeatherRegions, WeatherLocations } from '../shared/classes/weather';
 import { Regions, Countries } from '../shared/classes/constants';
@@ -9,7 +9,7 @@ import { Regions, Countries } from '../shared/classes/constants';
   styleUrls: ['./weather-country.component.scss']
 })
 
-export class WeatherCountryComponent {
+export class WeatherCountryComponent implements OnInit {
 
   @Input() region: Regions;
   @Input() country: Countries;
@@ -23,7 +23,7 @@ export class WeatherCountryComponent {
 		}
 
 		for (let country of this.region['countries']) {
-			if (country['acronym'] == route.url['_value'][2]['path'] || country['name'] == route.url['_value'][2]['path']) {
+			if (country['acronym'] == route.url['_value'][2].path || country['name'] == route.url['_value'][2].path) {
         this.country = country;
 			}
     }
@@ -35,4 +35,7 @@ export class WeatherCountryComponent {
     }
   }
 
+  ngOnInit(): void {
+
+  }
 }

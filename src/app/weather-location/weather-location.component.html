@@ -5,7 +5,7 @@
 			<section>
 				<div *ngIf="country.acronym != 'USA' && country.acronym != 'CAN'">
 					<h2>
-						<a href="weather">All Regions</a> - <a routerLink="/weather-region/{{ region.region }}" class="active" style="cursor:pointer;">{{ region.region_name }}</a> - <a routerLink="/weather-region/{{ region.region }}/{{ country.name }}" class="active" style="cursor:pointer;">{{ country.name }}</a>
+						<a href="weather">All Regions</a> - <a routerLink="/weather-region/{{ region.region }}" class="active" style="cursor:pointer;">{{ region.region_name }}</a> - <a routerLink="/weather-region/{{ region.region }}/{{ country.acronym }}" class="active" style="cursor:pointer;">{{ country.name }}</a>
 					</h2>
 					<div class="btn-group-vertical" role="group">
 						<h3 style="margin-top:20px;margin-bottom:30px;">Weather Data Download - {{ location.title }}</h3>

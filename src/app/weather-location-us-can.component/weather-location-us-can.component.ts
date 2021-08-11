@@ -9,7 +9,7 @@ import { Locations } from '../shared/classes/constants';
   styleUrls: ['./weather-location-us-can.component.scss']
 })
 
-export class WeatherLocationUsCanComponent implements OnInit{
+export class WeatherLocationUsCanComponent implements OnInit {
   @Input() location: Locations;
   @Input() state: string;
 
@@ -21,10 +21,15 @@ export class WeatherLocationUsCanComponent implements OnInit{
         }
       }
     }
+
     if (this.location.state == "CA-Zones - California Climate Zones") {
       this.state = "California Climate Zones";
     } else {
       this.state = this.location.state.split(' ')[this.location.state.split(' ').length - 1]
+    }
+
+    if (this.location.country == 'CAN') {
+      this.location.country = 'Canada';
     }
   }
 

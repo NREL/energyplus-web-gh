@@ -4,7 +4,7 @@
 		<div class="region region-content">
 			<section>
 				<h2>
-					<a href="weather">All Regions</a> - <a routerLink="/weather-region/{{ region.region }}" class="active" style="cursor:pointer;">{{ region.region_name }}</a> - <a routerLink="/weather-region/{{ region.region }}/{{ country.name }}" class="active" style="cursor:pointer;">{{ country.name }}</a>
+					<a href="weather">All Regions</a> - <a routerLink="/weather-region/{{ region.region }}" class="active" style="cursor:pointer;">{{ region.region_name }}</a> - <a routerLink="/weather-region/{{ region.region }}/{{ country.acronym }}" class="active" style="cursor:pointer;">{{ country.name }}</a>
 				</h2>
 				<div *ngIf="country.acronym == 'USA'" class="btn-group-vertical" role="group" style="margin-top:20px;">
 					<div style="margin-bottom:20px;">
