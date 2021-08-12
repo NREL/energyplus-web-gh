@@ -29,7 +29,7 @@ export class WeatherLocationUsCanComponent implements OnInit {
     }
 
     for (let location of weather_locations) {
-      if (location['title'] == route.url['_value'][4].path) {
+      if (location['title'] == route.url['_value'][3].path || location['title'] == route.url['_value'][4].path) {
         this.location = location;
       }
     }
