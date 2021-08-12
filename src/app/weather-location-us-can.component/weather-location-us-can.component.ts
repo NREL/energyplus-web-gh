@@ -14,6 +14,7 @@ export class WeatherLocationUsCanComponent implements OnInit {
   @Input() state_name: string;
   @Input() state_route: string;
   @Input() weather_locations: Locations[];
+  @Input() country: string;
 
 	constructor(private route: ActivatedRoute) {
     var weather_locations = []
@@ -33,13 +34,15 @@ export class WeatherLocationUsCanComponent implements OnInit {
         this.location = location;
       }
     }
-
+    console.log(this.location);
     this.state_route = this.location.state_route;
     this.state_name = this.location.state_name;
-
     if (this.location.country == 'CAN') {
-      this.location.country = 'Canada';
+      this.country = "Canada";
+    } else {
+      this.country = this.location.country;
     }
+
   }
 
   ngOnInit(): void {
