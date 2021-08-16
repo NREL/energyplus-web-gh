@@ -12,7 +12,7 @@ import { DocumentationComponent } from './documentation/documentation.component'
 import { QuickStartComponent } from './quick-start/quick-start.component';
 import { SupportTrainingComponent } from './support-training/support-training.component'
 import { LicensingComponent } from './licensing/licensing.component';
-import { WeatherComponent } from './weather/weather.component';
+import { WeatherComponent } from './weather/weather_main/weather.component';
 import { RecentReleaseComponent } from './shared/components/recent-release/recent-release.component';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -21,12 +21,12 @@ import { ReferencesComponent } from './references/references.component';
 import { ReferenceItemComponent } from './shared/components/reference-item/reference-item.component';
 import { PaginationComponent } from './shared/components/pagination/pagination.component';
 import { ContributingComponent } from './contributing/contributing.component';
-import { WeatherSimulationComponent } from './weather-simulation/weather-simulation.component';
-import { WeatherSourcesComponent } from './weather-sources/weather-sources.component';
-import { WeatherRegionComponent } from './weather-region/weather-region.component';
-import { WeatherCountryComponent } from './weather-country/weather-country.component';
-import { WeatherLocationComponent } from './weather-location/weather-location.component';
-import { WeatherLocationUsCanComponent } from './weather-location-us-can.component/weather-location-us-can.component';
+import { WeatherSimulationComponent } from './weather/weather-simulation/weather-simulation.component';
+import { WeatherSourcesComponent } from './weather/weather-sources/weather-sources.component';
+import { WeatherRegionComponent } from './weather/weather-region/weather-region.component';
+import { WeatherCountryComponent } from './weather/weather-country/weather-country.component';
+import { WeatherLocationComponent } from './weather/weather-location/weather-location.component';
+import { WeatherLocationUsCanComponent } from './weather/weather-location-us-can/weather-location-us-can.component';
 import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
 import { faBuilding } from '@fortawesome/free-regular-svg-icons';

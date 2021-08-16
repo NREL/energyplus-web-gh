@@ -6,16 +6,16 @@ import { DocumentationComponent } from './documentation/documentation.component'
 import { QuickStartComponent } from './quick-start/quick-start.component';
 import { SupportTrainingComponent } from './support-training/support-training.component';
 import { LicensingComponent } from './licensing/licensing.component';
-import { WeatherComponent } from './weather/weather.component';
-import { WeatherRegionComponent } from './weather-region/weather-region.component';
-import { WeatherCountryComponent } from './weather-country/weather-country.component';
-import { WeatherLocationUsCanComponent } from './weather-location-us-can.component/weather-location-us-can.component';
+import { WeatherComponent } from './weather/weather_main/weather.component';
+import { WeatherRegionComponent } from './weather/weather-region/weather-region.component';
+import { WeatherCountryComponent } from './weather/weather-country/weather-country.component';
+import { WeatherLocationUsCanComponent } from './weather/weather-location-us-can/weather-location-us-can.component';
 import { ReferencesComponent } from './references/references.component';
 import { ReferenceTemplateComponent } from './reference/reference.component';
 import { ContributingComponent } from './contributing/contributing.component';
-import { WeatherSimulationComponent } from './weather-simulation/weather-simulation.component';
-import { WeatherSourcesComponent } from './weather-sources/weather-sources.component';
-import { WeatherLocationComponent } from './weather-location/weather-location.component';
+import { WeatherSimulationComponent } from './weather/weather-simulation/weather-simulation.component';
+import { WeatherSourcesComponent } from './weather/weather-sources/weather-sources.component';
+import { WeatherLocationComponent } from './weather/weather-location/weather-location.component';
 
 const routes: Routes = [{
   path: '',

@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { WeatherRegions } from '../shared/classes/weather';
-import { Regions, Countries, Locations } from '../shared/classes/constants';
+import { WeatherRegions } from '../../shared/classes/weather';
+import { Regions, Countries, Locations } from '../../shared/classes/constants';
 
 @Component({
   selector: 'app-weather-location',

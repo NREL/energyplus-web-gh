@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { WeatherRegions } from '../shared/classes/weather';
-import { Locations } from '../shared/classes/constants';
+import { WeatherRegions } from '../../shared/classes/weather';
+import { Locations } from '../../shared/classes/constants';
 
 @Component({
   selector: 'app-weather-location-us-can',
@@ -34,7 +34,7 @@ export class WeatherLocationUsCanComponent implements OnInit {
         this.location = location;
       }
     }
-    console.log(this.location);
+
     this.state_route = this.location.state_route;
     this.state_name = this.location.state_name;
     if (this.location.country == 'CAN') {

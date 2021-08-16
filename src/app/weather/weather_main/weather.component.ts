@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { WeatherRegions } from '../shared/classes/weather';
-import { Regions } from '../shared/classes/constants';
+import { WeatherRegions } from '../../shared/classes/weather';
+import { Regions } from '../../shared/classes/constants';
 
 @Component({
   selector: 'app-weather',
