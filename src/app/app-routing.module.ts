@@ -6,7 +6,7 @@ import { DocumentationComponent } from './documentation/documentation.component'
 import { QuickStartComponent } from './quick-start/quick-start.component';
 import { SupportTrainingComponent } from './support-training/support-training.component';
 import { LicensingComponent } from './licensing/licensing.component';
-import { WeatherComponent } from './weather/weather_main/weather.component';
+import { WeatherComponent } from './weather/weather-main/weather.component';
 import { WeatherRegionComponent } from './weather/weather-region/weather-region.component';
 import { WeatherCountryComponent } from './weather/weather-country/weather-country.component';
 import { WeatherLocationUsCanComponent } from './weather/weather-location-us-can/weather-location-us-can.component';

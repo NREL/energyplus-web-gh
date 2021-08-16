@@ -12,7 +12,7 @@ import { DocumentationComponent } from './documentation/documentation.component'
 import { QuickStartComponent } from './quick-start/quick-start.component';
 import { SupportTrainingComponent } from './support-training/support-training.component'
 import { LicensingComponent } from './licensing/licensing.component';
-import { WeatherComponent } from './weather/weather_main/weather.component';
+import { WeatherComponent } from './weather/weather-main/weather.component';
 import { RecentReleaseComponent } from './shared/components/recent-release/recent-release.component';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
