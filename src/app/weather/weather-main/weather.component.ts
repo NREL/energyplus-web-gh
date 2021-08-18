@@ -11,8 +11,15 @@ import { Regions } from '../../shared/classes/constants';
 export class WeatherComponent implements OnInit {
 
   @Input() regions: Regions[] = WeatherRegions;
+  @Input() empty_keyword: boolean = false;
 
   constructor() {
+  }
+
+  checkKeyword(keyword: string): void {
+    if (!keyword) {
+      this.empty_keyword = true;
+    }
   }
 
   ngOnInit(): void {

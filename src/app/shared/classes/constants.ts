@@ -33,7 +33,7 @@ export type Regions = {
 export type Countries = {
     acronym: string,
     name: string,
-    location: Locations[],
+    locations: Locations[],
 }
 
 export type Locations = {

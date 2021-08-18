@@ -23,7 +23,7 @@ export class WeatherLocationUsCanComponent implements OnInit {
       if (region["region"] == "north_and_central_america_wmo_region_4") {
         for (let country of region["countries"]) {
           if (country["acronym"] == "USA" || country["acronym"] == "CAN") {
-            weather_locations = weather_locations.concat(country["location"]);
+            weather_locations = weather_locations.concat(country["locations"]);
           }
         }
       }

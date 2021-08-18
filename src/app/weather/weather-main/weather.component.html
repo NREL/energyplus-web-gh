@@ -20,16 +20,18 @@
                         <div class="col-md-4">
                             <h3>Search Weather Data</h3>
                             <div class="hi-top">
-                                <form action="weather" method="post" id="weather-search-form" accept-charset="UTF_8">
-                                    <div class="form-type-textfield form-item-keyword form-item form-group">
-                                        <label for="edit-keyword" style="margin-top:30px;"><strong>Keyword Search</strong></label>
-                                        <input class="form-control form-text" type="text" id="edit-keyword" name="keyword" value size="60" maxlength="128" style="width:24rem;">
+                                <form action="/weather" name="weather-search-form" accept-charset="UTF_8">
+                                    <div class="form-item form-group">
+                                        <label for="keyword" style="margin-top:30px;margin-left:1px;"><strong>Keyword Search</strong></label>
+                                        <input #keyword="ngModel" class="form-control form-text" type="text" id="keyword" name="keyword" value size="60" maxlength="128" style="width:24rem;" (ngModel)="keyword.value" required>
                                     </div>
-                                    <button class="btn btn-primary form-submit" id="edit-submit" name="op" value="Search" type="submit" style="font-size:0.9rem;padding-left:15px;padding-right:15px;">Seach</button>
-                                    <input type="hidden" name="form_build_id" value="form-S0prcmDyCQ4HP8DbrzyVwBYK7qQKtzmRDlf-gZImUNQ">
-                                    <input type="hidden" name="form_id" value="weather_search_form">
+                                    <div *ngIf="empty_keyword && keyword.invalid && keyword.errors?.required" class="text-danger" style="margin-top:-15px;caret-color:black;">Please enter a search keyword.</div>
                                 </form>
                             </div>
+                        </div>
+                        <div class="col-md-3" style="margin-top:104px;">
+                            <button *ngIf="keyword.value" class="btn btn-primary form-submit form-group" [routerLink]="['/weather-search', keyword.value]" type="submit" id="submit" value="Search" style="font-size:0.9rem;padding-left:15px;padding-right:15px;height:38px;" (click)="checkKeyword(keyword.value)">Search</button>
+                            <button *ngIf="!keyword.value" class="btn btn-primary form-submit form-group" type="submit" id="submit" value="Search" style="font-size:0.9rem;padding-left:15px;padding-right:15px;height:38px;" (click)="checkKeyword(keyword.value)">Search</button>
                         </div>
                     </div>
                     <div class="row" style="padding-top:20px;">

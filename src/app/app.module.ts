@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -27,6 +28,7 @@ import { WeatherRegionComponent } from './weather/weather-region/weather-region.
 import { WeatherCountryComponent } from './weather/weather-country/weather-country.component';
 import { WeatherLocationComponent } from './weather/weather-location/weather-location.component';
 import { WeatherLocationUsCanComponent } from './weather/weather-location-us-can/weather-location-us-can.component';
+import { WeatherSearchComponent } from './weather/weather-search/weather-search.component';
 import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
 import { faBuilding } from '@fortawesome/free-regular-svg-icons';
@@ -62,12 +64,14 @@ import { faFile } from '@fortawesome/free-regular-svg-icons';
     WeatherCountryComponent,
     WeatherLocationComponent,
     WeatherLocationUsCanComponent,
+    WeatherSearchComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     FontAwesomeModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

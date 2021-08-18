@@ -38,7 +38,7 @@ export class WeatherLocationComponent implements OnInit {
 		if (this.country.acronym == 'USA') {
 			var us_state = route.url['_value'][3].path;
 
-			for (let location of this.country['location']) {
+			for (let location of this.country['locations']) {
 				if (location['state_route'] == us_state || location['state_name'] == us_state) {
 					this.state_route = location['state_route'];
 					this.us_state = location['state_name'];
@@ -48,7 +48,7 @@ export class WeatherLocationComponent implements OnInit {
 		} else if (this.country.acronym == 'CAN') {
 			var can_state = route.url['_value'][3].path;
 
-			for (let location of this.country['location']) {
+			for (let location of this.country['locations']) {
 				if (location['state_route'] == can_state || location['state_name'] == can_state) {
 					this.state_route = location['state_route'];
 					this.can_state = location['state_name'];
@@ -56,7 +56,7 @@ export class WeatherLocationComponent implements OnInit {
 				}
 			}
 		} else {
-			for (let location of this.country['location']) {
+			for (let location of this.country['locations']) {
 				if (location['title'] == route.url['_value'][3].path) {
 					this.location = location;
 				}
