@@ -18,8 +18,8 @@
           <ul ngbDropdownMenu class="dropdown-menu rounded-0" style="margin-top:-8px;">
             <li><a class="nav-link dropdown-item" routerLink="/references" routerLinkActive #rlaReference="routerLinkActive" (click)="menuCollapsed = true" style="height:35px;font-size:0.9rem;">References</a></li>
           </ul>
-          <button *ngIf="rlaDocumentation.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="margin-left:-15px;box-shadow:none;padding-bottom:15px;"></button>
-          <button *ngIf="rlaReference.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="margin-left:-15px;box-shadow:none;padding-bottom:15px;"></button>
+          <button *ngIf="rlaDocumentation.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="margin-left:-15px;box-shadow:none;padding-bottom:15px;"><fa-icon [icon]="['fas', 'caret-down']" style="margin-left:-3px;"></fa-icon></button>
+          <button *ngIf="rlaReference.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="margin-left:-15px;box-shadow:none;padding-bottom:15px;"><fa-icon [icon]="['fas', 'caret-down']" style="margin-left:-3px;"></fa-icon></button>
         </div>
       </li>
       <li class="nav-item" [class.active]="rlaQuickStart.isActive">
@@ -34,8 +34,8 @@
           <ul ngbDropdownMenu class="dropdown-menu rounded-0" style="margin-top:-8px;">
             <li><a class="nav-link dropdown-item" routerLink="/contributing" routerLinkActive #rlaContributing="routerLinkActive" (click)="menuCollapsed = true" style="height:35px;font-size:0.9rem;">Contributing</a></li>
           </ul>
-          <button *ngIf="rlaLicensing.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="box-shadow:none;padding-bottom:15px;margin-left:-22px;"></button>
-          <button *ngIf="rlaContributing.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="box-shadow:none;padding-bottom:15px;margin-left:-22px;"></button>
+          <button *ngIf="rlaLicensing.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="box-shadow:none;padding-bottom:15px;margin-left:-22px;"><fa-icon [icon]="['fas', 'caret-down']"></fa-icon></button>
+          <button *ngIf="rlaContributing.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="box-shadow:none;padding-bottom:15px;margin-left:-22px;"><fa-icon [icon]="['fas', 'caret-down']"></fa-icon></button>
         </div>
       </li>
       <li class="nav-item" [class.active]="rlaWeather.isActive" style="width:100px;">
@@ -45,7 +45,7 @@
             <li><a class="nav-link dropdown-item" routerLink="/weather/simulation" routerLinkActive #rlaSimulation="routerLinkActive" (click)="menuCollapsed = true" style="height:35px;font-size:0.9rem;">Weather Data for Simulation</a></li>
             <li><a class="nav-link dropdown-item" routerLink="/weather/sources" routerLinkActive #rlaSources="routerLinkActive" (click)="menuCollapsed = true" style="height:35px;font-size:0.9rem;">Weather Sources</a></li>
           </ul>
-          <button *ngIf="rlaWeather.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="box-shadow:none;padding-bottom:15px;margin-left:-22px;"></button>
+          <button *ngIf="rlaWeather.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="box-shadow:none;padding-bottom:15px;margin-left:-22px;"><fa-icon [icon]="['fas', 'caret-down']"></fa-icon></button>
           <button *ngIf="rlaSimulation.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="margin-left:-10px;box-shadow:none;padding-bottom:15px;"></button>
           <button *ngIf="rlaSources.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle style="margin-left:-10px;box-shadow:none;padding-bottom:15px;"></button>
         </div>

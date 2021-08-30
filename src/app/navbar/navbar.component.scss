@@ -10,3 +10,7 @@
   background-color: lightgrey;
   color:gray;
 }
+
+.dropdown-toggle::after {
+  display: none;
+}

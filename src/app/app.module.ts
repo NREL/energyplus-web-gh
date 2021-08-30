@@ -40,6 +40,7 @@ import { faChartPie } from '@fortawesome/free-solid-svg-icons';
 import { faChartBar } from '@fortawesome/free-regular-svg-icons';
 import { faFolderOpen } from '@fortawesome/free-regular-svg-icons';
 import { faFile } from '@fortawesome/free-regular-svg-icons';
+import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 
 @NgModule({
   declarations: [
@@ -78,6 +79,6 @@ import { faFile } from '@fortawesome/free-regular-svg-icons';
 })
 export class AppModule {
   constructor(private library: FaIconLibrary) {
-    library.addIcons(faGithub, faExclamationTriangle, faArrowCircleRight, faBuilding, faTasks, faPenSquare, faPlayCircle, faClock, faChartPie, faChartBar, faFolderOpen, faFile);
+    library.addIcons(faGithub, faExclamationTriangle, faArrowCircleRight, faBuilding, faTasks, faPenSquare, faPlayCircle, faClock, faChartPie, faChartBar, faFolderOpen, faFile, faCaretDown);
   }
 }
