@@ -30,8 +30,8 @@
                             </div>
                         </div>
                         <div class="col-md-3" style="margin-top:104px;">
-                            <button *ngIf="keyword.value" class="btn btn-primary form-submit form-group" [routerLink]="['/weather-search', keyword.value]" type="submit" id="submit" value="Search" style="font-size:0.9rem;padding-left:15px;padding-right:15px;height:38px;box-shadow:none;" (click)="checkKeyword(keyword.value)">Search</button>
-                            <button *ngIf="!keyword.value" class="btn btn-primary form-submit form-group" type="submit" id="submit" value="Search" style="font-size:0.9rem;padding-left:15px;padding-right:15px;height:38px;box-shadow:none;" (click)="checkKeyword(keyword.value)">Search</button>
+                            <button *ngIf="keyword.value" class="btn btn-primary btn-bg-dark form-submit form-group" [routerLink]="['/weather-search', keyword.value]" type="submit" id="submit" value="Search" style="font-size:0.9rem;padding-left:15px;padding-right:15px;height:35px;box-shadow:none;" (click)="checkKeyword(keyword.value)">Search</button>
+                            <button *ngIf="!keyword.value" class="btn btn-primary btn-bg-dark form-submit form-group" type="submit" id="submit" value="Search" style="font-size:0.9rem;padding-left:15px;padding-right:15px;height:38px;box-shadow:none;" (click)="checkKeyword(keyword.value)">Search</button>
                         </div>
                     </div>
                     <div class="row" style="padding-top:20px;">
