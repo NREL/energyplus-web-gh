@@ -17,6 +17,7 @@ import { ContributingComponent } from './contributing/contributing.component';
 import { WeatherSimulationComponent } from './weather/weather-simulation/weather-simulation.component';
 import { WeatherSourcesComponent } from './weather/weather-sources/weather-sources.component';
 import { WeatherLocationComponent } from './weather/weather-location/weather-location.component';
+import { InstallationComponent } from './installation/installation.component';
 
 const routes: Routes = [{
   path: '',
@@ -69,6 +70,9 @@ const routes: Routes = [{
 }, {
   path: 'contributing',
   component: ContributingComponent
+}, {
+  path: 'installation',
+  component: InstallationComponent
 }, {
   path: '**',
   redirectTo: ''

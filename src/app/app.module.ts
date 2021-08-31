@@ -29,6 +29,7 @@ import { WeatherCountryComponent } from './weather/weather-country/weather-count
 import { WeatherLocationComponent } from './weather/weather-location/weather-location.component';
 import { WeatherLocationUsCanComponent } from './weather/weather-location-us-can/weather-location-us-can.component';
 import { WeatherSearchComponent } from './weather/weather-search/weather-search.component';
+import { InstallationComponent } from './installation/installation.component';
 import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
 import { faBuilding } from '@fortawesome/free-regular-svg-icons';
@@ -66,6 +67,7 @@ import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
     WeatherLocationComponent,
     WeatherLocationUsCanComponent,
     WeatherSearchComponent,
+    InstallationComponent,
   ],
   imports: [
     BrowserModule,

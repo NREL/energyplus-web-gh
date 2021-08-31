@@ -13,7 +13,7 @@ import { references } from '../../classes/reference';
 export class ReferenceItemComponent implements OnInit {
 
   @Input() sort: Boolean = true;
-  @Input() image: any = "https://energyplus.net/misc/arrow-asc.png";
+  @Input() image: any = "assets/images/misc/arrow-asc.png";
   @Input() isSelected: String = 'publication_date';
   @Input() reference_item: ReferenceItem;
 
@@ -52,9 +52,9 @@ export class ReferenceItemComponent implements OnInit {
 
     // TODO: move image out of energyplus.net
     if (this.sort) {
-      this.image = "https://energyplus.net/misc/arrow-asc.png";
+      this.image = "assets/images/misc/arrow-asc.png";
     } else {
-      this.image = "https://energyplus.net/misc/arrow-desc.png"
+      this.image = "assets/images/misc/arrow-desc.png"
     }
   
     this.isSelected = sort_by;
