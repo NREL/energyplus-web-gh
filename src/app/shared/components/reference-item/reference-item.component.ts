@@ -23,7 +23,8 @@ export class ReferenceItemComponent implements OnInit {
   page = 1;
   totalPages = Math.ceil((this.references.length) / this.resultsPerPage) || 1;
 
-  reference: any[] = this.references.sort((a, b) => (formatDate(a.publication_date, 'MM-dd-yy', 'en_US') < formatDate(b.publication_date, 'MM-dd-yy', 'en_US') ? 1 : -1)).reduce((arr, item, i) => {
+  reference: any[] = this.references.sort((a, b) => (formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] 
+  < formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] ? 1 : -1)).reduce((arr, item, i) => {
     return i % this.resultsPerPage === 0 ? [...arr, [item]] : [...arr.slice(0, -1), [...arr.slice(-1)[0], item]];
   }, []);
 
@@ -42,7 +43,8 @@ export class ReferenceItemComponent implements OnInit {
     if (!this.reference) {
       throw new Error('ReferenceItemComponent attribute "reference" is required');
     }
-    this.reference = this.references.sort((a, b) => (formatDate(a.publication_date, 'MM-dd-yy', 'en_US') < formatDate(b.publication_date, 'MM-dd-yy', 'en_US') ? 1 : -1)).reduce((arr, item, i) => {
+    this.reference = this.references.sort((a, b) => (formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] 
+    < formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] ? 1 : -1)).reduce((arr, item, i) => {
       return i % this.resultsPerPage === 0 ? [...arr, [item]] : [...arr.slice(0, -1), [...arr.slice(-1)[0], item]];
     }, []);
   }
@@ -61,12 +63,14 @@ export class ReferenceItemComponent implements OnInit {
     if (sort_by === 'title') {
       this.references.sort((a, b) => (this.sort? (a.title < b.title ? 1 : -1) : (a.title < b.title ? -1 : 1)));
     } else if (sort_by === 'authors') {
-      // TODO: empty authors sort.
       this.references.sort((a, b) => (this.sort ? (a.authors < b.authors ? 1 : -1) : (a.authors < b.authors ? -1 : 1)));
     } else if (sort_by === 'research_org') {
       this.references.sort((a, b) => (this.sort ? (a.research_org < b.research_org ? 1 : -1) : (a.research_org < b.research_org ? -1 : 1)));
     } else if (sort_by === 'publication_date') {
-      this.references.sort((a, b) => (this.sort ? (formatDate(a.publication_date, 'MM-dd-yy', 'en_US') < formatDate(b.publication_date, 'MM-dd-yy', 'en_US') ? 1 : -1) : (formatDate(a.publication_date, 'MM-dd-yy', 'en_US') < formatDate(b.publication_date, 'MM-dd-yy', 'en_US') ? -1 : 1)));
+      this.references.sort((a, b) => (this.sort ? (formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] 
+      < formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] ? 1 : -1) : 
+      (formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] 
+      < formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] ? -1 : 1)));
     } else if (sort_by === 'osti_id') {
       this.references.sort((a, b) => (this.sort ? (Number(a.osti_id) < Number(b.osti_id) ? 1 : -1) : (Number(a.osti_id) < Number(b.osti_id) ? -1 : 1)));
     } else if (sort_by === 'doi') {
