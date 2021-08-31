@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Title as TitleService } from '@angular/platform-browser';
+import { NavigationEnd, Router } from '@angular/router';
+// import { getTitle } from './shared/classes/constants';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'energyplus-web';
+  // title = 'energyplus-web';
+  constructor(
+    private router: Router,
+    private titleService: TitleService
+  ) {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        // titleService.setTitle(getTitle(event.urlAfterRedirects.split('?')[0]));
+      }
+    });
+  }
 }

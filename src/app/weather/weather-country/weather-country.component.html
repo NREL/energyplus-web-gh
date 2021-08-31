@@ -1,0 +1,30 @@
+<div class="row">
+	<section class="col-sm-12">
+		<h1 class="page-header">Weather Data by Region</h1>
+		<div class="region region-content">
+			<section>
+				<h2>
+					<a href="weather">All Regions</a> - <a routerLink="/weather-region/{{ region.region }}" class="active" style="cursor:pointer;">{{ region.region_name }}</a> - <a routerLink="/weather-region/{{ region.region }}/{{ country.acronym }}" class="active" style="cursor:pointer;">{{ country.name }}</a>
+				</h2>
+				<div *ngIf="country.acronym == 'USA'" class="btn-group-vertical" role="group" style="margin-top:20px;">
+					<p style="font-size:0.9rem;margin-bottom:30px;">Select a State or a Climate Zone:</p>
+					<div style="margin-bottom:20px;">
+						<h3>California Climate Zones</h3>
+						<a routerLink="/weather-region/{{ region.region }}/{{ country.acronym }}/CA-Zones" class="btn btn-body border btn-hover" type="button" style="text-align:left;font-size:0.9rem;">California Climate Zones</a>
+					</div>
+					<h3>Weather by State</h3>
+					<a *ngFor="let state of states" routerLink="/weather-region/{{ region.region }}/{{ country.acronym }}/{{ state.state_route}}" class="btn btn-body border btn-hover" type="button" style="text-align:left;font-size:0.9rem;">{{ state.state_route}} - {{ state.state_name }}</a>
+				</div>
+				<div *ngIf="country.acronym == 'CAN'" class="btn-group-vertical" role="group">
+					<p style="font-size:0.9rem;margin-top:20px;margin-bottom:30px;">Select a Province:</p>
+					<a *ngFor="let state of states" routerLink="/weather-region/{{ region.region }}/{{ country.acronym }}/{{ state.state_route }}" class="btn btn-body border btn-hover" type="button" style="text-align:left;font-size:0.9rem;">{{ state.state_route}} - {{ state.state_name }}</a>
+				</div>
+				<div *ngIf="country.acronym != 'USA' && country.acronym != 'CAN'" class="btn-group-vertical" role="group">
+					<p style="font-size:0.9rem;margin-top:20px;margin-bottom:30px;">Select a location:</p>
+					<a *ngFor="let location of country.locations" routerLink="/weather-region/{{ region.region }}/{{ country.acronym }}/{{ location.title }}" class="btn btn-body border btn-hover" type="button" style="text-align:left;font-size:0.9rem;">{{ location.title }}</a>
+				</div>
+				<p style="font-size:0.9rem;text-align:center;margin-top:40px;margin-bottom:-20px;">Learn more about <a href="weather/sources">Weather Data Sources</a>.</p>
+			</section>
+		</div>
+	</section>
+</div>
