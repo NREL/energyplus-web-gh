@@ -35,7 +35,7 @@ export class PaginationComponent implements OnInit {
     updatePagination(): void{
       const pageRange: number[] = [];
       if (this.totalPages <= 9) {
-        for (let i = 1; i<= this.totalPages; ++i) {
+        for (let i = 1; i <= this.totalPages; ++i) {
             pageRange.push(i);
         }
       } else {

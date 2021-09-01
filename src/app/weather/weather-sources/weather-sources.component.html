@@ -3,143 +3,143 @@
   <div class="row">
     <section class="col-sm-12" style="font-size:0.9rem;">
       <ol class="breadcrumb" style="margin-left:-15px;width:1125px;">
-        <li class="breadcrumb-item"><a routerlink="/weather">Weather</a></li>
+        <li class="breadcrumb-item"><a routerLink="/weather">Weather</a></li>
         <li class="breadcrumb-item active" aria-current="page">Weather Data Sources</li>
-			</ol>
-			<h1 class="page-header" style="margin-left:-15px;width:1125px;">Weather Data Sources</h1>
-			<div style="margin-left:-15px;">
-				<p>The weather data provided in EnergyPlus weather format on this website are derived from 20 sources:</p>
-				<ul>
-					<li><a routerlink="/weather/sources/#ArgTMY">Argentina TMY (ArgTMY)</a></li>
-					<li><a routerlink="/weather/sources/#CTZ2">CTZ2 California Climate Zones 2</a></li>
-					<li><a routerlink="/weather/sources/#CWEC">CWEC Canadian Weather for Energy Calculations</a></li>
-					<li><a routerlink="/weather/sources/#CIBSE">CIBSE Chartered Institution of Building Services Engineers</a>*</li>
-					<li><a routerlink="/weather/sources/#CityUHK">CityUHK  City University of Hong Kong</a></li>
-					<li><a routerlink="/weather/sources/#CSWD">CSWD Chinese Standard Weather Data</a></li>
-					<li><a routerlink="/weather/sources/#CTYW">CTYW Chinese Typical Year Weather</a></li>
-					<li><a routerlink="/weather/sources/#EWEC">ETMY Egyptian Typical Meteorological Year</a></li>
-					<li><a routerlink="/weather/sources/#IGDG">IGDG Italian Climatic data collection "Gianni De Giorgio"</a></li>
-					<li><a routerlink="/weather/sources/#IMGW">IMGW Instytutu Meteorologii i Gospodarki Wodnej</a></li>
-					<li><a routerlink="/weather/sources/#IMS">IMS Weather Data for Israel</a></li>
-					<li><a routerlink="/weather/sources/#INETI">INETI Synthetic data for Portugal</a></li>
-					<li><a routerlink="/weather/sources/#INMET">Instituto Nacional de Meteorologia (INMET) Arquivo por Brasil</a></li>
-					<li><a routerlink="/weather/sources/#ISHRAE">ISHRAE Indian Weather Data from the Indian Society of Heating, Refrigerating and Air-Conditioning Engineers</a></li>
-					<li><a routerlink="/weather/sources/#ITMY">ITMY Iranian Typical Meteorological Year</a></li>
-					<li><a routerlink="/weather/sources/#IWEC">IWEC International Weather for Energy Calculations</a></li>
-					<li><a routerlink="/weather/sources/#KISR">KISR Kuwait Weather Data from Kuwait Institute of Scientific Research</a></li>
-					<li><a routerlink="/weather/sources/#NIWA">NIWA New Zealand Data from NIWA</a></li>
-					<li><a routerlink="/weather/sources/#RMY">RMY Australia Representative Meteorological Years</a></li>
-					<li><a routerlink="/weather/sources/#SWEC">SWEC Spanish Weather for Energy Calculations</a></li>
-					<li><a routerlink="/weather/sources/#SWERA">SWERA Solar and Wind Energy Resource Assessment</a></li>
-					<li><a routerlink="/weather/sources/#TMY">TMY Typical Meteorological Year</a></li>
-					<li><a routerlink="/weather/sources/#TMY2">TMY2 Typical Meteorological Year 2</a></li>
-					<li><a routerlink="/weather/sources/#TMY3">TMY3 Typical Meteorological Year 3</a></li>
-					<li><a routerlink="/weather/sources/#TRY">TRY Test Reference Year</a></li>
-				</ul>
-				<p>*The CIBSE data are not available on this website. See below for information about obtaining the <a href="#CIBSE">CIBSE data</a>.</p>
-				<h2 id="ArgTMY">Argentina TMY (ArgTMY)</h2>
-				<p>TMY data derived for 15 locations in northern Argentina using data from National Meteorological Service (SMN) of Argentina. Developed for use in building energy simulation software in EPW format.</p>
-				<p>Bre, Facundo, Víctor D. Fachinotti. 2016.  "Generation of typical meteorological years for the Argentine Littoral Region,"  <em>Energy and Buildings</em>, Vol. 129, Pages 432-444.</p>
-				<h2 id="CTZ2">California Climate Zones 2 (CTZ2)</h2>
-				<p>Updated weather data for <a href="http://www.energy.ca.gov/maps/building_climate_zones.html">16 California climate zones</a> (CTZ2) for use to demonstrate compliance with Title 24 with approved building energy simulation programs.
-					All 16 CTZ2 weather files are available for download in EnergyPlus weather format. The original source data is available from the <a href="http://www.energy.ca.gov/title24/">California Energy Commission</a>.</p>
-				<h2 id="CWEC">Canadian Weather for Energy Calculations (CWEC)</h2>
-				<p>The 80 CWEC files contain hourly weather observations representing an artificial one-year period specifically designed for building energy calculations. All 80 locations in the CWEC data set are available for download in EnergyPlus weather format.</p>
-				<p>Produced by Numerical Logics in collaboration with Environment Canada and the National Research Council of Canada, the CWEC were derived using a methodology similar to the TMY2 (see below). CWEC hourly files represent weather conditions 
-					that result in approximately average heating and cooling loads in buildings. The National Energy Code of Canada requires the use of a CWEC file representative of a location when the performance path and customized design calculations are 
-					chosen as the means of building energy consumption compliance. The CWEC follow the ASHRAE WYEC2 (Weather Year for Energy Calculation 2) format and were derived from the Canadian Energy and Engineering Data Sets (CWEEDS) of hourly weather	
-					information for Canada from the 1953-1995 period of record. The CWEC are available from <a href="http://www.climate.weatheroffice.ec.gc.ca/"> Environment Canada</a>. The reference for the CWEC is:</p>
-				<p>Numerical Logics. 1999. <em>Canadian Weather for Energy Calculations, Users Manual and CD-ROM</em>. Downsview, Ontario: Environment Canada.</p>
-				<h2 id="CIBSE">Chartered Institution of Building Services Engineers (CIBSE)</h2>
-				<p>The <a href="http://www.cibse.org/index.cfm?go=publications.view&amp;PubID=332&amp;S1=y&amp;L1=0&amp;L2=0">CIBSE</a>, in association with the (UK) Met Office has produced 'Test Reference Years' and 'Design Summer 
-					Years' for 14 UK locations for use with building energy simulation software. The data sets are available in various formats, including EnergyPlus/ESP-r. These data are NOT available on this website.</p>
-				<h2 id="CityUHK">City University of Hong Kong (CityUHK)</h2>
-				<p>Typical year file for Hong Kong originally in IWEC format spreadsheet jointly developed by Dr TT Chow and ALS Chan of the City University of Hong Kong supported by a CERG grant from the Research Grants Council of the HongKong Special Administrative Region of China. 
-					Solar radiation measured from observatory station at 22.32 N, 114.17 E, 65 m above mean sea level.</p>
-				<h2 id="CSWD">Chinese Standard Weather Data (CSWD)</h2>
-				<p>Developed for use in simulating building heating and air conditioning loads and energy use, and for calculating renewable energy utilization, this set of 270 typical hourly data weather files.  These data were developed by Dr. Jiang Yi, 
-					Department of Building Science and Technology at Tsinghua University and China Meteorological Bureau. The source data include annual design data, typical year data,  and extreme years for maximum enthalpy, and maximum and minimum temperature and solar radiation.</p>
-				<p><a href="http://www.china-building.com.cn">China Meteorological Bureau</a>, Climate Information Center,  Climate Data Office and Tsinghua University, Department of Building Science and Technology. 2005. <em>China Standard Weather Data for Analyzing Building Thermal Conditions</em>, 
-					April 2005. Beijing: China Building Industry Publishing House, ISBN 7-112-07273-3 (13228).</p>
-				<h2 id="CTYW">Chinese Typical Year Weather (CTYW)</h2>
-				<p>Developed for use in simulating building heating and air conditioning loads and energy use, and for calculating renewable energy utilization, this set of 57 weather files is based on a 1982-1997 period of record with data obtained from the U. S. National Climatic Data Center. 
-					The original data set was created by Prof. ZHANG Qingyuan of Tsukuba University Japan, in collaboration with Joe Huang of Lawrence Berkeley National Laboratory. Development of the original typical year weather files is documented in:</p>
-				<p>Zhang Qingyuan and Joe Huang. 2004. <em>Chinese Typical Year Weather Data for Architectural Use</em>(in Chinese). ISBN 7-111-14810-X. Beijing: China Machine Press.<br><br>Available from: China Machine Press<br>No. 22 Baiwanzhuang Dajie<br> Beijing, CHINA 100037</p>
-				<p>This dataset is no longer downloadable from the EnergyPlus website.</p>
-				<h2 id="EWEC">Egyptian Typical Meteorological Year  (ETMY)</h2>
-				<p>Developed for standards development and energy simulation by Joe Huang from data provided by U. S. National Climatic Data Center for periods of record from 12 to 21 years, all ending in 2003. Joe Huang and Associates, Moraga, California, USA.</p>
-				<h2 id="IGDG">Italian Climatic data collection "Gianni De Giorgio" (IGDG)</h2>
-				<p>Developed for use in simulating renewable energy technologies, this set of 66 weather files is based on a 1951-1970 period of record. The data were created by Professor Livio Mazzarella, Politecnico di Milano, and is named in honor of Gianni de Giorgio. 
-					More information on the <a href="assets/nrel_custom/weather/italia_dati_climatici_g_de_giorgio.pdf">data collection is available here in Italian</a>.</p>
-				<h2 id="IMGW">IMGW Weather data set for Poland</h2>
-				<p>Developed for use in energy calculations for buildings and dwellings including building certificates, and building energy research. This set of 61 weather files was developed by the Polish Ministerstwo Infrastruktury based on data from the Instytutu Meteorologii i Gospodarki Wodnej (IMGW). 
-					More information on the IMGW data are available <a href="http://www.mi.gov.pl/2-48203f1e24e2f-1787735.html">here (in Polish).</a></p>
-				<h2 id="IMS">IMS Weather Data for Israel</h2>
-				<p>Weather data for Israel locations developed by Faculty of Civil and Environmental Engineering, Technion - Israel Institute of Technology, Haifa, Israel, from data provided by the Israel Meteorological Service (IMS).</p>
-				<h2 id="INETI">INETI Synthetic data for Portugal</h2>
-				<p>Two weather files for Portugal developed by Ricardo Aguiar of Instituto Nacional de Engenharia, Tecnologia e Inovação (INETI). Synthetic data set based on spatially interpolation of public climatic data published by Instituto de Meteorologia 1951-80 combined with INETI owned data and other freely available data sources. 
-					INETI has granted DOE permission to distribute versions of the individual INETI files in converted format suitable for EnergyPlus (EPW) and make those files available to users at no cost via this EnergyPlus website.</p>
-				<p>The INETI synthetic data are © 2005 Instituto Nacional de Engenharia, Tecnologia e Inovação, Lisboa, Portugal. <a href="http://www.ineti.pt">www.ineti.pt</a> All rights reserved as noted in the <a href="assets/nrel_custom/weather/ineti_synthetic_data_copyright_disclaimer.txt">disclaimer</a>.</p>
-				<h2 id="INMET">Instituto Nacional de Meteorologia (INMET) Arquivo por Brasil</h2>
-				<p>INMET Arquivo elaborado por Prof Maurício Roriz, DECiv - UFSCar, São Carlos, SP, Brasil.  ANTAC – Associação Nacional de Tecnologia do Ambiente Construído Grupo de Trabalho sobre Conforto e Eficiência Energética de Edificações. </p>
-				<p>Roriz, Maurício. 2012.  <em>Arquivos Climáticos de Municípios Brasileiros</em>, Associação Nacional de Tecnologia do Ambiente Construído, São Carlos, SP, Brasil.</p>
-				<h2 id="ISHRAE">Indian Weather Data from the Indian Society of Heating, Refrigerating and Air-Conditioning Engineers (ISHRAE)</h2>
-				<p>Developed for use with building energy performance simulation programs, this set of 58 locations in India was created by the Indian Society of Heating, Refrigerating and Air-Conditioning Engineers (ISHRAE) in TMY2 format. ISHRAE has kindly allowed DOE to make these data available to EnergyPlus users.</p>
-				<p>The ISHRAE weather data are © 2005 Indian Society of Heating, Refrigerating and Air-Conditioning Engineers, New Delhi, India. <a href="http://www.ishrae.in/">http://www.ishrae.in/</a>  All rights reserved as noted in the <a href="assets/nrel_custom/weather/ishrae_copyright_and_weather_data_license.txt">Copyright, License and Disclaimers</a>.</p>
-				<h2 id="ITMY">ITMY (Iran Typical Meteorological Year) Data</h2>
-				<p>Weather data in TMY2 format for 6 cities (Tehran, Tabriz, Esfahan, Bandar Abass, Shiraz and Yazd) of Iran based of periods of record from 30 to 43 years.  The ITMY files were created using TmyCreator by Abdulsalam Ebrahimpour of the Building and Housing Research Center (BHRC) of Iran.  Development of the ITMY files is described in:</p>
-				<p>A .Ebrahimpour, M. Maerefat, A method for generation of typical meteorological year, Energy Conversion and Management, 52(2011), pp. 212-219.</p>
-				<h2 id="IWEC">International Weather for Energy Calculations (IWEC)</h2>
-				<p>The IWEC are the result of ASHRAE Research Project 1015 by Numerical Logics and Bodycote Materials Testing Canada for ASHRAE Technical Committee 4.2 Weather Information. The IWEC data files are 'typical' weather files suitable for use with building energy simulation programs for 227 locations outside the USA and Canada. 
-					All 227 locations in the IWEC data set are available for download in EnergyPlus weather format.</p>
-				<p>The files are derived from up to 18 years (1982-1999 for most stations) of DATSAV3 hourly weather data originally archived at the U. S. National Climatic Data Center. The weather data is supplemented by solar radiation estimated on an hourly basis from earth-sun geometry and hourly weather elements, particularly cloud amount information. 
-					The original IWEC CD-ROM is no longer available, as it has been superceded by the IWEC2 CD-ROM, which is available from <a href="http://www.techstreet.com/ashrae/products/1823067">ASHRAE</a>.
-				<a href="http://resourcecenter.ashrae.org/store/ashrae/">ASHRAE</a>. The reference for the IWEC is:</p>
-				<p>ASHRAE. 2001. <em>International Weather for Energy Calculations (IWEC Weather Files) Users Manual and CD-ROM</em>, Atlanta: ASHRAE</p>The original research project final report is also available from <a href="http://www.techstreet.com/ashrae/products/1719102">ASHRAE</a>.
-				<p>The Department of Energy has licensed the IWEC data from ASHRAE. Our license with ASHRAE allows DOE to: </p>
-				<ul>
-					<li>Distribute versions of the individual IWEC files in converted format suitable for EnergyPlus (EPW).</li>
-					<li>Make the EnergyPlus versions of the IWEC files available to users at no cost via this EnergyPlus website.</li>
-				</ul>
-				<p>The IWEC source data are © 2001 American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE), Inc., Atlanta, GA, USA. <a href="http://www.ashrae.org">www.ashrae.org</a> All rights reserved as noted in the <a href="assets/nrel_custom/weather/ashrae_license_agreement.txt">License Agreement and Additional Conditions</a>.</p>
-				<h2 id="KISR">Kuwait Weather Data from Kuwait Institute for Scientific Research (KISR)</h2>
-				<p>Two weather files for Kuwait based on measured meteorological data for Kuwait International Airport and KISR's coastal weather station.  Provided by KISR in spreadsheet format.  The reference for the development of the KISR is:</p>
-				<p>Shaban, N. 2000. <em>Development of Typical Meteorological Year for Kuwait</em>. Kuwait Institute for Scientific Research, report KISR 5857, Kuwait.</p>
-				<h2 id="NIWA">New Zealand National Institute of Water &amp; Atmospheric Research Ltd (NIWA)</h2>
-				<p>The New Zealand Energy Efficiency and Conservation Authority (EECA) has developed a Home Energy Rating Scheme (HERS) for New Zealand households based on software simulation of energy loss and demand. The software requires hourly data to represent the different <a href="assets/nrel_custom/weather/NZL_NIWA_ClimateZones.png">climates zones around New Zealand</a>, 
-					especially for larger population centres. These climate data consist of hourly records for an artificial year created from twelve representative months.</p>
-				<p><b>Please note:</b> The data is publicly-funded data provided by the National Institute of Water and Atmospheric Research Limited (NIWA) and no person or entity may charge for its supply or use. While NIWA has exercised reasonable care and skill in the preparation and collation of the data files, the data is supplied on an 'as is' basis, without warranty of any kind. 
-					NIWA accepts no liability for any direct, indirect, special or consequential damages, loss, damage or cost arising from and relating to, any use of the data and/or the information associated with it. Full terms and conditions governing the use of the data can be found at: <a href="http://edenz.niwa.co.nz/about/terms">http://edenz.niwa.co.nz/about/terms</a>.</p>
-				<p>Liley, J Ben, Hisako Shiona, James Sturman, David S Wratt. 2008. <em>Typical Meteorological Years for the New Zealand Home Energy Rating Scheme</em>. Prepared for the Energy Efficiency and Conservation Authority. NIWA Client Report: LAU2008-01-JBL. NIWA, Omakau, New Zealand.</p>
-				<h2 id="RMY">RMY Australia Representative Meteorological Year Climate Files</h2>
-				<p>Developed for the Australia Greenhouse Office for use in complying with <a href="http://www.abcb.gov.au/index.cfm?fuseaction=DocumentView&amp;DocumentID=168">Building Code of Australia</a>. These data are licensed through ACADS BSG Ltd for use by EnergyPlus users.  For use in any other formats, users must contact <a href="http://www.ozemail.com.au/%7Eacadsbsg/">ACADS BSG Ltd</a> for licensing information.</p>
-				<p>The RMY data are © 2006 Commonwealth of Australia, Department of the Environment and Water Resources, Australia Greenhouse Office, Canberra, ACT, Australia. All intellectual property rights reserved).</p>
-				<h2 id="SWEC">Spanish Weather for Energy Calculations (SWEC)</h2>
-				<p>Originally developed for use with Calener, a program for building energy labeling in Spain, these weather files cover all 52 Spanish provincial capitals. Calener was developed by the Grupo de Termotecnia of the Escuela Superior de Ingenieros in Seville for the Spanish Government. The weather files were synthetically generated using Climed 
-					(Portuguese software developed by Ricardo Aguiar) from mean monthly data coming from the Spanish Meteorological National Institute. These weather files were converted from the DOE-2 binary to EnergyPlus format and include constant wind speeds of 6.7 m/s.</p>
-				<p>For more information on these weather files, contact:<br>
-				<a href="mailto:lpl@tmt.us.es">Professor Luis Pérez-Lombard</a><br>Escuela Superior de Ingenieros</p>
-				<h2 id="SWERA">Solar and Wind Energy Resource Assessment (SWERA)</h2>
-				<p>The Solar and Wind Energy Resource Assessment (SWERA) project, funded by the United Nations Environment Program, is developing high quality information on solar and wind energy resources in 14 developing countries. Typical year hourly data are available for 156 locations in Belize, Brazil, China, Cuba, El Salvador, Ethiopia, Ghana, Guatemala, Honduras, Kenya, Maldives, Nicaragua, and Sri Lanka. 
-					The data are available from the <a href="http://openei.org/SWERA">SWERA project website</a>.</p>
-				<h2 name="TMY" id="TMY">Typical Meteorological Year (TMY)</h2>
-				<p>Data for 230 locations in the USA plus four locations in Cuba, Marshall Islands, Palau, and Puerto Rico, derived from a 1948-1980 period of record. Many of the locations in the TMY data set were subsequently updated by the TMY2.</p>
-				<p>Similar to the TMY2, the TMY are data sets of hourly values of solar radiation and meteorological elements for a 1-year period. Their intended use is for computer simulations of solar energy conversion systems and building systems to facilitate performance comparisons of different system types, configurations, and locations in the United States and its territories. 
-					Because they represent typical rather than extreme conditions, they are not suited for designing systems to meet the worst-case conditions occurring at a location. The data are available for purchase from the National Climatic Data Center.</p>
-				<p>All TMY locations are available for download in EnergyPlus weather format.</p>
-				<h2 name="TMY2" id="TMY2">Typical Meteorological Year 2 (TMY2)</h2>
-				<p>The TMY2 are data sets of hourly values of solar radiation and meteorological elements for a 1-year period. Their intended use is for computer simulations of solar energy conversion systems and building systems to facilitate performance comparisons of different system types, configurations, and locations in the United States and its territories. Because they represent typical rather than extreme conditions, 
-					they are not suited for designing systems to meet the worst-case conditions occurring at a location. The data are available from the National Renewable Energy Laboratory for download or on CD. </p>
-				<p>TMY3 files have somewhat replaced TMY2 files but all TMY2 files are available for download from the website.</p>
-				<h2 id="TMY3">Typical Meteorological Year 3 (TMY3)</h2>
-				<p>Data for 1020 locations in the USA including Guam, Puerto Rico, and US Virgin Islands, derived from a 1991-2005 period of record. All 1020 locations in the TMY3 data set are available for download in EnergyPlus weather format.</p>
-				<p>The TMY3s are data sets of hourly values of solar radiation and meteorological elements for a 1-year period. Their intended use is for computer simulations of solar energy conversion systems and building systems to facilitate performance comparisons of different system types, configurations, and locations in the United States and its territories. 
-					Because they represent typical rather than extreme conditions, they are not suited for designing systems to meet the worst-case conditions occurring at a location. The source data are available for download from the <a href="https://nsrdb.nrel.gov/data-sets/archives.html">National Renewable Energy Laboratory</a> for download. The reference for the TMY3 is:</p>
-				<p>Wilcox, S. and W. Marion.&nbsp; 2008. <em>User's Manual for TMY3 Data Sets</em>, NREL/TP-581-43156. April 2008. Golden, Colorado: National Renewable Energy Laboratory.</p>
-				<h2 id="TRY">TRY Test Reference Year</h2>
-				<p>Developed for building simulation use for 17 major state capitals in Brazil. The TRY are a single year selected to be most representative. Source data were provided by Associação Brasileira de Refrigeração, Ar-condicionado, Ventilação e Aquecimento - Instituto Brasileiro do Frio, ABRAVA/IBF junto ao Centro Técnico Aeroespacial - Instituto de Aeronáutica eEspaço, CTA/IAE INFRAERO. LabEEE reviewed, assembled and formatted the data.</p>
-				<p>Carlo, Joyce Correna, Roberto Lamberts. 2005. <em>Processamento de Arquivos Climáticos para Simulação do Desempenho Energético de Edificações</em>, para Eletrobrás/PROCEL, AET N 02/04, Laboratório de Eficiência Energética em Edificações, Universidade Federal de Santa Catarina, Centro Technológico, Departamento de Engenharia Civil, Florianópolis, SC, Brasil. </p>
-			</div>
-		</section>
-	</div>
+      </ol>
+      <h1 class="page-header" style="margin-left:-15px;width:1125px;">Weather Data Sources</h1>
+      <div style="margin-left:-15px;">
+        <p>The weather data provided in EnergyPlus weather format on this website are derived from 20 sources:</p>
+        <ul>
+          <li><a routerLink="/weather/sources/#ArgTMY">Argentina TMY (ArgTMY)</a></li>
+          <li><a routerLink="/weather/sources/#CTZ2">CTZ2 California Climate Zones 2</a></li>
+          <li><a routerLink="/weather/sources/#CWEC">CWEC Canadian Weather for Energy Calculations</a></li>
+          <li><a routerLink="/weather/sources/#CIBSE">CIBSE Chartered Institution of Building Services Engineers</a>*</li>
+          <li><a routerLink="/weather/sources/#CityUHK">CityUHK City University of Hong Kong</a></li>
+          <li><a routerLink="/weather/sources/#CSWD">CSWD Chinese Standard Weather Data</a></li>
+          <li><a routerLink="/weather/sources/#CTYW">CTYW Chinese Typical Year Weather</a></li>
+          <li><a routerLink="/weather/sources/#EWEC">ETMY Egyptian Typical Meteorological Year</a></li>
+          <li><a routerLink="/weather/sources/#IGDG">IGDG Italian Climatic data collection "Gianni De Giorgio"</a></li>
+          <li><a routerLink="/weather/sources/#IMGW">IMGW Instytutu Meteorologii i Gospodarki Wodnej</a></li>
+          <li><a routerLink="/weather/sources/#IMS">IMS Weather Data for Israel</a></li>
+          <li><a routerLink="/weather/sources/#INETI">INETI Synthetic data for Portugal</a></li>
+          <li><a routerLink="/weather/sources/#INMET">Instituto Nacional de Meteorologia (INMET) Arquivo por Brasil</a></li>
+          <li><a routerLink="/weather/sources/#ISHRAE">ISHRAE Indian Weather Data from the Indian Society of Heating, Refrigerating and Air-Conditioning Engineers</a></li>
+          <li><a routerLink="/weather/sources/#ITMY">ITMY Iranian Typical Meteorological Year</a></li>
+          <li><a routerLink="/weather/sources/#IWEC">IWEC International Weather for Energy Calculations</a></li>
+          <li><a routerLink="/weather/sources/#KISR">KISR Kuwait Weather Data from Kuwait Institute of Scientific Research</a></li>
+          <li><a routerLink="/weather/sources/#NIWA">NIWA New Zealand Data from NIWA</a></li>
+          <li><a routerLink="/weather/sources/#RMY">RMY Australia Representative Meteorological Years</a></li>
+          <li><a routerLink="/weather/sources/#SWEC">SWEC Spanish Weather for Energy Calculations</a></li>
+          <li><a routerLink="/weather/sources/#SWERA">SWERA Solar and Wind Energy Resource Assessment</a></li>
+          <li><a routerLink="/weather/sources/#TMY">TMY Typical Meteorological Year</a></li>
+          <li><a routerLink="/weather/sources/#TMY2">TMY2 Typical Meteorological Year 2</a></li>
+          <li><a routerLink="/weather/sources/#TMY3">TMY3 Typical Meteorological Year 3</a></li>
+          <li><a routerLink="/weather/sources/#TRY">TRY Test Reference Year</a></li>
+        </ul>
+        <p>*The CIBSE data are not available on this website. See below for information about obtaining the <a href="#CIBSE">CIBSE data</a>.</p>
+        <h2 id="ArgTMY">Argentina TMY (ArgTMY)</h2>
+        <p>TMY data derived for 15 locations in northern Argentina using data from National Meteorological Service (SMN) of Argentina. Developed for use in building energy simulation software in EPW format.</p>
+        <p>Bre, Facundo, Víctor D. Fachinotti. 2016. "Generation of typical meteorological years for the Argentine Littoral Region," <em>Energy and Buildings</em>, Vol. 129, Pages 432-444.</p>
+        <h2 id="CTZ2">California Climate Zones 2 (CTZ2)</h2>
+        <p>Updated weather data for <a href="http://www.energy.ca.gov/maps/building_climate_zones.html">16 California climate zones</a> (CTZ2) for use to demonstrate compliance with Title 24 with approved building energy simulation programs.
+          All 16 CTZ2 weather files are available for download in EnergyPlus weather format. The original source data is available from the <a href="http://www.energy.ca.gov/title24/">California Energy Commission</a>.</p>
+        <h2 id="CWEC">Canadian Weather for Energy Calculations (CWEC)</h2>
+        <p>The 80 CWEC files contain hourly weather observations representing an artificial one-year period specifically designed for building energy calculations. All 80 locations in the CWEC data set are available for download in EnergyPlus weather format.</p>
+        <p>Produced by Numerical Logics in collaboration with Environment Canada and the National Research Council of Canada, the CWEC were derived using a methodology similar to the TMY2 (see below). CWEC hourly files represent weather conditions
+          that result in approximately average heating and cooling loads in buildings. The National Energy Code of Canada requires the use of a CWEC file representative of a location when the performance path and customized design calculations are
+          chosen as the means of building energy consumption compliance. The CWEC follow the ASHRAE WYEC2 (Weather Year for Energy Calculation 2) format and were derived from the Canadian Energy and Engineering Data Sets (CWEEDS) of hourly weather
+          information for Canada from the 1953-1995 period of record. The CWEC are available from <a href="http://www.climate.weatheroffice.ec.gc.ca/"> Environment Canada</a>. The reference for the CWEC is:</p>
+        <p>Numerical Logics. 1999. <em>Canadian Weather for Energy Calculations, Users Manual and CD-ROM</em>. Downsview, Ontario: Environment Canada.</p>
+        <h2 id="CIBSE">Chartered Institution of Building Services Engineers (CIBSE)</h2>
+        <p>The <a href="http://www.cibse.org/index.cfm?go=publications.view&amp;PubID=332&amp;S1=y&amp;L1=0&amp;L2=0">CIBSE</a>, in association with the (UK) Met Office has produced 'Test Reference Years' and 'Design Summer
+          Years' for 14 UK locations for use with building energy simulation software. The data sets are available in various formats, including EnergyPlus/ESP-r. These data are NOT available on this website.</p>
+        <h2 id="CityUHK">City University of Hong Kong (CityUHK)</h2>
+        <p>Typical year file for Hong Kong originally in IWEC format spreadsheet jointly developed by Dr TT Chow and ALS Chan of the City University of Hong Kong supported by a CERG grant from the Research Grants Council of the HongKong Special Administrative Region of China.
+          Solar radiation measured from observatory station at 22.32 N, 114.17 E, 65 m above mean sea level.</p>
+        <h2 id="CSWD">Chinese Standard Weather Data (CSWD)</h2>
+        <p>Developed for use in simulating building heating and air conditioning loads and energy use, and for calculating renewable energy utilization, this set of 270 typical hourly data weather files. These data were developed by Dr. Jiang Yi,
+          Department of Building Science and Technology at Tsinghua University and China Meteorological Bureau. The source data include annual design data, typical year data, and extreme years for maximum enthalpy, and maximum and minimum temperature and solar radiation.</p>
+        <p><a href="http://www.china-building.com.cn">China Meteorological Bureau</a>, Climate Information Center, Climate Data Office and Tsinghua University, Department of Building Science and Technology. 2005. <em>China Standard Weather Data for Analyzing Building Thermal Conditions</em>,
+          April 2005. Beijing: China Building Industry Publishing House, ISBN 7-112-07273-3 (13228).</p>
+        <h2 id="CTYW">Chinese Typical Year Weather (CTYW)</h2>
+        <p>Developed for use in simulating building heating and air conditioning loads and energy use, and for calculating renewable energy utilization, this set of 57 weather files is based on a 1982-1997 period of record with data obtained from the U. S. National Climatic Data Center.
+          The original data set was created by Prof. ZHANG Qingyuan of Tsukuba University Japan, in collaboration with Joe Huang of Lawrence Berkeley National Laboratory. Development of the original typical year weather files is documented in:</p>
+        <p>Zhang Qingyuan and Joe Huang. 2004. <em>Chinese Typical Year Weather Data for Architectural Use</em>(in Chinese). ISBN 7-111-14810-X. Beijing: China Machine Press.<br><br>Available from: China Machine Press<br>No. 22 Baiwanzhuang Dajie<br> Beijing, CHINA 100037</p>
+        <p>This dataset is no longer downloadable from the EnergyPlus website.</p>
+        <h2 id="EWEC">Egyptian Typical Meteorological Year (ETMY)</h2>
+        <p>Developed for standards development and energy simulation by Joe Huang from data provided by U. S. National Climatic Data Center for periods of record from 12 to 21 years, all ending in 2003. Joe Huang and Associates, Moraga, California, USA.</p>
+        <h2 id="IGDG">Italian Climatic data collection "Gianni De Giorgio" (IGDG)</h2>
+        <p>Developed for use in simulating renewable energy technologies, this set of 66 weather files is based on a 1951-1970 period of record. The data were created by Professor Livio Mazzarella, Politecnico di Milano, and is named in honor of Gianni de Giorgio.
+          More information on the <a href="assets/nrel_custom/weather/italia_dati_climatici_g_de_giorgio.pdf">data collection is available here in Italian</a>.</p>
+        <h2 id="IMGW">IMGW Weather data set for Poland</h2>
+        <p>Developed for use in energy calculations for buildings and dwellings including building certificates, and building energy research. This set of 61 weather files was developed by the Polish Ministerstwo Infrastruktury based on data from the Instytutu Meteorologii i Gospodarki Wodnej (IMGW).
+          More information on the IMGW data are available <a href="http://www.mi.gov.pl/2-48203f1e24e2f-1787735.html">here (in Polish).</a></p>
+        <h2 id="IMS">IMS Weather Data for Israel</h2>
+        <p>Weather data for Israel locations developed by Faculty of Civil and Environmental Engineering, Technion - Israel Institute of Technology, Haifa, Israel, from data provided by the Israel Meteorological Service (IMS).</p>
+        <h2 id="INETI">INETI Synthetic data for Portugal</h2>
+        <p>Two weather files for Portugal developed by Ricardo Aguiar of Instituto Nacional de Engenharia, Tecnologia e Inovação (INETI). Synthetic data set based on spatially interpolation of public climatic data published by Instituto de Meteorologia 1951-80 combined with INETI owned data and other freely available data sources.
+          INETI has granted DOE permission to distribute versions of the individual INETI files in converted format suitable for EnergyPlus (EPW) and make those files available to users at no cost via this EnergyPlus website.</p>
+        <p>The INETI synthetic data are © 2005 Instituto Nacional de Engenharia, Tecnologia e Inovação, Lisboa, Portugal. <a href="http://www.ineti.pt">www.ineti.pt</a> All rights reserved as noted in the <a href="assets/nrel_custom/weather/ineti_synthetic_data_copyright_disclaimer.txt">disclaimer</a>.</p>
+        <h2 id="INMET">Instituto Nacional de Meteorologia (INMET) Arquivo por Brasil</h2>
+        <p>INMET Arquivo elaborado por Prof Maurício Roriz, DECiv - UFSCar, São Carlos, SP, Brasil. ANTAC – Associação Nacional de Tecnologia do Ambiente Construído Grupo de Trabalho sobre Conforto e Eficiência Energética de Edificações. </p>
+        <p>Roriz, Maurício. 2012. <em>Arquivos Climáticos de Municípios Brasileiros</em>, Associação Nacional de Tecnologia do Ambiente Construído, São Carlos, SP, Brasil.</p>
+        <h2 id="ISHRAE">Indian Weather Data from the Indian Society of Heating, Refrigerating and Air-Conditioning Engineers (ISHRAE)</h2>
+        <p>Developed for use with building energy performance simulation programs, this set of 58 locations in India was created by the Indian Society of Heating, Refrigerating and Air-Conditioning Engineers (ISHRAE) in TMY2 format. ISHRAE has kindly allowed DOE to make these data available to EnergyPlus users.</p>
+        <p>The ISHRAE weather data are © 2005 Indian Society of Heating, Refrigerating and Air-Conditioning Engineers, New Delhi, India. <a href="http://www.ishrae.in/">http://www.ishrae.in/</a> All rights reserved as noted in the <a href="assets/nrel_custom/weather/ishrae_copyright_and_weather_data_license.txt">Copyright, License and Disclaimers</a>.</p>
+        <h2 id="ITMY">ITMY (Iran Typical Meteorological Year) Data</h2>
+        <p>Weather data in TMY2 format for 6 cities (Tehran, Tabriz, Esfahan, Bandar Abass, Shiraz and Yazd) of Iran based of periods of record from 30 to 43 years. The ITMY files were created using TmyCreator by Abdulsalam Ebrahimpour of the Building and Housing Research Center (BHRC) of Iran. Development of the ITMY files is described in:</p>
+        <p>A .Ebrahimpour, M. Maerefat, A method for generation of typical meteorological year, Energy Conversion and Management, 52(2011), pp. 212-219.</p>
+        <h2 id="IWEC">International Weather for Energy Calculations (IWEC)</h2>
+        <p>The IWEC are the result of ASHRAE Research Project 1015 by Numerical Logics and Bodycote Materials Testing Canada for ASHRAE Technical Committee 4.2 Weather Information. The IWEC data files are 'typical' weather files suitable for use with building energy simulation programs for 227 locations outside the USA and Canada.
+          All 227 locations in the IWEC data set are available for download in EnergyPlus weather format.</p>
+        <p>The files are derived from up to 18 years (1982-1999 for most stations) of DATSAV3 hourly weather data originally archived at the U. S. National Climatic Data Center. The weather data is supplemented by solar radiation estimated on an hourly basis from earth-sun geometry and hourly weather elements, particularly cloud amount information.
+          The original IWEC CD-ROM is no longer available, as it has been superceded by the IWEC2 CD-ROM, which is available from <a href="http://www.techstreet.com/ashrae/products/1823067">ASHRAE</a>.
+          <a href="http://resourcecenter.ashrae.org/store/ashrae/">ASHRAE</a>. The reference for the IWEC is:</p>
+        <p>ASHRAE. 2001. <em>International Weather for Energy Calculations (IWEC Weather Files) Users Manual and CD-ROM</em>, Atlanta: ASHRAE</p>The original research project final report is also available from <a href="http://www.techstreet.com/ashrae/products/1719102">ASHRAE</a>.
+        <p>The Department of Energy has licensed the IWEC data from ASHRAE. Our license with ASHRAE allows DOE to: </p>
+        <ul>
+          <li>Distribute versions of the individual IWEC files in converted format suitable for EnergyPlus (EPW).</li>
+          <li>Make the EnergyPlus versions of the IWEC files available to users at no cost via this EnergyPlus website.</li>
+        </ul>
+        <p>The IWEC source data are © 2001 American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE), Inc., Atlanta, GA, USA. <a href="http://www.ashrae.org">www.ashrae.org</a> All rights reserved as noted in the <a href="assets/nrel_custom/weather/ashrae_license_agreement.txt">License Agreement and Additional Conditions</a>.</p>
+        <h2 id="KISR">Kuwait Weather Data from Kuwait Institute for Scientific Research (KISR)</h2>
+        <p>Two weather files for Kuwait based on measured meteorological data for Kuwait International Airport and KISR's coastal weather station. Provided by KISR in spreadsheet format. The reference for the development of the KISR is:</p>
+        <p>Shaban, N. 2000. <em>Development of Typical Meteorological Year for Kuwait</em>. Kuwait Institute for Scientific Research, report KISR 5857, Kuwait.</p>
+        <h2 id="NIWA">New Zealand National Institute of Water &amp; Atmospheric Research Ltd (NIWA)</h2>
+        <p>The New Zealand Energy Efficiency and Conservation Authority (EECA) has developed a Home Energy Rating Scheme (HERS) for New Zealand households based on software simulation of energy loss and demand. The software requires hourly data to represent the different <a href="assets/nrel_custom/weather/NZL_NIWA_ClimateZones.png">climates zones around New Zealand</a>,
+          especially for larger population centres. These climate data consist of hourly records for an artificial year created from twelve representative months.</p>
+        <p><b>Please note:</b> The data is publicly-funded data provided by the National Institute of Water and Atmospheric Research Limited (NIWA) and no person or entity may charge for its supply or use. While NIWA has exercised reasonable care and skill in the preparation and collation of the data files, the data is supplied on an 'as is' basis, without warranty of any kind.
+          NIWA accepts no liability for any direct, indirect, special or consequential damages, loss, damage or cost arising from and relating to, any use of the data and/or the information associated with it. Full terms and conditions governing the use of the data can be found at: <a href="http://edenz.niwa.co.nz/about/terms">http://edenz.niwa.co.nz/about/terms</a>.</p>
+        <p>Liley, J Ben, Hisako Shiona, James Sturman, David S Wratt. 2008. <em>Typical Meteorological Years for the New Zealand Home Energy Rating Scheme</em>. Prepared for the Energy Efficiency and Conservation Authority. NIWA Client Report: LAU2008-01-JBL. NIWA, Omakau, New Zealand.</p>
+        <h2 id="RMY">RMY Australia Representative Meteorological Year Climate Files</h2>
+        <p>Developed for the Australia Greenhouse Office for use in complying with <a href="http://www.abcb.gov.au/index.cfm?fuseaction=DocumentView&amp;DocumentID=168">Building Code of Australia</a>. These data are licensed through ACADS BSG Ltd for use by EnergyPlus users. For use in any other formats, users must contact <a href="http://www.ozemail.com.au/%7Eacadsbsg/">ACADS BSG Ltd</a> for licensing information.</p>
+        <p>The RMY data are © 2006 Commonwealth of Australia, Department of the Environment and Water Resources, Australia Greenhouse Office, Canberra, ACT, Australia. All intellectual property rights reserved).</p>
+        <h2 id="SWEC">Spanish Weather for Energy Calculations (SWEC)</h2>
+        <p>Originally developed for use with Calener, a program for building energy labeling in Spain, these weather files cover all 52 Spanish provincial capitals. Calener was developed by the Grupo de Termotecnia of the Escuela Superior de Ingenieros in Seville for the Spanish Government. The weather files were synthetically generated using Climed
+          (Portuguese software developed by Ricardo Aguiar) from mean monthly data coming from the Spanish Meteorological National Institute. These weather files were converted from the DOE-2 binary to EnergyPlus format and include constant wind speeds of 6.7 m/s.</p>
+        <p>For more information on these weather files, contact:<br>
+          <a href="mailto:lpl@tmt.us.es">Professor Luis Pérez-Lombard</a><br>Escuela Superior de Ingenieros</p>
+        <h2 id="SWERA">Solar and Wind Energy Resource Assessment (SWERA)</h2>
+        <p>The Solar and Wind Energy Resource Assessment (SWERA) project, funded by the United Nations Environment Program, is developing high quality information on solar and wind energy resources in 14 developing countries. Typical year hourly data are available for 156 locations in Belize, Brazil, China, Cuba, El Salvador, Ethiopia, Ghana, Guatemala, Honduras, Kenya, Maldives, Nicaragua, and Sri Lanka.
+          The data are available from the <a href="http://openei.org/SWERA">SWERA project website</a>.</p>
+        <h2 name="TMY" id="TMY">Typical Meteorological Year (TMY)</h2>
+        <p>Data for 230 locations in the USA plus four locations in Cuba, Marshall Islands, Palau, and Puerto Rico, derived from a 1948-1980 period of record. Many of the locations in the TMY data set were subsequently updated by the TMY2.</p>
+        <p>Similar to the TMY2, the TMY are data sets of hourly values of solar radiation and meteorological elements for a 1-year period. Their intended use is for computer simulations of solar energy conversion systems and building systems to facilitate performance comparisons of different system types, configurations, and locations in the United States and its territories.
+          Because they represent typical rather than extreme conditions, they are not suited for designing systems to meet the worst-case conditions occurring at a location. The data are available for purchase from the National Climatic Data Center.</p>
+        <p>All TMY locations are available for download in EnergyPlus weather format.</p>
+        <h2 name="TMY2" id="TMY2">Typical Meteorological Year 2 (TMY2)</h2>
+        <p>The TMY2 are data sets of hourly values of solar radiation and meteorological elements for a 1-year period. Their intended use is for computer simulations of solar energy conversion systems and building systems to facilitate performance comparisons of different system types, configurations, and locations in the United States and its territories. Because they represent typical rather than extreme conditions,
+          they are not suited for designing systems to meet the worst-case conditions occurring at a location. The data are available from the National Renewable Energy Laboratory for download or on CD. </p>
+        <p>TMY3 files have somewhat replaced TMY2 files but all TMY2 files are available for download from the website.</p>
+        <h2 id="TMY3">Typical Meteorological Year 3 (TMY3)</h2>
+        <p>Data for 1020 locations in the USA including Guam, Puerto Rico, and US Virgin Islands, derived from a 1991-2005 period of record. All 1020 locations in the TMY3 data set are available for download in EnergyPlus weather format.</p>
+        <p>The TMY3s are data sets of hourly values of solar radiation and meteorological elements for a 1-year period. Their intended use is for computer simulations of solar energy conversion systems and building systems to facilitate performance comparisons of different system types, configurations, and locations in the United States and its territories.
+          Because they represent typical rather than extreme conditions, they are not suited for designing systems to meet the worst-case conditions occurring at a location. The source data are available for download from the <a href="https://nsrdb.nrel.gov/data-sets/archives.html">National Renewable Energy Laboratory</a> for download. The reference for the TMY3 is:</p>
+        <p>Wilcox, S. and W. Marion.&nbsp; 2008. <em>User's Manual for TMY3 Data Sets</em>, NREL/TP-581-43156. April 2008. Golden, Colorado: National Renewable Energy Laboratory.</p>
+        <h2 id="TRY">TRY Test Reference Year</h2>
+        <p>Developed for building simulation use for 17 major state capitals in Brazil. The TRY are a single year selected to be most representative. Source data were provided by Associação Brasileira de Refrigeração, Ar-condicionado, Ventilação e Aquecimento - Instituto Brasileiro do Frio, ABRAVA/IBF junto ao Centro Técnico Aeroespacial - Instituto de Aeronáutica eEspaço, CTA/IAE INFRAERO. LabEEE reviewed, assembled and formatted the data.</p>
+        <p>Carlo, Joyce Correna, Roberto Lamberts. 2005. <em>Processamento de Arquivos Climáticos para Simulação do Desempenho Energético de Edificações</em>, para Eletrobrás/PROCEL, AET N 02/04, Laboratório de Eficiência Energética em Edificações, Universidade Federal de Santa Catarina, Centro Technológico, Departamento de Engenharia Civil, Florianópolis, SC, Brasil. </p>
+      </div>
+    </section>
+  </div>
 </div>

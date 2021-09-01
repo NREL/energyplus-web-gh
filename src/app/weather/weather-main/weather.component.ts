@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { WeatherRegions } from '../../shared/classes/weather';
 import { Regions } from '../../shared/classes/constants';
+import { WeatherRegions } from '../../shared/classes/weather';
 
 @Component({
   selector: 'app-weather',
@@ -11,7 +11,7 @@ import { Regions } from '../../shared/classes/constants';
 export class WeatherComponent implements OnInit {
 
   @Input() regions: Regions[] = WeatherRegions;
-  @Input() empty_keyword: boolean = false;
+  @Input() empty_keyword = false;
 
   constructor() {
   }
@@ -25,7 +25,7 @@ export class WeatherComponent implements OnInit {
   ngOnInit(): void {
     if (!this.regions) {
       throw new Error('WeatherComponent attribute "regions" is required');
-		}
+    }
   }
 
 }

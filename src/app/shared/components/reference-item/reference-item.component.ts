@@ -1,20 +1,20 @@
 import { formatDate } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
-import { ReferenceItem } from '../../classes/constants';
 import { ActivatedRoute } from '@angular/router';
+import { ReferenceItem } from '../../classes/constants';
 import { references } from '../../classes/reference';
 
 @Component({
-    selector: 'app-reference-item',
-    templateUrl: './reference-item.component.html',
-    styleUrls: ['./reference-item.component.scss']
+  selector: 'app-reference-item',
+  templateUrl: './reference-item.component.html',
+  styleUrls: ['./reference-item.component.scss']
 })
 
 export class ReferenceItemComponent implements OnInit {
 
-  @Input() sort: Boolean = true;
-  @Input() image: any = "assets/images/misc/arrow-asc.png";
-  @Input() isSelected: String = 'publication_date';
+  @Input() sort = true;
+  @Input() image: any = 'assets/images/misc/arrow-asc.png';
+  @Input() isSelected = 'publication_date';
   @Input() reference_item: ReferenceItem;
 
   readonly references = references;
@@ -23,14 +23,14 @@ export class ReferenceItemComponent implements OnInit {
   page = 1;
   totalPages = Math.ceil((this.references.length) / this.resultsPerPage) || 1;
 
-  reference: any[] = this.references.sort((a, b) => (formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] 
-  < formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] ? 1 : -1)).reduce((arr, item, i) => {
+  reference: any[] = this.references.sort((a, b) => (formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[2] + formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[0] + formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[1]
+  < formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[2] + formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[0] + formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[1] ? 1 : -1)).reduce((arr, item, i) => {
     return i % this.resultsPerPage === 0 ? [...arr, [item]] : [...arr.slice(0, -1), [...arr.slice(-1)[0], item]];
   }, []);
 
   constructor(private route: ActivatedRoute) {
     this.route.queryParams.subscribe(params => {
-      const { page } = params;
+      const {page} = params;
       if (/^\d+$/.test(page) && Number(page) > 0) {
         this.page = Math.min(Number(page), this.totalPages);
       } else {
@@ -43,8 +43,8 @@ export class ReferenceItemComponent implements OnInit {
     if (!this.reference) {
       throw new Error('ReferenceItemComponent attribute "reference" is required');
     }
-    this.reference = this.references.sort((a, b) => (formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] 
-    < formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] ? 1 : -1)).reduce((arr, item, i) => {
+    this.reference = this.references.sort((a, b) => (formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[2] + formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[0] + formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[1]
+    < formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[2] + formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[0] + formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[1] ? 1 : -1)).reduce((arr, item, i) => {
       return i % this.resultsPerPage === 0 ? [...arr, [item]] : [...arr.slice(0, -1), [...arr.slice(-1)[0], item]];
     }, []);
   }
@@ -54,23 +54,23 @@ export class ReferenceItemComponent implements OnInit {
 
     // TODO: move image out of energyplus.net
     if (this.sort) {
-      this.image = "assets/images/misc/arrow-asc.png";
+      this.image = 'assets/images/misc/arrow-asc.png';
     } else {
-      this.image = "assets/images/misc/arrow-desc.png"
+      this.image = 'assets/images/misc/arrow-desc.png';
     }
-  
+
     this.isSelected = sort_by;
     if (sort_by === 'title') {
-      this.references.sort((a, b) => (this.sort? (a.title < b.title ? 1 : -1) : (a.title < b.title ? -1 : 1)));
+      this.references.sort((a, b) => (this.sort ? (a.title < b.title ? 1 : -1) : (a.title < b.title ? -1 : 1)));
     } else if (sort_by === 'authors') {
       this.references.sort((a, b) => (this.sort ? (a.authors < b.authors ? 1 : -1) : (a.authors < b.authors ? -1 : 1)));
     } else if (sort_by === 'research_org') {
       this.references.sort((a, b) => (this.sort ? (a.research_org < b.research_org ? 1 : -1) : (a.research_org < b.research_org ? -1 : 1)));
     } else if (sort_by === 'publication_date') {
-      this.references.sort((a, b) => (this.sort ? (formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] 
-      < formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] ? 1 : -1) : 
-      (formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] 
-      < formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[2]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[0]+formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split("/")[1] ? -1 : 1)));
+      this.references.sort((a, b) => (this.sort ? (formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[2] + formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[0] + formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[1]
+        < formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[2] + formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[0] + formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[1] ? 1 : -1) :
+        (formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[2] + formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[0] + formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[1]
+        < formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[2] + formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[0] + formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[1] ? -1 : 1)));
     } else if (sort_by === 'osti_id') {
       this.references.sort((a, b) => (this.sort ? (Number(a.osti_id) < Number(b.osti_id) ? 1 : -1) : (Number(a.osti_id) < Number(b.osti_id) ? -1 : 1)));
     } else if (sort_by === 'doi') {
@@ -78,7 +78,7 @@ export class ReferenceItemComponent implements OnInit {
     } else if (sort_by === 'url') {
       this.references.sort((a, b) => (this.sort ? (a.url < b.url ? 1 : -1) : (a.url < b.url ? -1 : 1)));
     } else {
-      throw new Error('Unknow header for sort.')
+      throw new Error('Unknow header for sort.');
     }
 
     this.reference = this.references.reduce((arr, item, i) => {
