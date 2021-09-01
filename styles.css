@@ -9267,6 +9267,9 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 h1.page-header {
   border-bottom: 1px solid #eee;
   margin: 0 0 30px;
@@ -9277,6 +9280,21 @@ h1.version-badge {
 }
 .card {
   margin-bottom: 30px;
+}
+a {
+  color: #3276B1;
+  font-weight: bold;
+}
+.btn-bg-dark {
+  background-color: #3276B1;
+  border-color: #3276B1;
+  color: #fff;
+  font-weight: normal;
+}
+.btn-bg-light {
+  background-color: #5BC0DE;
+  color: #fff;
+  font-weight: normal;
 }
 
 /*# sourceMappingURL=styles.css.map*/
