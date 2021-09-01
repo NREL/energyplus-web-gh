@@ -23,45 +23,48 @@ export class WeatherLocationComponent implements OnInit {
   @Input() state_name: string;
 
   constructor(private route: ActivatedRoute) {
-    for (const region of WeatherRegions) {
-      if (region.region == route.url._value[1].path) {
-        this.region = region;
-      }
-    }
+    route.url.subscribe(values => {
 
-    for (const country of this.region.countries) {
-      if (country.acronym == route.url._value[2].path || country.name == route.url._value[2].path) {
-        this.country = country;
-      }
-    }
-
-    if (this.country.acronym == 'USA') {
-      const us_state = route.url._value[3].path;
-
-      for (const location of this.country.locations) {
-        if (location.state_route == us_state || location.state_name == us_state) {
-          this.state_route = location.state_route;
-          this.us_state = location.state_name;
-          this.us_states.push(location);
+      for (const region of WeatherRegions) {
+        if (region.region == values[1].path) {
+          this.region = region;
         }
       }
-    } else if (this.country.acronym == 'CAN') {
-      const can_state = route.url._value[3].path;
 
-      for (const location of this.country.locations) {
-        if (location.state_route == can_state || location.state_name == can_state) {
-          this.state_route = location.state_route;
-          this.can_state = location.state_name;
-          this.can_states.push(location);
+      for (const country of this.region.countries) {
+        if (country.acronym == values[2].path || country.name == values[2].path) {
+          this.country = country;
         }
       }
-    } else {
-      for (const location of this.country.locations) {
-        if (location.title == route.url._value[3].path) {
-          this.location = location;
+
+      if (this.country.acronym == 'USA') {
+        const us_state = values[3].path;
+
+        for (const location of this.country.locations) {
+          if (location.state_route == us_state || location.state_name == us_state) {
+            this.state_route = location.state_route;
+            this.us_state = location.state_name;
+            this.us_states.push(location);
+          }
+        }
+      } else if (this.country.acronym == 'CAN') {
+        const can_state = values[3].path;
+
+        for (const location of this.country.locations) {
+          if (location.state_route == can_state || location.state_name == can_state) {
+            this.state_route = location.state_route;
+            this.can_state = location.state_name;
+            this.can_states.push(location);
+          }
+        }
+      } else {
+        for (const location of this.country.locations) {
+          if (location.title == values[3].path) {
+            this.location = location;
+          }
         }
       }
-    }
+    });
   }
 
   ngOnInit(): void {

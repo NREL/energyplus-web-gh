@@ -18,16 +18,18 @@ export class ReferenceTemplateComponent implements OnInit {
   @Input() time: string;
 
   constructor(private route: ActivatedRoute) {
-    const time = new Date();
-    this.day = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][time.getDay()];
-    this.date = time.getMonth() + 1 + '/' + time.getDate() + '/' + time.getFullYear();
-    this.time = time.getHours() + ':' + ('0' + time.getMinutes()).slice(-2);
+    route.url.subscribe(values => {
+      const time = new Date();
+      this.day = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][time.getDay()];
+      this.date = time.getMonth() + 1 + '/' + time.getDate() + '/' + time.getFullYear();
+      this.time = time.getHours() + ':' + ('0' + time.getMinutes()).slice(-2);
 
-    for (const reference of this.reference) {
-      if (reference.id == route.url._value[1].path) {
-        this.reference_item = reference;
+      for (const reference of this.reference) {
+        if (reference.id == values[1].path) {
+          this.reference_item = reference;
+        }
       }
-    }
+    });
   }
 
   ngOnInit(): void {

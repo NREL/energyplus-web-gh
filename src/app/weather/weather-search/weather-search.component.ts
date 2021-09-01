@@ -16,21 +16,25 @@ export class WeatherSearchComponent {
   @Input() total_results = 0;
 
   constructor(private route: ActivatedRoute) {
-    this.keyword = route.url._value[1].path;
+    route.url.subscribe(values => {
 
-    const locations = [];
-    const countries = [];
-    for (const region of WeatherRegions) {
-      for (const country of region.countries) {
-        countries.push(country.name);
-        for (const location of country.locations) {
-          if (location.title.toLowerCase().includes(this.keyword.toLowerCase())) {
-            locations.push(location);
+      this.keyword = values[1].path;
+      const locations = [];
+      const countries = [];
+      for (const region of WeatherRegions) {
+        for (const country of region.countries) {
+          countries.push(country.name);
+          for (const location of country.locations) {
+            if (location.title.toLowerCase().includes(this.keyword.toLowerCase())) {
+              locations.push(location);
+            }
           }
         }
       }
-    }
-    this.locations = locations;
-    this.total_results = this.locations.length;
+      this.locations = locations;
+      this.total_results = this.locations.length;
+
+    });
+    
   }
 }

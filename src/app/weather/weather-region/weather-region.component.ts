@@ -14,11 +14,13 @@ export class WeatherRegionComponent implements OnInit {
   @Input() region: Regions;
 
   constructor(private route: ActivatedRoute) {
-    for (const region of WeatherRegions) {
-      if (region.region == route.url._value[1].path) {
-        this.region = region;
+    route.url.subscribe(values => {
+      for (const region of WeatherRegions) {
+        if (region.region == values[1].path) {
+          this.region = region;
+        }
       }
-    }
+    });
   }
 
   ngOnInit(): void {
