@@ -11,13 +11,14 @@ import { WeatherRegionComponent } from './weather/weather-region/weather-region.
 import { WeatherCountryComponent } from './weather/weather-country/weather-country.component';
 import { WeatherLocationUsCanComponent } from './weather/weather-location-us-can/weather-location-us-can.component';
 import { WeatherSearchComponent } from './weather/weather-search/weather-search.component';
-import { ReferencesComponent } from './references/references.component';
-import { ReferenceTemplateComponent } from './reference/reference.component';
-import { ContributingComponent } from './contributing/contributing.component';
+import { ReferencesComponent } from './shared/components/references/references.component';
+import { ReferenceTemplateComponent } from './shared/components/references/reference/reference.component';
+import { ContributingComponent } from './shared/components/contributing/contributing.component';
 import { WeatherSimulationComponent } from './weather/weather-simulation/weather-simulation.component';
 import { WeatherSourcesComponent } from './weather/weather-sources/weather-sources.component';
 import { WeatherLocationComponent } from './weather/weather-location/weather-location.component';
-import { InstallationComponent } from './installation/installation.component';
+import { InstallationComponent } from './shared/components/installation/installation.component';
+import { TestingComponent } from './shared/components/testing/testing.component';
 
 const routes: Routes = [{
   path: '',
@@ -73,6 +74,9 @@ const routes: Routes = [{
 }, {
   path: 'installation',
   component: InstallationComponent
+}, {
+  path: 'testing',
+  component: TestingComponent
 }, {
   path: '**',
   redirectTo: ''
