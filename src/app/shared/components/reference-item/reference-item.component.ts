@@ -78,7 +78,7 @@ export class ReferenceItemComponent implements OnInit {
     } else if (sort_by === 'url') {
       this.references.sort((a, b) => (this.sort ? (a.url < b.url ? 1 : -1) : (a.url < b.url ? -1 : 1)));
     } else {
-      throw new Error('Unknow header for sort.');
+      throw new Error('Unknown header for sort.');
     }
 
     this.reference = this.references.reduce((arr, item, i) => {
