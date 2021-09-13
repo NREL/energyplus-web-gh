@@ -17,17 +17,17 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ContributingComponent } from './contributing/contributing.component';
+import { ContributingComponent } from './shared/components/contributing/contributing.component';
 import { DocumentationComponent } from './documentation/documentation.component';
 import { DownloadsComponent } from './downloads/downloads.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { InstallationComponent } from './installation/installation.component';
+import { InstallationComponent } from './shared/components/installation/installation.component';
 import { LicensingComponent } from './licensing/licensing.component';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { QuickStartComponent } from './quick-start/quick-start.component';
-import { ReferencesComponent } from './references/references.component';
+import { ReferencesComponent } from './shared/components/references/references.component';
 import { PaginationComponent } from './shared/components/pagination/pagination.component';
 import { RecentReleaseComponent } from './shared/components/recent-release/recent-release.component';
 import { ReferenceItemComponent } from './shared/components/reference-item/reference-item.component';
