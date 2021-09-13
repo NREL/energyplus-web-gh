@@ -6,10 +6,10 @@
                 <div>
                     <section>
                         <p style="font-weight:bold;font-size:0.9rem;margin-left:-10px;">Welcome to the EnergyPlus Quick Start guide!</p>
-                        <p style="font-size:0.9rem;width:1145px;margin-left:-10px;">The following guide is intended to give a very high-level overview of EnergyPlus and get you up and running quickly with the program. 
-                            So, while this run-through will introduce many of the concepts that are needed, it will not go into detail on any subject. 
-                            For more in-depth coverage of the topics covered here, the full EnergyPlus documentation (which is installed with EnergyPlus) is available as well as training offerings from a variety of sources (see the 
-                            <a routerlink="/support">Support & Training page</a>
+                        <p style="font-size:0.9rem;width:1145px;margin-left:-10px;">The following guide is intended to give a very high-level overview of EnergyPlus and get you up and running quickly with the program.
+                            So, while this run-through will introduce many of the concepts that are needed, it will not go into detail on any subject.
+                            For more in-depth coverage of the topics covered here, the full EnergyPlus documentation (which is installed with EnergyPlus) is available as well as training offerings from a variety of sources (see the
+                            <a routerLink="/support">Support & Training page</a>
                              for further details).
                         </p>
                         <div class="row">
@@ -56,30 +56,30 @@
                             </div>
                             <div class="col-sm-8">
                                 <h2 id="who">Who should be using this guide?</h2>
-                                <p style="font-size:0.9rem;width:850px;">This guide is intended for users that are interested in directly running EnergyPlus. 
-                                    Many users interact with EnergyPlus through graphical user interface that handle the details of running EnergyPlus. 
-                                    If you are using one of these interfaces, and are interested in directly interacting with EnergyPlus, 
-                                    you may find value in this guide as an introduction to the EnergyPlus example files. 
+                                <p style="font-size:0.9rem;width:850px;">This guide is intended for users that are interested in directly running EnergyPlus.
+                                    Many users interact with EnergyPlus through graphical user interface that handle the details of running EnergyPlus.
+                                    If you are using one of these interfaces, and are interested in directly interacting with EnergyPlus,
+                                    you may find value in this guide as an introduction to the EnergyPlus example files.
                                     This guide will presume some familiarity with command-line execution of programs.
                                     Tutorials on this aspect of using EnergyPlus are readily available online and are beyond the scope of this document.
                                 </p>
                                 <h2 id="what">What is EnergyPlus?</h2>
-                                <p style="font-size:0.9rem;width:850px;">EnergyPlus is an energy analysis and thermal load simulation program. Based on a user’s description of a building’s geometry, 
-                                    construction materials, usage, and systems, EnergyPlus will calculate the heating and cooling loads necessary to maintain thermal control setpoints, 
-                                    conditions throughout secondary HVAC system and coil loads, and the energy consumption of primary plant equipment as well as many other simulation 
-                                    details that are necessary to verify that the simulation is performing as the actual building would. EnergyPlus is a command-line tool that takes 
+                                <p style="font-size:0.9rem;width:850px;">EnergyPlus is an energy analysis and thermal load simulation program. Based on a user’s description of a building’s geometry,
+                                    construction materials, usage, and systems, EnergyPlus will calculate the heating and cooling loads necessary to maintain thermal control setpoints,
+                                    conditions throughout secondary HVAC system and coil loads, and the energy consumption of primary plant equipment as well as many other simulation
+                                    details that are necessary to verify that the simulation is performing as the actual building would. EnergyPlus is a command-line tool that takes
                                     input files and produces output files.
                                 </p>
-                                <p style="font-size:0.9rem;width:850px;">Finally, EnergyPlus is open source and available under a permissive license with no “give back” provisions. The source code of the program is available 
+                                <p style="font-size:0.9rem;width:850px;">Finally, EnergyPlus is open source and available under a permissive license with no “give back” provisions. The source code of the program is available
                                     and open for public inspection and revision, hosted at <a href="https://www.github.com/NREL/EnerguPlus">www.github.com/NREL/EnergyPlus</a>
-                                    . The program is not intended to be a black box that is unintelligible to the users and developers around the world. The hope is that this access to 
+                                    . The program is not intended to be a black box that is unintelligible to the users and developers around the world. The hope is that this access to
                                     source code will improve the accuracy and usability of the program over the long term and allow many developers to work on the program simultaneously.
                                 </p>
                                 <h2 id="install">Installing EnergyPlus</h2>
-                                <p style="font-size:0.9rem;width:850px;">EnergyPlus is provided in compiled form for several major operating systems, including Windows, Mac, and Linux. Check 
+                                <p style="font-size:0.9rem;width:850px;">EnergyPlus is provided in compiled form for several major operating systems, including Windows, Mac, and Linux. Check
                                     <a href="https://www.github.com/NREL/EnergyPlus/releases">www.github.com/NREL/EnergyPlus/releases</a>
-                                    to see if your system is supported. After downloading the correct installer, install the program. If your operating system allows for the selection of a 
-                                    custom installation location, keep in mind that it is best to install on a local drive (i.e., not on a drive that your computer connects to via network). 
+                                    to see if your system is supported. After downloading the correct installer, install the program. If your operating system allows for the selection of a
+                                    custom installation location, keep in mind that it is best to install on a local drive (i.e., not on a drive that your computer connects to via network).
                                     Make a note of the installation directory, this directory will be referred to throughout this guide as .
                                 </p>
                                 <div class="row">
@@ -88,10 +88,10 @@
                                             <span style="font-size:1.2rem;">
                                                 <fa-icon [icon]="['fas', 'exclamation-triangle']" class="fa-2x"></fa-icon> Note 1
                                             </span>
-                                            <p style="font-size:0.9rem;">If EnergyPlus was installed as part of a user interface, it is possible that not all the support files will be present. 
-                                                In this situation, it may be best to install the EnergyPlus package on a computer system that does not have the user interface 
-                                                installer in order to avoid any conflicts. If you decide to install on a system with a user interface installed, take care that 
-                                                you do not overwrite or interfere with the version that came with your user interface (e.g., by adding to your path). This guide 
+                                            <p style="font-size:0.9rem;">If EnergyPlus was installed as part of a user interface, it is possible that not all the support files will be present.
+                                                In this situation, it may be best to install the EnergyPlus package on a computer system that does not have the user interface
+                                                installer in order to avoid any conflicts. If you decide to install on a system with a user interface installed, take care that
+                                                you do not overwrite or interfere with the version that came with your user interface (e.g., by adding to your path). This guide
                                                 does not assume that EnergyPlus is in your path or make use of any features that might require this.
                                             </p>
                                         </div>
@@ -164,19 +164,19 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p style="width:850px;font-size:0.9rem;">The first step is beyond the scope of this guide, but this first step is often the most difficult. For this guide the assumption will be that all relevant building details are available. 
+                                <p style="width:850px;font-size:0.9rem;">The first step is beyond the scope of this guide, but this first step is often the most difficult. For this guide the assumption will be that all relevant building details are available.
                                     In many situations, two input files will need to be supplied as inputs:
                                 </p>
                                 <ul style="width:850px;font-size:0.9rem;">
-                                    <li><strong>IDF building model description file</strong>: The primary way model inputs are communicated to EnergyPlus are through the 
-                                    <strong>I</strong>nput <strong>D</strong>ata <strong>F</strong>ile (IDF). This file is a plain text file that contains a set of objects that represent the building and associated systems. 
+                                    <li><strong>IDF building model description file</strong>: The primary way model inputs are communicated to EnergyPlus are through the
+                                    <strong>I</strong>nput <strong>D</strong>ata <strong>F</strong>ile (IDF). This file is a plain text file that contains a set of objects that represent the building and associated systems.
                                     See the “Input Output Reference” in the EnergyPlus documentation for many more details.</li>
-                                    <li><strong>EPW weather file</strong>: Weather plays an extremely important role in the energy use of buildings, and most EnergyPlus simulations use weather inputs from an 
-                                    <strong>E</strong>nergy<strong>P</strong>lus <strong>W</strong>eather (EPW) file. This file is also a plain text file that contains weather information. The file format is documented in the 
-                                    “Auxiliary Program Guide” documentation. EnergyPlus ships with Typical Meteorological Year (TMY) weather files for a number of locations in the United States and additional weather files are 
+                                    <li><strong>EPW weather file</strong>: Weather plays an extremely important role in the energy use of buildings, and most EnergyPlus simulations use weather inputs from an
+                                    <strong>E</strong>nergy<strong>P</strong>lus <strong>W</strong>eather (EPW) file. This file is also a plain text file that contains weather information. The file format is documented in the
+                                    “Auxiliary Program Guide” documentation. EnergyPlus ships with Typical Meteorological Year (TMY) weather files for a number of locations in the United States and additional weather files are
                                     available from other sources, including the EnergyPlus website (energyplus.net).</li>
                                 </ul>
-                                <p style="width:860px;font-size:0.9rem;">Running EnergyPlus with these two files will produce a set of output files which are used in the final step, analysis of results. Which files are produced depends on exactly how the program is 
+                                <p style="width:860px;font-size:0.9rem;">Running EnergyPlus with these two files will produce a set of output files which are used in the final step, analysis of results. Which files are produced depends on exactly how the program is
                                     run and what is in the input file. If EnergyPlus is run via an interface, the interface may intercept some of the output files and reformat them.</p>
                                 <p style="font-size:0.9rem;">EnergyPlus produces a number of files that are unique to EnergyPlus, including:</p>
                                 <ol style="font-size:0.9rem;width:840px;">
@@ -197,8 +197,8 @@
                                 <div class="card card-body bg-light" style="width:800px;font-family:Courier;padding-top:10px;padding-bottom:10px;margin-left:30px;font-size:0.9rem;">-w or --weather: this option is used to specify the input EPW weather file</div>
                                 <p style="font-size:0.9rem;width:880px;">Assuming you have an input file named "mymodel.idf" and an EPW file named "myweather.epw" in your working directory, running the model is accomplished with: </p>
                                 <div class="card card-body bg-light" style="width:800px;font-family:Courier;padding-top:10px;padding-bottom:10px;margin-left:30px;font-size:0.9rem;">$/energyplus --idd /EnergyPlus.idd --weather myweather.epw mymodel.idf</div>
-                                <p style="font-size:0.9rem;width:880px;">This will result in outputs stored in the working directory.</p>          
-                                <h2 id="examplefiles">Using the EnergyPlus Example Files</h2>                      
+                                <p style="font-size:0.9rem;width:880px;">This will result in outputs stored in the working directory.</p>
+                                <h2 id="examplefiles">Using the EnergyPlus Example Files</h2>
                                 <h3>Overview</h3>
                                 <p style="width:870px;font-size:0.9rem;">EnergyPlus ships with a large number of example files that demonstrate the use of the various features of the solver. For the most part, each object or module that is part of EnergyPlus is demonstrated in these example files. The example files are available as part of the installation package in the directory:</p>
                                 <div style="font-size:0.9rem;padding:0px 100px 20px 100px;"><span style="font-size:1.8em;"><fa-icon [icon]="['far', 'folder-open']" style="color:#0c5460;"></fa-icon></span>&nbsp;&nbsp;&nbsp;&lt;root&gt;/ExampleFiles/</div>
@@ -245,14 +245,14 @@
                                         &nbsp;&nbsp;&nbsp;&nbsp;100.,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;!- Water Outlet Upper Temperature Limit &#123;C&#125;<br/>
                                         &nbsp;&nbsp;&nbsp;&nbsp;LeavingSetpointModulated;!- Boiler Flow Mode<br/>
                                     </div>
-                                    <p style="width:860px;font-size:0.9rem;margin-left:-40px;">In EnergyPlus terminology, this input object represents the hot water boiler. The <strong>input object</strong> 
-                                        specifies the parameters that are needed to simulate the boiler and its interactions with the rest of the building systems. This boiler uses natural gas as fuel, and the capacity and design flow rates are “autosized”. 
+                                    <p style="width:860px;font-size:0.9rem;margin-left:-40px;">In EnergyPlus terminology, this input object represents the hot water boiler. The <strong>input object</strong>
+                                        specifies the parameters that are needed to simulate the boiler and its interactions with the rest of the building systems. This boiler uses natural gas as fuel, and the capacity and design flow rates are “autosized”.
                                         This means that EnergyPlus will determine the values for these parameters that most likely meet the needs of the building. All input objects in EnergyPlus input files will look something like this.
                                     </p>
                                     <h3 id="runsim" style="margin-left:-45px;">Running a simulation</h3>
                                     <h4 style="margin-left:-45px;">Step-By-Step Instructions</h4>
                                     <ol style="margin-left:-50px;width:860px;font-size:0.9rem;">
-                                        <li>The model file is located in your EnergyPlus installation folder, in /ExampleFiles/5ZoneAirCooled.idf. Make a new directory in a convenient location and copy the input file into this location. 
+                                        <li>The model file is located in your EnergyPlus installation folder, in /ExampleFiles/5ZoneAirCooled.idf. Make a new directory in a convenient location and copy the input file into this location.
                                             Take care to place this directory in a location that is local to the machine you are using, and keep in mind that in some environments it can be hard to tell what is local and what is not.</li>
                                         <li>Obtain a weather file. This model is situated in Chicago, IL, so copy the Chicago weather file<br/>
                                             <div style="padding:10px; padding-bottom:0px;">
@@ -278,7 +278,7 @@
                                         <div style="margin-left:100px;padding:10px 100px 0px 20px;width:800px;"><img src="assets/nrel_custom/images/quickstart_2.png" width="90%"></div>
                                         <p style="margin-left:200px;padding-left:80px;font-size:0.9rem;">Figure 2: Directory Contents After Run</p>
                                     </ol>
-                                    <p style="margin-left:-40px;font-size:0.9rem;width:880px;">EnergyPlus produces a number of different output files that contain different kinds of output. The summary table in eplusout.htm is useful and scanning through it will provide some information about the behavior of the boiler. For example (for EnergyPlus 9.0), 
+                                    <p style="margin-left:-40px;font-size:0.9rem;width:880px;">EnergyPlus produces a number of different output files that contain different kinds of output. The summary table in eplusout.htm is useful and scanning through it will provide some information about the behavior of the boiler. For example (for EnergyPlus 9.0),
                                         the boiler used 68.52 GJ worth of natural gas annually. This is useful, but in many situations the results required are somewhat more granular. To see what outputs are available, open the report variable data dictionary (eplusout.rdd) and search for “Boiler”. The following items should show up:</p>
                                     <div style="padding:0px 40px;margin-left:-20px;">
                                         <div class="card card-body bg-light" style="width:700px;font-family:Courier;font-size:0.8rem;padding-top:30px;padding-bottom:30px;">
@@ -308,33 +308,33 @@
                                             The “-r” option (synonymous with “--readvars”) will execute the ReadVarsESO program after EnergyPlus runs to generates a CSV file from the ESO.
                                         </li>
                                     </ol>
-                                    <p style="margin-left:-40px;width:55rem;font-size:0.9rem;"><strong>Note</strong>—Strictly speaking, making a separate copy of the input file before making any changes is not required. However, it is good practice to keep backup copies of working files in the event that you make a mistake in editing the file, and that’s the reason for creation of a new version of the input file. 
+                                    <p style="margin-left:-40px;width:55rem;font-size:0.9rem;"><strong>Note</strong>—Strictly speaking, making a separate copy of the input file before making any changes is not required. However, it is good practice to keep backup copies of working files in the event that you make a mistake in editing the file, and that’s the reason for creation of a new version of the input file.
                                         Since the input files are text files, any procedure that tracks modifications of text files (e.g. most version control systems) could be used to keep backup copies.</p>
                                     <h4 style="margin-left:-40px;">Analysis</h4>
-                                    <p style="margin-left:-40px;width:55rem;font-size:0.9rem;">The CSV file that was written is named eplusout.csv. Load the file into your favorite spreadsheet program and you will find that it has quite a lot of data in it. The variables are arranged in columns, and the variable of interest is in the column named “CENTRAL BOILER:Boiler Gas Energy [J](Daily)”. 
+                                    <p style="margin-left:-40px;width:55rem;font-size:0.9rem;">The CSV file that was written is named eplusout.csv. Load the file into your favorite spreadsheet program and you will find that it has quite a lot of data in it. The variables are arranged in columns, and the variable of interest is in the column named “CENTRAL BOILER:Boiler Gas Energy [J](Daily)”.
                                     Find that column and note that it only has one entry per day. Even though the variable values are in the rows of the last hour of each day, each result applies to the whole day (and not just the last hour). Plotting the variable results in the graph shown in Figure 3.</p>
                                     <div style="padding:10px 100px 20px 100px;"><img src="assets/nrel_custom/images/quickstart_3.png" width="150%">
                                         <p style="width:48rem;padding-left:200px;font-size:0.9rem;">Figure 3: Daily Boiler Gas Energy</p>
                                     </div>
                                     <p style="margin-left:-40px;width:55rem;font-size:0.9rem;">Energy use of the boiler is, as expected for a building located in northern Illinois, somewhat higher in the winter months. Boiler energy use is much lower, but nonzero, during summer months.</p>
                                     <h2 id="reading" style="margin-left:-40px;">Wrap Up and Further Reading</h2>
-                                    <p style="margin-left:-40px;width:55rem;font-size:0.9rem;">If you’ve made it this far, you’ve run a basic simulation, added an output variable, and seen how boiler energy use varies throughout the year for one the EnergyPlus example models. The example files are a very good way to familiarize yourself with the various feature of EnergyPlus, but additional documentation is available. 
+                                    <p style="margin-left:-40px;width:55rem;font-size:0.9rem;">If you’ve made it this far, you’ve run a basic simulation, added an output variable, and seen how boiler energy use varies throughout the year for one the EnergyPlus example models. The example files are a very good way to familiarize yourself with the various feature of EnergyPlus, but additional documentation is available.
                                         EnergyPlus is a complex program with many features, and the following documents are installed in /Documentation and provide additional details on the features:</p>
                                     <ul style="margin-left:-50px;width:55rem;font-size:0.9rem;">
-                                        <li><a href="assets/nrel_custom/pdfs/pdfs_v9.5.0/EnergyPlusEssentials.pdf" style="text-align:left;">EnergyPlus Essentials<img src="assets/images/icon_pdf.gif" class="figure-img ml-1"></a>
+                                        <li><a href="assets/nrel_custom/pdfs/pdfs_v9.5.0/EnergyPlusEssentials.pdf" style="text-align:left;">EnergyPlus Essentials<img src="assets/images/icon_pdf.png" class="figure-img ml-1"></a>
                                             – A longer introduction to the use of EnergyPlus, including more background on the program itself and the ecosystem. It also provides some guidance as to how to determine what potential sources of errors are when EnergyPlus runs into problems and how serious those problems might be.
                                         </li>
-                                        <li><a href="assets/nrel_custom/pdfs/pdfs_v9.5.0/EngineeringReference.pdf" style="text-align:left;">Engineering Reference<img src="assets/images/icon_pdf.gif" class="figure-img ml-1"></a>
+                                        <li><a href="assets/nrel_custom/pdfs/pdfs_v9.5.0/EngineeringReference.pdf" style="text-align:left;">Engineering Reference<img src="assets/images/icon_pdf.png" class="figure-img ml-1"></a>
                                             – The Engineering Reference provides in-depth coverage of the theoretical basis behind the various calculations contained in the program. This reference includes more information on modeling equations, limitations, and literature references.
                                         </li>
-                                        <li><a href="assets/nrel_custom/pdfs/pdfs_v9.5.0/InputOutputReference.pdf" style="text-align:left;">Input Output Reference<img src="assets/images/icon_pdf.gif" class="figure-img ml-1"></a>
+                                        <li><a href="assets/nrel_custom/pdfs/pdfs_v9.5.0/InputOutputReference.pdf" style="text-align:left;">Input Output Reference<img src="assets/images/icon_pdf.png" class="figure-img ml-1"></a>
                                             – This document is a thorough description of the various input and output files related to EnergyPlus, the format of these files, and how the files interact and interrelate
                                         </li>
-                                        <li><a href="assets/nrel_custom/pdfs/pdfs_v9.5.0/OutputDetailsAndExamples.pdf" style="text-align:left;">Output Details and Examples<img src="assets/images/icon_pdf.gif" class="figure-img ml-1"></a>
+                                        <li><a href="assets/nrel_custom/pdfs/pdfs_v9.5.0/OutputDetailsAndExamples.pdf" style="text-align:left;">Output Details and Examples<img src="assets/images/icon_pdf.png" class="figure-img ml-1"></a>
                                             – While the Input Output Reference document touches on some of the outputs from EnergyPlus, this document has more details and specific examples. It also addresses the reference data sets that are included with the installation package.
                                         </li>
                                     </ul>
-                                    <p style="margin-left:-40px;width:55rem;font-size:0.9rem;">Additional documentation and online information sources available to users can be found on the <a routerlink="/documentation">documentation page</a>.</p>
+                                    <p style="margin-left:-40px;width:55rem;font-size:0.9rem;">Additional documentation and online information sources available to users can be found on the <a routerLink="/documentation">documentation page</a>.</p>
                                 </div>
                             </div>
                         </div>

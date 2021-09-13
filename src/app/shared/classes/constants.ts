@@ -22,19 +22,19 @@ export type ReferenceItem = {
     issue: string,
     page_start: number,
     page_end: number
-}
+};
 
 export type Regions = {
     region: string,
     region_name: string,
     countries: Countries[],
-}
+};
 
 export type Countries = {
     acronym: string,
     name: string,
     locations: Locations[],
-}
+};
 
 export type Locations = {
     title: string,
@@ -47,4 +47,4 @@ export type Locations = {
     stat: string,
     mos: string,
     all: string
-}
+};

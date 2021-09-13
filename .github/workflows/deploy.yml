@@ -14,8 +14,8 @@ jobs:
       - name: Install and Build
         run: |
           npm install
-          npm install @angular/cli > /dev/null
-          ./node_modules/@angular/cli/bin/ng build
+          npm run build
+          cp dist/index.html dist/404.html
       - name: Deploy Main Site
         uses: JamesIves/github-pages-deploy-action@4.1.1
         if: github.ref == 'refs/heads/main'

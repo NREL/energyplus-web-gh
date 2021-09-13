@@ -12,7 +12,7 @@ export class RecentReleaseComponent implements OnInit {
 
   ngOnInit(): void {
     if (!this.release){
-      throw new Error('RecentReleaseComponent attribute "release" is required')
+      throw new Error('RecentReleaseComponent attribute "release" is required');
     }
   }
 }
