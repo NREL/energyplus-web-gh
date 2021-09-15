@@ -1,0 +1,104 @@
+<ng-container>
+  <header role="banner" id="page-header">
+    <div class="row">
+      <section class="col-sm-12">
+        <h1 class="page-header">Installation Instructions</h1>
+        <div class="region region-content">
+          <div>
+            <h2 id="windows" style="margin-top:-10px;margin-bottom:10px;">Windows</h2>
+            <div class="content" style="font-size:0.9rem;">
+              <p>The complete install requires 100 MB of free space.</p>
+              <p>To install EnergyPlus:</p>
+              <ol>
+                <li>Download and save the setup program to your hard drive (you should save the setup program so that you can change options later).</li>
+                <li>Once downloading is complete, double-click on the setup file to start the installation.</li>
+              </ol>
+              <p>The complete installation setup program will automatically install the options you select.</p>
+            </div>
+          </div>
+          <div>
+            <h2 id="linux" style="margin-bottom:10px;">Linux</h2>
+            <div class="content">
+              <div class="field-item even" property="content:encoded"><p style="font-size:0.9rem;">EnergyPlus Installation/Uninstall Instructions for Linux operating systems</p>
+                <h4 id="required">Required Software</h4>
+                <ol style="font-size:0.9rem;">
+                  <li><p>EnergyPlus for Linux is only tested on recent versions of Ubuntu and Redhat Linux. The package should, however, be compatible with most recent distributions of Linux.</p></li>
+                </ol>
+                <h4 id="optional">Optional Software</h4>
+                <ol style="font-size:0.9rem;">
+                  <li>bash - The support programs that are distributed with this software are Bash shell scripts. To use these scripts you will need to have the Bash shell installed on your system.</li>
+                  <li>Dos2unix converter that converts DOS text files to the UNIX format. You may need this to convert DOS input or data set files to the UNIX file format. You do not need this program to convert weather files — they should read okay from any source.<p> You can get dos2unix from <a href="https://www.rpmfind.net">www.rpmfind.net</a>.</p></li>
+                  <li>Adobe Acrobat Reader 8.0 or later for viewing documentation files.<br>Download this from <a href="https://www.adobe.com/">http://www.adobe.com/</a>.</li>
+                </ol>
+                <h4 id="install">Install EnergyPlus</h4>
+                <ol style="font-size:0.9rem;">
+                  <li>To download, right click the link provided in your registration email and select 'Save Link As' from the menu.<br>In the <em>Save As</em>... panel: Make sure the Selection field contains your home directory followed by the file name <em>etEPlusV830-lin.sh. </em>. Click OK.</li>
+                  <li>The download is a self extracting archive. After the download is complete, make the downloaded file executable by running the command (where % is the command prompt):<p> % chmod +x etEPlusV830-lin.sh </p></li>
+                  <li>The default install location is /usr/local, therefore the installer must be executed with administrative privileges. Assuming your account has administrative rights, enter:<p> % sudo ./etEPlusV830-lin.sh </p>
+                    <p> Alternatively, you can install without administrative privileges, but custom paths must be entered when prompted. To install without administrative rights enter:</p>
+                    <p> % ./etEPlusV830-lin.sh</p></li>
+                  <li>Enter your admin password if required by sudo.</li>
+                  <li>The installer will prompt for the installation path. Type the enter key to accept the default install location. EnergyPlus will be installed to a directory named EnergyPlus-V830.</li>
+                  <li>The installer will prompt for a path where symbolic links will be created to the software executables. The default is /usr/local/bin. Type the enter key to accept the default link location.</li>
+                  <li>As previously stated, the package is password protected by openssl. The password will be sent to your email address when the software is downloaded. Enter the password at the prompt.</li>
+                  <li>If symbolic links were created to a location in your path (ie. /usr/local/bin ), the installation is complete. Type the following for further information on running the included scripts.<p> % runenergyplus --help<br>% energyplus --help<br>% readvarseso --help</p></li>
+                  <li>If EnergyPlus was installed to a non standard location, you may need to modify the PATH environment variable to point to the bin directory of the EnergyPlus installation. See your distributions documentation for instructions on setting the PATH variable.</li>
+                </ol>
+                <h4 id="uninstall">Uninstall EnergyPlus</h4>
+                <p style="font-size:0.9rem;">To uninstall EnergyPlus, execute the uninstall.sh script in the EnergyPlus installation directory. This script will remove any symbolic links pointing to the installation. After the symbolic links are removed, you may remove the EnergyPlus directory to completely remove the installed software.</p>
+                <h4 id="issues">Known Issues</h4>
+                <p style="font-size:0.9rem;">While this version of EnergyPlus will run most IDF or IMF files regardless of origin (e.g, MS-DOS or linux), a few easy to work around cross-platform incompatibilities exist.&nbsp; Specifically, file path name delimiters can cause problems.</p>
+                <p style="font-size:0.9rem;">For example, the FileName field in the <strong>Construction:WindowDataFile</strong> object is operating system dependent. Consequently, if an IDF or IMF file originates on a MS-DOS machine (i.e., Windows machine), check to make sure that any path delimiters in the FileName field are changed to their unix equivalents (the FileName DataSets\Window5DataFile.dat will need to be changed to DataSets/Window5DataFile.dat). The same is true the Name of File field in the <strong>Schedule:File</strong> object.</p>
+                <p style="font-size:0.9rem;">The weather file menu in the program EP-Launch Lite is built each time the program starts. What this means is that if you add a weather file to the weatherdata directory while EP-Launch Lite is running, the program will be unaware of the new weather file. To work around this issue, quit and restart EP-Launch Lite. The new weather file should now appear in the popup menu.</p>
+                <h5>Notice for Linux Users</h5>
+                <p style="font-size:0.9rem;">At the present time, the Linux version of EnergyPlus is a subset of the Windows version. The Linux version includes the EnergyPlus simulation engine and an interface to select input files and run a simulation. The Windows version of EnergyPlus includes additional utilities such as EP-Launch and IDF Editor which do not currently have Linux equivalents. IDF Editor is useful to simplify editing EnergyPlus input files. If you have a virtual Windows machine on your Linux machine, you may wish to also install the Windows version of EnergyPlus in order to access the additional utilities as needed.</p>
+                <h4 id="help">Help</h4>
+                <p style="font-size:0.9rem;">For questions regarding downloading and installing EnergyPlus on the Linux operating system, send email to <a href="mailto:kyle.benne@nrel.gov">kyle.benne@nrel.gov</a>.<br/>
+                  For any other EnergyPlus related questions, please visit <a href="http://www.energyplus.net">www.energyplus.net</a> or send email to <a href="mailto:EnergyPlus-Support@gard.com">EnergyPlus-Support@gard.com</a>.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h2 id="mac" style="margin-bottom:10px;">Mac</h2>
+            <div class="content">
+              <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                <div class="field-items">
+                  <div class="field-item even" property="content:encoded">
+                    <p style="font-size:0.9rem;">This page provides a brief overview of how to install and run EnergyPlus on the Macintosh OS X system. Additional information can be found in the documentation folder. The Mac OS X version of EnergyPlus requires an Intel-based Mac running Mac OS X version 10.5 or newer.</p>
+                    <p>Note that the ReadMe.html document (located in the BaseDocs folder), while helpful in understanding how EnergyPlus works, describes the MS-DOS/Windows version of the EnergyPlus program. For instructions specific to operating the Macintosh version of the program, see below.</p>
+                    <h4 id="install">How to Install EnergyPlus</h4>
+                    <p style="font-size:0.9rem;">If you recently installed EnergyPlus via its installer, skip ahead to the <em>How to Run EnergyPlus</em> section below, otherwise:</p>
+                    <ol style="font-size:0.9rem;">
+                      <li><strong>Open the installer disk image</strong><br>After you have completed downloading the SetEPlusV830-mac-64.dmg disk image, open it by double-clicking its icon.</li>
+                      <li><strong>Start the installation program</strong><br>The disk image contains an installer file named SetEPlusV830-mac-64.pkg. Double-click the installer package to start the installation process.</li>
+                      <li><strong>Follow the on screen prompts of the installation program.</strong><br>The main application will be installed in the EnergyPlus folder within the Applications folder.</li>
+                    </ol>
+                    <h4 id="run">How to Run EnergyPlus</h4>
+                    <p style="font-size:0.9rem;"><strong>From EP-Launch Lite application program:</strong><br>You can run EnergyPlus form the EP-Launch Lite application that is found in the EnergyPlus application folder. </p>
+                    <p style="font-size:0.9rem;"><strong>From command line:</strong><br>Alternatively, from the command line of the terminal window (the Terminal application is found in /Applications/Utilities), type:</p>
+                    <p style="font-size:0.9rem;">% runenergyplus -- help</p>
+                    <p style="font-size:0.9rem;">The resulting terminal out will give you additional information about how to run EnergyPlus.</p>
+                    <p style="font-size:0.9rem;">Note that in the above examples, the "%" symbol represents the command prompt (e.g., your_userid%).<br> You type only the part of the command that follows the prompt (e.g., at the prompt, type "runenergyplus -- help"). </p>
+                    <h4 id="convert">How to Convert DOS Files to UNIX Format</h4>
+                    <p style="font-size:0.9rem;" style="font-size:0.9rem;">From the command line of the terminal window (the Terminal application is found in the /Applications/Utilities folder) type "dos2unix -U" and then the name of the file that you want to convert to unix format. For example: % dos2unix -U example.idf For more information on the dos2unix utility, type "dos2unix -h" from the terminal window's command prompt.</p>
+                    <h4 id="remove">How to Remove EnergyPlus</h4>
+                    <p style="font-size:0.9rem;">To uninstall EnergyPlus, double-click the Uninstall EnergyPlus application. The program will ask you whether you want to continue. <span class="red">WARNING: If you click  "OK", the uninstaller will immediately delete all files in the EnergyPlus  application folder.</span> This utility will remove all of the EnergyPlus-related symbolic links from the /usr/bin directory.</p>
+                    <h4 id="issues">Known Issues</h4>
+                    <p style="font-size:0.9rem;">While this version of EnergyPlus will run most IDF or IMF files regardless of origin (e.g, MS-DOS or linux), a few easy to work around cross-platform incompatibilities exist.&nbsp; Specifically, file path name delimiters can cause problems.</p>
+                    <p style="font-size:0.9rem;">For example, the FileName field in the <strong>Construction:WindowDataFile</strong> object is operating system dependent. Consequently, if an IDF or IMF file originates on a MS-DOS machine (i.e., Windows machine), check to make sure that any path delimiters in the FileName field are changed to their unix equivalents (the FileName DataSets\Window5DataFile.dat will need to be changed to DataSets/Window5DataFile.dat). The same is true of the Name of File field in the <strong>Schedule:File</strong> object.</p>
+                    <p style="font-size:0.9rem;">The weather file menu in the program EP-Launch Lite is built each time the program starts. What this means is that if you add a weather file to the weatherdata directory while EP-Launch Lite is running, the program will be unaware of the new weather file. To work around this issue, quit and restart EP-Launch Lite. The new weather file should now appear in the popup menu.</p>
+                    <h5>Notice for Apple Mac Users</h5>
+                    <p style="font-size:0.9rem;">At the present time, the Mac version of EnergyPlus is a subset of the Windows version and only runs on Intel-based Macs. The Mac version includes the EnergyPlus simulation engine and an interface to select input files and run a simulation. The Windows version of EnergyPlus includes additional utilities such as EP-Launch and IDF Editor which do not currently have Mac equivalents. IDF Editor is useful to simplify editing EnergyPlus input files. If you have a virtual Windows machine on your Mac (using VM Fusion or Parallels or similar), you may wish to also install the Windows version of EnergyPlus in order to access the additional utilities as needed.</p>
+                    <h4 id="help">Help</h4>
+                    <p style="font-size:0.9rem;">For questions regarding downloading and installing EnergyPlus on Mac OS X, send e-mail to <a href="mailto:kyle.benne@nrel.gov">kyle.benne@nrel.gov</a>.<br/>
+                      For any other EnergyPlus related questions please visit <a href="http://www.energyplus.net">http://www.energyplus.net</a> or send e-mail to <a href="mailto:EnergyPlus-Support@gard.com">EnergyPlus-Support@gard.com</a>.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </header>
+</ng-container>

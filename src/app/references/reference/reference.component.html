@@ -1,0 +1,66 @@
+<section class="col-sm-12">
+  <div style="font-size:0.9rem;">
+    <h1 class="page-header" [innerHTML]="reference.title"></h1>
+    <section>
+      <div>
+        <p [innerHTML]="reference.description"></p>
+      </div>
+      <div *ngIf="reference.publication_date">
+        <div><strong>Publication Date:</strong></div>
+        <div>{{ reference.publication_date }}</div>
+      </div>
+      <div *ngIf="reference.research_org">
+        <div><strong>Research Org:</strong></div>
+        <div>{{ reference.research_org }}</div>
+      </div>
+      <div *ngIf="reference.doi">
+        <div><strong>doi:</strong></div>
+        <div>{{ reference.doi }}</div>
+      </div>
+      <div *ngIf="reference.osti_id !== null">
+        <div><strong>osti_id:</strong></div>
+        <div>{{ reference.osti_id }}</div>
+      </div>
+      <div *ngIf="reference.url">
+        <div><strong>url:</strong></div>
+        <div>{{ reference.url }}</div>
+      </div>
+      <div *ngIf="reference.authors">
+        <div><strong>Authors:</strong></div>
+        <div>{{ reference.authors }}</div>
+      </div>
+      <div *ngIf="reference.subject">
+        <div><strong>Subjects:</strong></div>
+        <div>{{ reference.subject }}</div>
+      </div>
+      <div *ngIf="reference.resource_type">
+        <div><strong>Resource Type:</strong></div>
+        <div>{{ reference.resource_type }}</div>
+      </div>
+      <div *ngIf="reference.sponsoring_org">
+        <div><strong>Sponsoring Org:</strong></div>
+        <div>{{ reference.sponsoring_org }}</div>
+      </div>
+      <div *ngIf="reference.source_title">
+        <div><strong>Source Title:</strong></div>
+        <div>{{ reference.source_title }}</div>
+      </div>
+      <div *ngIf="reference.volume">
+        <div><strong>Volume:</strong></div>
+        <div>{{ reference.volume }}</div>
+      </div>
+      <div *ngIf="reference.issue">
+        <div><strong>Issue:</strong></div>
+        <div>{{ reference.issue }}</div>
+      </div>
+      <div *ngIf="reference.page_start !== null">
+        <div><strong>Page Start:</strong></div>
+        <div>{{ reference.page_start }}</div>
+      </div>
+      <div *ngIf="reference.page_end !== null">
+        <div><strong>Page End:</strong></div>
+        <div>{{ reference.page_end }}</div>
+      </div>
+    </section>
+  </div>
+</section>

@@ -1,7 +1,6 @@
-import { Component, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Locations } from './../../shared/classes/constants';
-import { WeatherRegions } from './../../shared/classes/weather';
+import { Weather, WeatherService } from '../weather.service';
 
 @Component({
   selector: 'app-weather-search',
@@ -9,32 +8,25 @@ import { WeatherRegions } from './../../shared/classes/weather';
   styleUrls: ['./weather-search.component.scss']
 })
 
-export class WeatherSearchComponent {
+export class WeatherSearchComponent implements OnInit {
+  keyword: string;
+  locations: Weather[];
+  totalResults: number;
 
-  @Input() keyword: string;
-  @Input() locations: Locations[] = [];
-  @Input() total_results = 0;
+  constructor(
+    private route: ActivatedRoute,
+    private weatherService: WeatherService
+  ) {
+  }
 
-  constructor(private route: ActivatedRoute) {
-    route.url.subscribe(values => {
+  ngOnInit(): void {
+    this.keyword = this.route.snapshot.paramMap.get('keyword');
 
-      this.keyword = values[1].path;
-      const locations = [];
-      const countries = [];
-      for (const region of WeatherRegions) {
-        for (const country of region.countries) {
-          countries.push(country.name);
-          for (const location of country.locations) {
-            if (location.title.toLowerCase().includes(this.keyword.toLowerCase())) {
-              locations.push(location);
-            }
-          }
-        }
-      }
-      this.locations = locations;
-      this.total_results = this.locations.length;
+    const searchKeyword = this.keyword.toLowerCase();
+    const collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
+    const locations = this.weatherService.weather.filter(location => location.data.name.toLowerCase().includes(searchKeyword));
+    this.locations = locations.sort((a, b) => collator.compare(a.data.name, b.data.name));
 
-    });
-    
+    this.totalResults = this.locations.length;
   }
 }
