@@ -16,7 +16,17 @@
       "es2018",
       "dom"
     ],
-    "resolveJsonModule": true,
+    "paths": {
+      "@classes/*": [
+        "src/app/shared/classes/*"
+      ],
+      "@constants/*": [
+        "src/app/shared/constants/*"
+      ],
+      "@pipes/*": [
+        "src/app/shared/pipes/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false

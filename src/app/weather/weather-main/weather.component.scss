@@ -1,9 +1,19 @@
 .btn-hover:hover {
-	background-color: #007bff;
-	color:white;
+  background-color: #007bff;
+  color: white;
 }
 
-.btn-bg-dark {
-	background-color: #3276B1;
-	border-color: #3276B1;
+.input-error {
+  height: 20px;
+}
+
+#geomap {
+  border: 0 none;
+  height: 540px;
+  padding: 20px 150px;
+  width: 100%;
+}
+
+#keyword {
+  width: 100%;
 }

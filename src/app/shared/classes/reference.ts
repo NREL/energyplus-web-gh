@@ -1,8 +1,8 @@
 // tslint:disable:max-line-length
-// import { ReferenceItem } from './constants';
+import { Reference } from './constants';
 
 // @ts-ignore: 2590
-export const references: ReferenceItem[] = [
+export const references: Reference[] = [
   {
     title: 'EnergyPlus Hysteresis PCM Model: Cooperative Research and Development Final Report, CRADA Number CRD-16-639',
     authors: 'Lee, Edwin S. [National Renewable Energy Lab. (NREL), Golden, CO (United States)]',
@@ -17536,7 +17536,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1556,
     id: 923
   },
@@ -17555,7 +17555,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1353,
     id: 924
   },
@@ -17574,7 +17574,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 1',
-    page_start: NaN,
+    page_start: null,
     page_end: 496,
     id: 925
   },
@@ -17593,7 +17593,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 254,
     id: 926
   },
@@ -17612,7 +17612,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1529,
     id: 927
   },
@@ -17631,7 +17631,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1534,
     id: 928
   },
@@ -17650,7 +17650,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 663,
     id: 929
   },
@@ -17669,7 +17669,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1107,
     id: 930
   },
@@ -17688,7 +17688,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1888,
     id: 931
   },
@@ -17745,7 +17745,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3282,
     id: 934
   },
@@ -17764,7 +17764,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 381,
     id: 935
   },
@@ -17783,7 +17783,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 142,
     id: 936
   },
@@ -17802,7 +17802,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 275,
     id: 937
   },
@@ -17821,7 +17821,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 516,
     id: 938
   },
@@ -17840,7 +17840,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 1958,
     id: 939
   },
@@ -17859,7 +17859,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 3645,
     id: 940
   },
@@ -17878,7 +17878,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 795,
     id: 941
   },
@@ -17897,7 +17897,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 376,
     id: 942
   },
@@ -17916,7 +17916,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 620,
     id: 943
   },
@@ -17935,7 +17935,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1996,
     id: 944
   },
@@ -17954,7 +17954,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 814,
     id: 945
   },
@@ -17973,7 +17973,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 629,
     id: 946
   },
@@ -17992,7 +17992,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 723,
     id: 947
   },
@@ -18011,7 +18011,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 1675,
     id: 948
   },
@@ -18030,7 +18030,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1047,
     id: 949
   },
@@ -18049,7 +18049,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1345,
     id: 950
   },
@@ -18106,7 +18106,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 971,
     id: 953
   },
@@ -18125,7 +18125,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 65,
     id: 954
   },
@@ -18144,7 +18144,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 331,
     id: 955
   },
@@ -18163,7 +18163,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2903,
     id: 956
   },
@@ -18182,7 +18182,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '13',
-    page_start: NaN,
+    page_start: null,
     page_end: 2845,
     id: 957
   },
@@ -18201,7 +18201,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9',
-    page_start: NaN,
+    page_start: null,
     page_end: 2013,
     id: 958
   },
@@ -18220,7 +18220,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 207,
     id: 959
   },
@@ -18239,7 +18239,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 95,
     id: 960
   },
@@ -18258,7 +18258,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2209,
     id: 961
   },
@@ -18277,7 +18277,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 380,
     id: 962
   },
@@ -18296,7 +18296,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 76,
     id: 963
   },
@@ -18334,7 +18334,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 196,
     id: 965
   },
@@ -18353,7 +18353,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2942,
     id: 966
   },
@@ -18372,7 +18372,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 318,
     id: 967
   },
@@ -18391,7 +18391,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2896,
     id: 968
   },
@@ -18410,7 +18410,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 280,
     id: 969
   },
@@ -18429,7 +18429,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 113,
     id: 970
   },
@@ -18448,7 +18448,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 863,
     id: 971
   },
@@ -18467,7 +18467,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 270,
     id: 972
   },
@@ -18486,7 +18486,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 12,
     id: 973
   },
@@ -18524,7 +18524,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 335,
     id: 975
   },
@@ -18562,7 +18562,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 134,
     id: 977
   },
@@ -18581,7 +18581,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 901,
     id: 978
   },
@@ -18600,7 +18600,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '11',
-    page_start: NaN,
+    page_start: null,
     page_end: 67,
     id: 979
   },
@@ -18619,7 +18619,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 1',
-    page_start: NaN,
+    page_start: null,
     page_end: 308,
     id: 980
   },
@@ -18638,7 +18638,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 230,
     id: 981
   },
@@ -18657,7 +18657,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 206,
     id: 982
   },
@@ -18676,7 +18676,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1/4/01',
-    page_start: NaN,
+    page_start: null,
     page_end: 65,
     id: 983
   },
@@ -18695,7 +18695,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 411,
     id: 984
   },
@@ -18714,7 +18714,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 103,
     id: 985
   },
@@ -18733,7 +18733,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 172,
     id: 986
   },
@@ -18752,7 +18752,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 155,
     id: 987
   },
@@ -18771,7 +18771,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 479,
     id: 988
   },
@@ -18790,7 +18790,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2050,
     id: 989
   },
@@ -18809,7 +18809,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 4716,
     id: 990
   },
@@ -18828,7 +18828,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1705,
     id: 991
   },
@@ -18847,7 +18847,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 483,
     id: 992
   },
@@ -18866,7 +18866,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 991,
     id: 993
   },
@@ -18885,7 +18885,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 846,
     id: 994
   },
@@ -18904,7 +18904,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 750,
     id: 995
   },
@@ -18923,7 +18923,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1167,
     id: 996
   },
@@ -18942,7 +18942,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2355,
     id: 997
   },
@@ -18980,7 +18980,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 266,
     id: 999
   },
@@ -18999,7 +18999,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '14',
-    page_start: NaN,
+    page_start: null,
     page_end: 56,
     id: 1000
   },
@@ -19018,7 +19018,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2926,
     id: 1001
   },
@@ -19037,7 +19037,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: null,
     id: 1002
   },
@@ -19056,7 +19056,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '20',
-    page_start: NaN,
+    page_start: null,
     page_end: 4811,
     id: 1003
   },
@@ -19075,7 +19075,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 317,
     id: 1004
   },
@@ -19094,7 +19094,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 537,
     id: 1005
   },
@@ -19113,7 +19113,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1388,
     id: 1006
   },
@@ -19132,7 +19132,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 286,
     id: 1007
   },
@@ -19151,7 +19151,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 1047,
     id: 1008
   },
@@ -19170,7 +19170,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 830,
     id: 1009
   },
@@ -19189,7 +19189,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 1562,
     id: 1010
   },
@@ -19208,7 +19208,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 807,
     id: 1011
   },
@@ -19227,7 +19227,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1641,
     id: 1012
   },
@@ -19246,7 +19246,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 2337,
     id: 1013
   },
@@ -19284,7 +19284,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 36,
     id: 1015
   },
@@ -19303,7 +19303,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 371,
     id: 1016
   },
@@ -19322,7 +19322,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 25,
     id: 1017
   },
@@ -19341,7 +19341,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 522,
     id: 1018
   },
@@ -19379,7 +19379,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'VOL. 3',
-    page_start: NaN,
+    page_start: null,
     page_end: 252,
     id: 1020
   },
@@ -19398,7 +19398,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 627,
     id: 1021
   },
@@ -19417,7 +19417,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 283,
     id: 1022
   },
@@ -19436,7 +19436,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 119,
     id: 1023
   },
@@ -19455,7 +19455,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 59,
     id: 1024
   },
@@ -19474,7 +19474,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 188,
     id: 1025
   },
@@ -19512,7 +19512,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 110,
     id: 1027
   },
@@ -19531,7 +19531,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 90,
     id: 1028
   },
@@ -19550,7 +19550,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 529,
     id: 1029
   },
@@ -19569,7 +19569,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 33,
     id: 1030
   },
@@ -19588,7 +19588,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 434,
     id: 1031
   },
@@ -19607,7 +19607,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 202,
     id: 1032
   },
@@ -19626,7 +19626,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 410,
     id: 1033
   },
@@ -19645,7 +19645,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 124,
     id: 1034
   },
@@ -19664,7 +19664,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 302,
     id: 1035
   },
@@ -19702,7 +19702,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 125,
     id: 1037
   },
@@ -19721,7 +19721,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 167,
     id: 1038
   },
@@ -19740,7 +19740,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2473,
     id: 1039
   },
@@ -19759,7 +19759,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 102,
     id: 1040
   },
@@ -19797,7 +19797,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 338,
     id: 1042
   },
@@ -19816,7 +19816,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 623,
     id: 1043
   },
@@ -19835,7 +19835,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 252,
     id: 1044
   },
@@ -19854,7 +19854,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 120,
     id: 1045
   },
@@ -19873,7 +19873,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 464,
     id: 1046
   },
@@ -19892,7 +19892,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 208,
     id: 1047
   },
@@ -19911,7 +19911,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 10,
     id: 1048
   },
@@ -19930,7 +19930,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 206,
     id: 1049
   },
@@ -19949,7 +19949,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 588,
     id: 1050
   },
@@ -19968,7 +19968,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 40,
     id: 1051
   },
@@ -19987,7 +19987,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 178,
     id: 1052
   },
@@ -20025,7 +20025,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 574,
     id: 1054
   },
@@ -20044,7 +20044,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1/2/01',
-    page_start: NaN,
+    page_start: null,
     page_end: 98,
     id: 1055
   },
@@ -20063,7 +20063,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 569,
     id: 1056
   },
@@ -20082,7 +20082,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1102,
     id: 1057
   },
@@ -20120,7 +20120,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 260,
     id: 1059
   },
@@ -20177,7 +20177,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2897,
     id: 1062
   },
@@ -20196,7 +20196,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 296,
     id: 1063
   },
@@ -20215,7 +20215,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 430,
     id: 1064
   },
@@ -20234,7 +20234,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 7,
     id: 1065
   },
@@ -20253,7 +20253,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2108,
     id: 1066
   },
@@ -20272,7 +20272,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 191,
     id: 1067
   },
@@ -20310,12 +20310,12 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 130,
     id: 1069
   },
   {
-    title: 'Simulation of Occupancy and CO<inf>2</inf>-based Demand-controlled Mechanical Ventilation Strategies in an Office Room Using EnergyPlus',
+    title: 'Simulation of Occupancy and CO<sub>2</sub>-based Demand-controlled Mechanical Ventilation Strategies in an Office Room Using EnergyPlus',
     authors: null,
     research_org: null,
     publication_date: '2017',
@@ -20329,7 +20329,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 57,
     id: 1070
   },
@@ -20348,7 +20348,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1484,
     id: 1071
   },
@@ -20367,7 +20367,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 60,
     id: 1072
   },
@@ -20386,7 +20386,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 1018,
     id: 1073
   },
@@ -20405,7 +20405,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1055,
     id: 1074
   },
@@ -20424,7 +20424,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 235,
     id: 1075
   },
@@ -20443,7 +20443,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 2',
-    page_start: NaN,
+    page_start: null,
     page_end: 117,
     id: 1076
   },
@@ -20462,7 +20462,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 676,
     id: 1077
   },
@@ -20481,7 +20481,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 130,
     id: 1078
   },
@@ -20500,7 +20500,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 690,
     id: 1079
   },
@@ -20519,7 +20519,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 2376,
     id: 1080
   },
@@ -20538,7 +20538,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 699,
     id: 1081
   },
@@ -20595,7 +20595,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 476,
     id: 1084
   },
@@ -20614,7 +20614,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 492,
     id: 1085
   },
@@ -20633,7 +20633,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 57,
     id: 1086
   },
@@ -20671,7 +20671,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3108,
     id: 1088
   },
@@ -20690,7 +20690,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 154,
     id: 1089
   },
@@ -20709,7 +20709,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 645,
     id: 1090
   },
@@ -20728,7 +20728,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 409,
     id: 1091
   },
@@ -20766,12 +20766,12 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 424,
     id: 1093
   },
   {
-    title: 'Estimating CO<inf>2</inf> emissions reductions with EnergyPlus for an office building in Salt Lake City',
+    title: 'Estimating CO<sub>2</sub> emissions reductions with EnergyPlus for an office building in Salt Lake City',
     authors: null,
     research_org: null,
     publication_date: '2014',
@@ -20804,7 +20804,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1259,
     id: 1095
   },
@@ -20823,7 +20823,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 237,
     id: 1096
   },
@@ -20842,7 +20842,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 223,
     id: 1097
   },
@@ -20861,7 +20861,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 657,
     id: 1098
   },
@@ -20880,7 +20880,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 40,
     id: 1099
   },
@@ -20899,7 +20899,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2109,
     id: 1100
   },
@@ -20918,7 +20918,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 786,
     id: 1101
   },
@@ -20956,7 +20956,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 301,
     id: 1103
   },
@@ -20975,7 +20975,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 157,
     id: 1104
   },
@@ -20994,7 +20994,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 188,
     id: 1105
   },
@@ -21013,7 +21013,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 325,
     id: 1106
   },
@@ -21032,7 +21032,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 122,
     id: 1107
   },
@@ -21051,7 +21051,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 246,
     id: 1108
   },
@@ -21070,7 +21070,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 306,
     id: 1109
   },
@@ -21089,7 +21089,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 28,
     id: 1110
   },
@@ -21108,7 +21108,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 271,
     id: 1111
   },
@@ -21127,7 +21127,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 104,
     id: 1112
   },
@@ -21146,7 +21146,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 169,
     id: 1113
   },
@@ -21165,7 +21165,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 608,
     id: 1114
   },
@@ -21184,7 +21184,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 174,
     id: 1115
   },
@@ -21203,7 +21203,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1842,
     id: 1116
   },
@@ -21241,7 +21241,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 90,
     id: 1118
   },
@@ -21260,7 +21260,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 108,
     id: 1119
   },
@@ -21279,7 +21279,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 136,
     id: 1120
   },
@@ -21298,7 +21298,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1567,
     id: 1121
   },
@@ -21317,7 +21317,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 305,
     id: 1122
   },
@@ -21336,7 +21336,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '11',
-    page_start: NaN,
+    page_start: null,
     page_end: 1222,
     id: 1123
   },
@@ -21355,7 +21355,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 1045,
     id: 1124
   },
@@ -21374,7 +21374,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 31,
     id: 1125
   },
@@ -21412,7 +21412,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 18,
     id: 1127
   },
@@ -21431,7 +21431,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 2',
-    page_start: NaN,
+    page_start: null,
     page_end: 97,
     id: 1128
   },
@@ -21450,7 +21450,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 816,
     id: 1129
   },
@@ -21469,7 +21469,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1476,
     id: 1130
   },
@@ -21507,7 +21507,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 400,
     id: 1132
   },
@@ -21526,7 +21526,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 173,
     id: 1133
   },
@@ -21545,7 +21545,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9',
-    page_start: NaN,
+    page_start: null,
     page_end: 5846,
     id: 1134
   },
@@ -21564,7 +21564,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 449,
     id: 1135
   },
@@ -21602,7 +21602,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 2',
-    page_start: NaN,
+    page_start: null,
     page_end: 475,
     id: 1137
   },
@@ -21621,7 +21621,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 293,
     id: 1138
   },
@@ -21678,7 +21678,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 359,
     id: 1141
   },
@@ -21697,7 +21697,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 301,
     id: 1142
   },
@@ -21716,7 +21716,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 57,
     id: 1143
   },
@@ -21735,7 +21735,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 491,
     id: 1144
   },
@@ -21754,7 +21754,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 99,
     id: 1145
   },
@@ -21773,7 +21773,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 543,
     id: 1146
   },
@@ -21792,7 +21792,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 6,
     id: 1147
   },
@@ -21811,7 +21811,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2846,
     id: 1148
   },
@@ -21830,7 +21830,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 342,
     id: 1149
   },
@@ -21868,7 +21868,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 133,
     id: 1151
   },
@@ -21906,7 +21906,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2366,
     id: 1153
   },
@@ -21925,7 +21925,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1497,
     id: 1154
   },
@@ -21963,7 +21963,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9',
-    page_start: NaN,
+    page_start: null,
     page_end: 1452,
     id: 1156
   },
@@ -21982,7 +21982,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 128,
     id: 1157
   },
@@ -22001,7 +22001,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1222,
     id: 1158
   },
@@ -22020,7 +22020,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 1099,
     id: 1159
   },
@@ -22039,7 +22039,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 321,
     id: 1160
   },
@@ -22058,7 +22058,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 216,
     id: 1161
   },
@@ -22096,7 +22096,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 47,
     id: 1163
   },
@@ -22115,7 +22115,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 621,
     id: 1164
   },
@@ -22134,7 +22134,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 37,
     id: 1165
   },
@@ -22153,7 +22153,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 740,
     id: 1166
   },
@@ -22172,7 +22172,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '14',
-    page_start: NaN,
+    page_start: null,
     page_end: 1143,
     id: 1167
   },
@@ -22210,7 +22210,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 78,
     id: 1169
   },
@@ -22229,7 +22229,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 172,
     id: 1170
   },
@@ -22267,7 +22267,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 77,
     id: 1172
   },
@@ -22286,7 +22286,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 85,
     id: 1173
   },
@@ -22305,7 +22305,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 145,
     id: 1174
   },
@@ -22324,7 +22324,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 53,
     id: 1175
   },
@@ -22343,7 +22343,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 289,
     id: 1176
   },
@@ -22362,7 +22362,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 652,
     id: 1177
   },
@@ -22381,7 +22381,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 2',
-    page_start: NaN,
+    page_start: null,
     page_end: 196,
     id: 1178
   },
@@ -22400,7 +22400,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 257,
     id: 1179
   },
@@ -22419,7 +22419,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9',
-    page_start: NaN,
+    page_start: null,
     page_end: 957,
     id: 1180
   },
@@ -22438,7 +22438,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 1012,
     id: 1181
   },
@@ -22457,7 +22457,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2061,
     id: 1182
   },
@@ -22476,7 +22476,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1448,
     id: 1183
   },
@@ -22495,7 +22495,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 270,
     id: 1184
   },
@@ -22514,7 +22514,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 55,
     id: 1185
   },
@@ -22533,7 +22533,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 24,
     id: 1186
   },
@@ -22552,7 +22552,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1/2/01',
-    page_start: NaN,
+    page_start: null,
     page_end: 208,
     id: 1187
   },
@@ -22571,7 +22571,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 747,
     id: 1188
   },
@@ -22590,7 +22590,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 128,
     id: 1189
   },
@@ -22609,7 +22609,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 321,
     id: 1190
   },
@@ -22628,7 +22628,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 77,
     id: 1191
   },
@@ -22647,7 +22647,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 36,
     id: 1192
   },
@@ -22666,7 +22666,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 301,
     id: 1193
   },
@@ -22685,7 +22685,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 100,
     id: 1194
   },
@@ -22704,7 +22704,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 711,
     id: 1195
   },
@@ -22723,7 +22723,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 2',
-    page_start: NaN,
+    page_start: null,
     page_end: 365,
     id: 1196
   },
@@ -22742,7 +22742,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 5128,
     id: 1197
   },
@@ -22761,7 +22761,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 1660,
     id: 1198
   },
@@ -22780,7 +22780,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 507,
     id: 1199
   },
@@ -22799,7 +22799,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 145,
     id: 1200
   },
@@ -22818,7 +22818,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1528,
     id: 1201
   },
@@ -22837,7 +22837,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2091,
     id: 1202
   },
@@ -22856,7 +22856,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 144,
     id: 1203
   },
@@ -22875,7 +22875,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 271,
     id: 1204
   },
@@ -22894,7 +22894,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3142,
     id: 1205
   },
@@ -22913,7 +22913,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 455,
     id: 1206
   },
@@ -22932,7 +22932,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 1093,
     id: 1207
   },
@@ -22951,7 +22951,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 363,
     id: 1208
   },
@@ -22970,7 +22970,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 6556,
     id: 1209
   },
@@ -22989,7 +22989,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 354,
     id: 1210
   },
@@ -23008,7 +23008,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 175,
     id: 1211
   },
@@ -23027,7 +23027,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3195,
     id: 1212
   },
@@ -23046,7 +23046,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 330,
     id: 1213
   },
@@ -23065,7 +23065,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 532,
     id: 1214
   },
@@ -23084,7 +23084,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 749,
     id: 1215
   },
@@ -23103,7 +23103,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1056,
     id: 1216
   },
@@ -23122,7 +23122,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1264,
     id: 1217
   },
@@ -23141,7 +23141,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1188,
     id: 1218
   },
@@ -23160,7 +23160,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 336,
     id: 1219
   },
@@ -23179,7 +23179,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 210,
     id: 1220
   },
@@ -23198,7 +23198,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 331,
     id: 1221
   },
@@ -23217,7 +23217,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 798,
     id: 1222
   },
@@ -23236,7 +23236,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 1934,
     id: 1223
   },
@@ -23255,7 +23255,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 543,
     id: 1224
   },
@@ -23293,7 +23293,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 45,
     id: 1226
   },
@@ -23312,7 +23312,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 545,
     id: 1227
   },
@@ -23331,7 +23331,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 91,
     id: 1228
   },
@@ -23350,7 +23350,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2490,
     id: 1229
   },
@@ -23369,7 +23369,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1526,
     id: 1230
   },
@@ -23388,7 +23388,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 481,
     id: 1231
   },
@@ -23407,7 +23407,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2610,
     id: 1232
   },
@@ -23426,7 +23426,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1982,
     id: 1233
   },
@@ -23445,7 +23445,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 754,
     id: 1234
   },
@@ -23464,7 +23464,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1236,
     id: 1235
   },
@@ -23483,7 +23483,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 128,
     id: 1236
   },
@@ -23502,7 +23502,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 297,
     id: 1237
   },
@@ -23540,7 +23540,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 361,
     id: 1239
   },
@@ -23559,7 +23559,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 336,
     id: 1240
   },
@@ -23578,7 +23578,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 651,
     id: 1241
   },
@@ -23597,7 +23597,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2867,
     id: 1242
   },
@@ -23616,7 +23616,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2010,
     id: 1243
   },
@@ -23635,7 +23635,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1350,
     id: 1244
   },
@@ -23654,7 +23654,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2232,
     id: 1245
   },
@@ -23673,7 +23673,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 159,
     id: 1246
   },
@@ -23692,7 +23692,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 708,
     id: 1247
   },
@@ -23730,7 +23730,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 59,
     id: 1249
   },
@@ -23749,7 +23749,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'SUPPL.',
-    page_start: NaN,
+    page_start: null,
     page_end: 95,
     id: 1250
   },
@@ -23768,7 +23768,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 436,
     id: 1251
   },
@@ -23787,7 +23787,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 129,
     id: 1252
   },
@@ -23806,7 +23806,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 147,
     id: 1253
   },
@@ -23844,7 +23844,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2370,
     id: 1255
   },
@@ -23863,7 +23863,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 280,
     id: 1256
   },
@@ -23882,7 +23882,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 726,
     id: 1257
   },
@@ -23901,7 +23901,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1648,
     id: 1258
   },
@@ -23920,7 +23920,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 330,
     id: 1259
   },
@@ -23939,7 +23939,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 4955,
     id: 1260
   },
@@ -23958,7 +23958,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 238,
     id: 1261
   },
@@ -23977,7 +23977,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 777,
     id: 1262
   },
@@ -23996,7 +23996,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 63,
     id: 1263
   },
@@ -24015,7 +24015,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 545,
     id: 1264
   },
@@ -24034,7 +24034,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 346,
     id: 1265
   },
@@ -24053,7 +24053,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1190,
     id: 1266
   },
@@ -24072,7 +24072,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 97,
     id: 1267
   },
@@ -24110,7 +24110,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2219,
     id: 1269
   },
@@ -24129,7 +24129,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 145,
     id: 1270
   },
@@ -24148,7 +24148,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 690,
     id: 1271
   },
@@ -24186,7 +24186,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 119,
     id: 1273
   },
@@ -24205,7 +24205,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 403,
     id: 1274
   },
@@ -24224,7 +24224,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 296,
     id: 1275
   },
@@ -24243,7 +24243,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 251,
     id: 1276
   },
@@ -24262,7 +24262,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1095,
     id: 1277
   },
@@ -24281,7 +24281,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 584,
     id: 1278
   },
@@ -24300,7 +24300,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2430,
     id: 1279
   },
@@ -24319,7 +24319,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2201,
     id: 1280
   },
@@ -24338,7 +24338,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1032,
     id: 1281
   },
@@ -24357,7 +24357,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 4064,
     id: 1282
   },
@@ -24376,7 +24376,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 623,
     id: 1283
   },
@@ -24395,7 +24395,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 891,
     id: 1284
   },
@@ -24414,7 +24414,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 196,
     id: 1285
   },
@@ -24433,7 +24433,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2484,
     id: 1286
   },
@@ -24452,7 +24452,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 594,
     id: 1287
   },
@@ -24471,7 +24471,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 504,
     id: 1288
   },
@@ -24490,7 +24490,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 275,
     id: 1289
   },
@@ -24509,7 +24509,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2910,
     id: 1290
   },
@@ -24528,7 +24528,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2292,
     id: 1291
   },
@@ -24547,7 +24547,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 396,
     id: 1292
   },
@@ -24566,7 +24566,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1894,
     id: 1293
   },
@@ -24585,7 +24585,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6.4',
-    page_start: NaN,
+    page_start: null,
     page_end: 522,
     id: 1294
   },
@@ -24604,7 +24604,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 278,
     id: 1295
   },
@@ -24623,7 +24623,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 518,
     id: 1296
   },
@@ -24642,7 +24642,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3009,
     id: 1297
   },
@@ -24661,7 +24661,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 274,
     id: 1298
   },
@@ -24680,7 +24680,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 993,
     id: 1299
   },
@@ -24699,7 +24699,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 184,
     id: 1300
   },
@@ -24718,7 +24718,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 658,
     id: 1301
   },
@@ -24737,7 +24737,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2/4/01',
-    page_start: NaN,
+    page_start: null,
     page_end: 220,
     id: 1302
   },
@@ -24756,7 +24756,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2529,
     id: 1303
   },
@@ -24775,7 +24775,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 4421,
     id: 1304
   },
@@ -24794,7 +24794,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9',
-    page_start: NaN,
+    page_start: null,
     page_end: 71,
     id: 1305
   },
@@ -24832,7 +24832,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 14,
     id: 1307
   },
@@ -24851,7 +24851,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 67,
     id: 1308
   },
@@ -24870,7 +24870,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 602,
     id: 1309
   },
@@ -24889,7 +24889,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 175,
     id: 1310
   },
@@ -24908,7 +24908,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 99,
     id: 1311
   },
@@ -24927,7 +24927,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 26,
     id: 1312
   },
@@ -24946,7 +24946,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 67,
     id: 1313
   },
@@ -24984,12 +24984,12 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 56,
     id: 1315
   },
   {
-    title: 'Energy, cost, and CO <inf>2</inf> emission comparison between radiant wall panel systems and radiator systems',
+    title: 'Energy, cost, and CO<sub>2</sub> emission comparison between radiant wall panel systems and radiator systems',
     authors: null,
     research_org: null,
     publication_date: '2012',
@@ -25003,7 +25003,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 502,
     id: 1316
   },
@@ -25022,7 +25022,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 227,
     id: 1317
   },
@@ -25041,7 +25041,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2698,
     id: 1318
   },
@@ -25060,7 +25060,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 739,
     id: 1319
   },
@@ -25079,7 +25079,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1011,
     id: 1320
   },
@@ -25098,7 +25098,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 2',
-    page_start: NaN,
+    page_start: null,
     page_end: 99,
     id: 1321
   },
@@ -25117,7 +25117,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 494,
     id: 1322
   },
@@ -25136,7 +25136,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1446,
     id: 1323
   },
@@ -25155,7 +25155,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 194,
     id: 1324
   },
@@ -25174,7 +25174,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 7014,
     id: 1325
   },
@@ -25231,7 +25231,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 1526,
     id: 1328
   },
@@ -25288,7 +25288,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1029,
     id: 1331
   },
@@ -25307,7 +25307,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 555,
     id: 1332
   },
@@ -25326,7 +25326,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1164,
     id: 1333
   },
@@ -25345,7 +25345,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 13,
     id: 1334
   },
@@ -25364,7 +25364,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1452,
     id: 1335
   },
@@ -25383,7 +25383,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 922,
     id: 1336
   },
@@ -25402,7 +25402,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 290,
     id: 1337
   },
@@ -25421,7 +25421,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2463,
     id: 1338
   },
@@ -25440,7 +25440,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 319,
     id: 1339
   },
@@ -25459,7 +25459,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 407,
     id: 1340
   },
@@ -25478,7 +25478,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 220,
     id: 1341
   },
@@ -25497,7 +25497,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 59,
     id: 1342
   },
@@ -25516,7 +25516,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 762,
     id: 1343
   },
@@ -25535,7 +25535,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 135,
     id: 1344
   },
@@ -25554,7 +25554,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 126,
     id: 1345
   },
@@ -25573,7 +25573,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3591,
     id: 1346
   },
@@ -25592,7 +25592,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 7582,
     id: 1347
   },
@@ -25611,7 +25611,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 308,
     id: 1348
   },
@@ -25630,7 +25630,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 1',
-    page_start: NaN,
+    page_start: null,
     page_end: 427,
     id: 1349
   },
@@ -25649,7 +25649,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 1386,
     id: 1350
   },
@@ -25668,7 +25668,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 374,
     id: 1351
   },
@@ -25687,7 +25687,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1/2/01',
-    page_start: NaN,
+    page_start: null,
     page_end: 111,
     id: 1352
   },
@@ -25706,7 +25706,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 257,
     id: 1353
   },
@@ -25725,7 +25725,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 389,
     id: 1354
   },
@@ -25744,7 +25744,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3382,
     id: 1355
   },
@@ -25763,7 +25763,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 1496,
     id: 1356
   },
@@ -25801,7 +25801,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 2012,
     id: 1358
   },
@@ -25820,7 +25820,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 983,
     id: 1359
   },
@@ -25839,7 +25839,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1841,
     id: 1360
   },
@@ -25858,7 +25858,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1451,
     id: 1361
   },
@@ -25877,7 +25877,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 450,
     id: 1362
   },
@@ -25896,7 +25896,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 618,
     id: 1363
   },
@@ -25915,7 +25915,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1338,
     id: 1364
   },
@@ -25953,7 +25953,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 76,
     id: 1366
   },
@@ -25991,7 +25991,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 340,
     id: 1368
   },
@@ -26010,7 +26010,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 54,
     id: 1369
   },
@@ -26029,7 +26029,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 175,
     id: 1370
   },
@@ -26048,7 +26048,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2477,
     id: 1371
   },
@@ -26067,7 +26067,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2947,
     id: 1372
   },
@@ -26086,7 +26086,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 410,
     id: 1373
   },
@@ -26124,7 +26124,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 693,
     id: 1375
   },
@@ -26143,7 +26143,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 413,
     id: 1376
   },
@@ -26181,7 +26181,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 104,
     id: 1378
   },
@@ -26200,7 +26200,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'VOL. 3',
-    page_start: NaN,
+    page_start: null,
     page_end: 321,
     id: 1379
   },
@@ -26219,7 +26219,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 855,
     id: 1380
   },
@@ -26238,7 +26238,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 524,
     id: 1381
   },
@@ -26257,7 +26257,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2845,
     id: 1382
   },
@@ -26276,7 +26276,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 206,
     id: 1383
   },
@@ -26295,7 +26295,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 89,
     id: 1384
   },
@@ -26314,7 +26314,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 35,
     id: 1385
   },
@@ -26333,7 +26333,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 187,
     id: 1386
   },
@@ -26352,7 +26352,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3062,
     id: 1387
   },
@@ -26390,7 +26390,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 304,
     id: 1389
   },
@@ -26409,7 +26409,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 330,
     id: 1390
   },
@@ -26428,7 +26428,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 15,
     id: 1391
   },
@@ -26447,7 +26447,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 170,
     id: 1392
   },
@@ -26466,7 +26466,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 627,
     id: 1393
   },
@@ -26485,7 +26485,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 684,
     id: 1394
   },
@@ -26504,7 +26504,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2751,
     id: 1395
   },
@@ -26523,7 +26523,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 322,
     id: 1396
   },
@@ -26542,7 +26542,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 255,
     id: 1397
   },
@@ -26561,7 +26561,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 4073,
     id: 1398
   },
@@ -26580,7 +26580,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 556,
     id: 1399
   },
@@ -26599,7 +26599,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 85,
     id: 1400
   },
@@ -26618,7 +26618,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 307,
     id: 1401
   },
@@ -26656,7 +26656,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 1478,
     id: 1403
   },
@@ -26694,7 +26694,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1683,
     id: 1405
   },
@@ -26713,7 +26713,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1414,
     id: 1406
   },
@@ -26732,7 +26732,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 746,
     id: 1407
   },
@@ -26865,7 +26865,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 39,
     id: 1414
   },
@@ -26922,7 +26922,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 193,
     id: 1417
   },
@@ -26941,7 +26941,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 324,
     id: 1418
   },
@@ -26960,7 +26960,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 143,
     id: 1419
   },
@@ -26979,7 +26979,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2099,
     id: 1420
   },
@@ -26998,7 +26998,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 130,
     id: 1421
   },
@@ -27017,7 +27017,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '14',
-    page_start: NaN,
+    page_start: null,
     page_end: 451,
     id: 1422
   },
@@ -27036,7 +27036,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 99,
     id: 1423
   },
@@ -27055,7 +27055,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 151,
     id: 1424
   },
@@ -27074,7 +27074,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 20,
     id: 1425
   },
@@ -27093,7 +27093,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 988,
     id: 1426
   },
@@ -27112,7 +27112,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 355,
     id: 1427
   },
@@ -27131,7 +27131,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 443,
     id: 1428
   },
@@ -27150,7 +27150,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '11',
-    page_start: NaN,
+    page_start: null,
     page_end: 4735,
     id: 1429
   },
@@ -27169,7 +27169,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 260,
     id: 1430
   },
@@ -27188,7 +27188,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 398,
     id: 1431
   },
@@ -27207,7 +27207,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 6950,
     id: 1432
   },
@@ -27226,7 +27226,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 507,
     id: 1433
   },
@@ -27245,7 +27245,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 510,
     id: 1434
   },
@@ -27264,7 +27264,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1439,
     id: 1435
   },
@@ -27283,7 +27283,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 389,
     id: 1436
   },
@@ -27302,7 +27302,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 665,
     id: 1437
   },
@@ -27321,7 +27321,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2269,
     id: 1438
   },
@@ -27340,7 +27340,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1601,
     id: 1439
   },
@@ -27359,7 +27359,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 198,
     id: 1440
   },
@@ -27378,7 +27378,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 369,
     id: 1441
   },
@@ -27397,7 +27397,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 1215,
     id: 1442
   },
@@ -27416,7 +27416,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 174,
     id: 1443
   },
@@ -27435,7 +27435,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 2095,
     id: 1444
   },
@@ -27454,7 +27454,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 181,
     id: 1445
   },
@@ -27473,7 +27473,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 197,
     id: 1446
   },
@@ -27492,7 +27492,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 46,
     id: 1447
   },
@@ -27511,7 +27511,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 473,
     id: 1448
   },
@@ -27530,7 +27530,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 451,
     id: 1449
   },
@@ -27549,7 +27549,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9',
-    page_start: NaN,
+    page_start: null,
     page_end: 3137,
     id: 1450
   },
@@ -27587,7 +27587,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 13,
     id: 1452
   },
@@ -27625,7 +27625,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 64,
     id: 1454
   },
@@ -27682,12 +27682,12 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 242,
     id: 1457
   },
   {
-    title: 'CO <inf>2</inf> concentrations in a multifamily building in Porto, Portugal: Occupants’ exposure and differential performance of mechanical ventilation control strategies',
+    title: 'CO<sub>2</sub> concentrations in a multifamily building in Porto, Portugal: Occupants’ exposure and differential performance of mechanical ventilation control strategies',
     authors: null,
     research_org: null,
     publication_date: '2019',
@@ -27701,7 +27701,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 126,
     id: 1458
   },
@@ -27720,7 +27720,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3019,
     id: 1459
   },
@@ -27777,7 +27777,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 938,
     id: 1462
   },
@@ -27815,7 +27815,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 54,
     id: 1464
   },
@@ -27853,7 +27853,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1395,
     id: 1466
   },
@@ -27872,7 +27872,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 62,
     id: 1467
   },
@@ -27891,7 +27891,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 534,
     id: 1468
   },
@@ -27910,7 +27910,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 448,
     id: 1469
   },
@@ -27929,7 +27929,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 325,
     id: 1470
   },
@@ -27948,7 +27948,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 298,
     id: 1471
   },
@@ -27967,7 +27967,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 548,
     id: 1472
   },
@@ -27986,7 +27986,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 144,
     id: 1473
   },
@@ -28005,7 +28005,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 243,
     id: 1474
   },
@@ -28024,7 +28024,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 525,
     id: 1475
   },
@@ -28043,7 +28043,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 634,
     id: 1476
   },
@@ -28062,7 +28062,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 318,
     id: 1477
   },
@@ -28081,7 +28081,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 90,
     id: 1478
   },
@@ -28100,7 +28100,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 880,
     id: 1479
   },
@@ -28119,7 +28119,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 667,
     id: 1480
   },
@@ -28138,7 +28138,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 181,
     id: 1481
   },
@@ -28157,7 +28157,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 463,
     id: 1482
   },
@@ -28176,7 +28176,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 578,
     id: 1483
   },
@@ -28214,7 +28214,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 95,
     id: 1485
   },
@@ -28233,7 +28233,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 60,
     id: 1486
   },
@@ -28252,7 +28252,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 457,
     id: 1487
   },
@@ -28271,7 +28271,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 201,
     id: 1488
   },
@@ -28290,7 +28290,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART B',
-    page_start: NaN,
+    page_start: null,
     page_end: 678,
     id: 1489
   },
@@ -28309,7 +28309,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 21,
     id: 1490
   },
@@ -28328,7 +28328,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 198,
     id: 1491
   },
@@ -28347,7 +28347,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 371,
     id: 1492
   },
@@ -28366,7 +28366,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 227,
     id: 1493
   },
@@ -28385,7 +28385,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 131,
     id: 1494
   },
@@ -28404,7 +28404,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 175,
     id: 1495
   },
@@ -28423,7 +28423,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 491,
     id: 1496
   },
@@ -28442,7 +28442,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 106,
     id: 1497
   },
@@ -28461,7 +28461,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 935,
     id: 1498
   },
@@ -28480,7 +28480,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 518,
     id: 1499
   },
@@ -28499,7 +28499,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 242,
     id: 1500
   },
@@ -28518,7 +28518,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 63,
     id: 1501
   },
@@ -28537,7 +28537,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 1',
-    page_start: NaN,
+    page_start: null,
     page_end: 264,
     id: 1502
   },
@@ -28556,7 +28556,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 1',
-    page_start: NaN,
+    page_start: null,
     page_end: 240,
     id: 1503
   },
@@ -28575,7 +28575,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 391,
     id: 1504
   },
@@ -28594,7 +28594,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 229,
     id: 1505
   },
@@ -28613,7 +28613,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 418,
     id: 1506
   },
@@ -28632,7 +28632,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 75,
     id: 1507
   },
@@ -28651,7 +28651,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 3399,
     id: 1508
   },
@@ -28670,7 +28670,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 2868,
     id: 1509
   },
@@ -28689,7 +28689,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9',
-    page_start: NaN,
+    page_start: null,
     page_end: 2261,
     id: 1510
   },
@@ -28708,7 +28708,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 1667,
     id: 1511
   },
@@ -28727,7 +28727,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 991,
     id: 1512
   },
@@ -28746,7 +28746,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 1191,
     id: 1513
   },
@@ -28765,7 +28765,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 1105,
     id: 1514
   },
@@ -28784,7 +28784,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1301,
     id: 1515
   },
@@ -28803,7 +28803,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 443,
     id: 1516
   },
@@ -28822,7 +28822,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 222,
     id: 1517
   },
@@ -28860,7 +28860,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 300,
     id: 1519
   },
@@ -28936,7 +28936,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 18,
     id: 1523
   },
@@ -28955,7 +28955,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 1271,
     id: 1524
   },
@@ -28974,7 +28974,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 292,
     id: 1525
   },
@@ -29069,7 +29069,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 464,
     id: 1530
   },
@@ -29088,7 +29088,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 86,
     id: 1531
   },
@@ -29107,7 +29107,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 732,
     id: 1532
   },
@@ -29126,7 +29126,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 57,
     id: 1533
   },
@@ -29145,7 +29145,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 208,
     id: 1534
   },
@@ -29164,7 +29164,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 253,
     id: 1535
   },
@@ -29183,7 +29183,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 228,
     id: 1536
   },
@@ -29202,7 +29202,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 496,
     id: 1537
   },
@@ -29240,12 +29240,12 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 505,
     id: 1539
   },
   {
-    title: 'The modifying effect of the building envelope on population exposure to PM<inf>2.5</inf> from outdoor sources',
+    title: 'The modifying effect of the building envelope on population exposure to PM<sub>2.5</sub> from outdoor sources',
     authors: null,
     research_org: null,
     publication_date: '2014',
@@ -29259,7 +29259,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 651,
     id: 1540
   },
@@ -29278,7 +29278,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 195,
     id: 1541
   },
@@ -29297,7 +29297,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 4240,
     id: 1542
   },
@@ -29316,7 +29316,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 361,
     id: 1543
   },
@@ -29335,7 +29335,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 138,
     id: 1544
   },
@@ -29354,7 +29354,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 314,
     id: 1545
   },
@@ -29373,7 +29373,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 206,
     id: 1546
   },
@@ -29392,7 +29392,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2096,
     id: 1547
   },
@@ -29411,7 +29411,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 719,
     id: 1548
   },
@@ -29430,7 +29430,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 203,
     id: 1549
   },
@@ -29449,7 +29449,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1031,
     id: 1550
   },
@@ -29468,7 +29468,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 1913,
     id: 1551
   },
@@ -29487,7 +29487,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9',
-    page_start: NaN,
+    page_start: null,
     page_end: 929,
     id: 1552
   },
@@ -29544,7 +29544,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 856,
     id: 1555
   },
@@ -29563,7 +29563,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 504,
     id: 1556
   },
@@ -29601,7 +29601,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 274,
     id: 1558
   },
@@ -29620,7 +29620,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 783,
     id: 1559
   },
@@ -29639,7 +29639,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 2955,
     id: 1560
   },
@@ -29658,7 +29658,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 423,
     id: 1561
   },
@@ -29677,7 +29677,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 634,
     id: 1562
   },
@@ -29696,7 +29696,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 85,
     id: 1563
   },
@@ -29715,7 +29715,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 673,
     id: 1564
   },
@@ -29734,7 +29734,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 238,
     id: 1565
   },
@@ -29753,7 +29753,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 284,
     id: 1566
   },
@@ -29772,7 +29772,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 728,
     id: 1567
   },
@@ -29810,7 +29810,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 2441,
     id: 1569
   },
@@ -29829,7 +29829,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '11',
-    page_start: NaN,
+    page_start: null,
     page_end: 1142,
     id: 1570
   },
@@ -29867,7 +29867,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 393,
     id: 1572
   },
@@ -29886,7 +29886,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 749,
     id: 1573
   },
@@ -29905,7 +29905,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 212,
     id: 1574
   },
@@ -29924,7 +29924,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 183,
     id: 1575
   },
@@ -29943,7 +29943,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 397,
     id: 1576
   },
@@ -29962,7 +29962,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 696,
     id: 1577
   },
@@ -29981,7 +29981,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 489,
     id: 1578
   },
@@ -30000,7 +30000,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 482,
     id: 1579
   },
@@ -30019,7 +30019,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 14,
     id: 1580
   },
@@ -30038,7 +30038,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 560,
     id: 1581
   },
@@ -30057,7 +30057,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 139,
     id: 1582
   },
@@ -30076,7 +30076,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 309,
     id: 1583
   },
@@ -30095,7 +30095,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 175,
     id: 1584
   },
@@ -30114,7 +30114,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 127,
     id: 1585
   },
@@ -30133,7 +30133,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 91,
     id: 1586
   },
@@ -30152,7 +30152,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 377,
     id: 1587
   },
@@ -30171,7 +30171,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 24,
     id: 1588
   },
@@ -30190,7 +30190,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 879,
     id: 1589
   },
@@ -30209,7 +30209,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 2',
-    page_start: NaN,
+    page_start: null,
     page_end: 474,
     id: 1590
   },
@@ -30228,7 +30228,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 130,
     id: 1591
   },
@@ -30247,7 +30247,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 58,
     id: 1592
   },
@@ -30266,7 +30266,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 785,
     id: 1593
   },
@@ -30285,7 +30285,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 796,
     id: 1594
   },
@@ -30304,7 +30304,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 768,
     id: 1595
   },
@@ -30323,7 +30323,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 1178,
     id: 1596
   },
@@ -30342,7 +30342,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 460,
     id: 1597
   },
@@ -30361,7 +30361,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 106,
     id: 1598
   },
@@ -30380,7 +30380,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1308,
     id: 1599
   },
@@ -30399,7 +30399,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 139,
     id: 1600
   },
@@ -30418,7 +30418,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 696,
     id: 1601
   },
@@ -30437,7 +30437,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 738,
     id: 1602
   },
@@ -30456,7 +30456,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 866,
     id: 1603
   },
@@ -30475,7 +30475,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 799,
     id: 1604
   },
@@ -30494,7 +30494,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 353,
     id: 1605
   },
@@ -30513,7 +30513,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 186,
     id: 1606
   },
@@ -30532,7 +30532,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 329,
     id: 1607
   },
@@ -30551,7 +30551,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 404,
     id: 1608
   },
@@ -30570,7 +30570,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 83,
     id: 1609
   },
@@ -30627,7 +30627,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 209,
     id: 1612
   },
@@ -30665,7 +30665,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 319,
     id: 1614
   },
@@ -30703,7 +30703,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 335,
     id: 1616
   },
@@ -30722,7 +30722,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 53,
     id: 1617
   },
@@ -30741,7 +30741,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 303,
     id: 1618
   },
@@ -30760,7 +30760,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 289,
     id: 1619
   },
@@ -30779,7 +30779,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 528,
     id: 1620
   },
@@ -30798,7 +30798,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 207,
     id: 1621
   },
@@ -30836,7 +30836,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 537,
     id: 1623
   },
@@ -30855,7 +30855,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 996,
     id: 1624
   },
@@ -30874,7 +30874,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1012,
     id: 1625
   },
@@ -30893,7 +30893,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 841,
     id: 1626
   },
@@ -30912,7 +30912,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 414,
     id: 1627
   },
@@ -30931,7 +30931,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 428,
     id: 1628
   },
@@ -30950,7 +30950,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 235,
     id: 1629
   },
@@ -30969,7 +30969,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 481,
     id: 1630
   },
@@ -30988,7 +30988,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: null,
     id: 1631
   },
@@ -31007,7 +31007,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1109,
     id: 1632
   },
@@ -31026,7 +31026,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 819,
     id: 1633
   },
@@ -31045,7 +31045,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 143,
     id: 1634
   },
@@ -31064,7 +31064,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 984,
     id: 1635
   },
@@ -31083,7 +31083,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 140,
     id: 1636
   },
@@ -31102,7 +31102,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1986,
     id: 1637
   },
@@ -31121,7 +31121,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 109,
     id: 1638
   },
@@ -31140,7 +31140,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 118,
     id: 1639
   },
@@ -31159,7 +31159,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 388,
     id: 1640
   },
@@ -31178,7 +31178,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 2',
-    page_start: NaN,
+    page_start: null,
     page_end: 204,
     id: 1641
   },
@@ -31197,7 +31197,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 1',
-    page_start: NaN,
+    page_start: null,
     page_end: 190,
     id: 1642
   },
@@ -31216,7 +31216,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 1',
-    page_start: NaN,
+    page_start: null,
     page_end: 789,
     id: 1643
   },
@@ -31235,7 +31235,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 286,
     id: 1644
   },
@@ -31254,7 +31254,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 59,
     id: 1645
   },
@@ -31273,7 +31273,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2923,
     id: 1646
   },
@@ -31292,7 +31292,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 1078,
     id: 1647
   },
@@ -31311,7 +31311,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 12,
     id: 1648
   },
@@ -31330,7 +31330,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2/3/01',
-    page_start: NaN,
+    page_start: null,
     page_end: 538,
     id: 1649
   },
@@ -31349,7 +31349,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1179,
     id: 1650
   },
@@ -31368,7 +31368,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 654,
     id: 1651
   },
@@ -31387,7 +31387,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2772,
     id: 1652
   },
@@ -31406,7 +31406,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2840,
     id: 1653
   },
@@ -31425,7 +31425,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2231,
     id: 1654
   },
@@ -31444,7 +31444,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 204,
     id: 1655
   },
@@ -31463,7 +31463,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 387,
     id: 1656
   },
@@ -31482,7 +31482,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 234,
     id: 1657
   },
@@ -31501,7 +31501,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 282,
     id: 1658
   },
@@ -31558,7 +31558,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2716,
     id: 1661
   },
@@ -31577,7 +31577,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 158,
     id: 1662
   },
@@ -31596,7 +31596,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2476,
     id: 1663
   },
@@ -31615,7 +31615,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 1112,
     id: 1664
   },
@@ -31634,7 +31634,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '13',
-    page_start: NaN,
+    page_start: null,
     page_end: 2133,
     id: 1665
   },
@@ -31672,7 +31672,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 342,
     id: 1667
   },
@@ -31691,7 +31691,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 94,
     id: 1668
   },
@@ -31710,7 +31710,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 687,
     id: 1669
   },
@@ -31767,7 +31767,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 86,
     id: 1672
   },
@@ -31805,7 +31805,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 97,
     id: 1674
   },
@@ -31824,7 +31824,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 243,
     id: 1675
   },
@@ -31843,7 +31843,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 123,
     id: 1676
   },
@@ -31881,7 +31881,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 96,
     id: 1678
   },
@@ -31900,7 +31900,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1893,
     id: 1679
   },
@@ -31919,7 +31919,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 1253,
     id: 1680
   },
@@ -31938,7 +31938,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 95,
     id: 1681
   },
@@ -31957,7 +31957,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 32,
     id: 1682
   },
@@ -31976,7 +31976,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 188,
     id: 1683
   },
@@ -31995,7 +31995,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 196,
     id: 1684
   },
@@ -32014,7 +32014,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1923,
     id: 1685
   },
@@ -32033,7 +32033,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1550,
     id: 1686
   },
@@ -32052,7 +32052,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 149,
     id: 1687
   },
@@ -32071,7 +32071,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 789,
     id: 1688
   },
@@ -32090,7 +32090,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 182,
     id: 1689
   },
@@ -32109,7 +32109,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 1521,
     id: 1690
   },
@@ -32128,7 +32128,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 340,
     id: 1691
   },
@@ -32147,7 +32147,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 239,
     id: 1692
   },
@@ -32166,7 +32166,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 678,
     id: 1693
   },
@@ -32185,7 +32185,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 610,
     id: 1694
   },
@@ -32204,7 +32204,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 214,
     id: 1695
   },
@@ -32223,7 +32223,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 571,
     id: 1696
   },
@@ -32242,7 +32242,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 56,
     id: 1697
   },
@@ -32261,7 +32261,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 423,
     id: 1698
   },
@@ -32280,7 +32280,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 598,
     id: 1699
   },
@@ -32299,7 +32299,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2803,
     id: 1700
   },
@@ -32318,7 +32318,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1822,
     id: 1701
   },
@@ -32337,7 +32337,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 228,
     id: 1702
   },
@@ -32356,7 +32356,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3697,
     id: 1703
   },
@@ -32375,7 +32375,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 621,
     id: 1704
   },
@@ -32394,7 +32394,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 358,
     id: 1705
   },
@@ -32413,7 +32413,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 331,
     id: 1706
   },
@@ -32432,7 +32432,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 364,
     id: 1707
   },
@@ -32451,7 +32451,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1527,
     id: 1708
   },
@@ -32470,7 +32470,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2565,
     id: 1709
   },
@@ -32489,7 +32489,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 825,
     id: 1710
   },
@@ -32508,7 +32508,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 401,
     id: 1711
   },
@@ -32527,7 +32527,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3168,
     id: 1712
   },
@@ -32565,7 +32565,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 95,
     id: 1714
   },
@@ -32584,7 +32584,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'SUPPL.',
-    page_start: NaN,
+    page_start: null,
     page_end: 277,
     id: 1715
   },
@@ -32603,7 +32603,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 29,
     id: 1716
   },
@@ -32622,7 +32622,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 172,
     id: 1717
   },
@@ -32641,7 +32641,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 97,
     id: 1718
   },
@@ -32660,7 +32660,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1310,
     id: 1719
   },
@@ -32698,7 +32698,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 976,
     id: 1721
   },
@@ -32717,7 +32717,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 340,
     id: 1722
   },
@@ -32736,7 +32736,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 142,
     id: 1723
   },
@@ -32755,7 +32755,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 667,
     id: 1724
   },
@@ -32774,7 +32774,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2571,
     id: 1725
   },
@@ -32793,7 +32793,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 120,
     id: 1726
   },
@@ -32812,7 +32812,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1069,
     id: 1727
   },
@@ -32831,7 +32831,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 138,
     id: 1728
   },
@@ -32850,7 +32850,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 1870,
     id: 1729
   },
@@ -32869,7 +32869,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '28',
-    page_start: NaN,
+    page_start: null,
     page_end: null,
     id: 1730
   },
@@ -32888,7 +32888,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: null,
     id: 1731
   },
@@ -32907,7 +32907,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 328,
     id: 1732
   },
@@ -32926,7 +32926,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 214,
     id: 1733
   },
@@ -32964,7 +32964,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 455,
     id: 1735
   },
@@ -32983,7 +32983,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 374,
     id: 1736
   },
@@ -33002,7 +33002,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 26978,
     id: 1737
   },
@@ -33021,7 +33021,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 14,
     id: 1738
   },
@@ -33059,7 +33059,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9.79E+12',
-    page_start: NaN,
+    page_start: null,
     page_end: 99,
     id: 1740
   },
@@ -33097,7 +33097,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: null,
     id: 1742
   },
@@ -33116,7 +33116,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 74,
     id: 1743
   },
@@ -33135,7 +33135,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 249,
     id: 1744
   },
@@ -33173,7 +33173,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 834,
     id: 1746
   },
@@ -33211,7 +33211,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 512,
     id: 1748
   },
@@ -33230,7 +33230,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 238,
     id: 1749
   },
@@ -33249,7 +33249,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1/2/01',
-    page_start: NaN,
+    page_start: null,
     page_end: 142,
     id: 1750
   },
@@ -33287,7 +33287,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1017,
     id: 1752
   },
@@ -33306,7 +33306,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 336,
     id: 1753
   },
@@ -33325,7 +33325,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 422,
     id: 1754
   },
@@ -33363,7 +33363,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 232,
     id: 1756
   },
@@ -33401,7 +33401,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 417,
     id: 1758
   },
@@ -33420,7 +33420,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 482,
     id: 1759
   },
@@ -33439,7 +33439,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 876,
     id: 1760
   },
@@ -33458,7 +33458,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 884,
     id: 1761
   },
@@ -33477,7 +33477,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3135,
     id: 1762
   },
@@ -33496,7 +33496,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 831,
     id: 1763
   },
@@ -33515,7 +33515,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 112,
     id: 1764
   },
@@ -33534,7 +33534,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 251,
     id: 1765
   },
@@ -33553,7 +33553,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 2176,
     id: 1766
   },
@@ -33572,7 +33572,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 1116,
     id: 1767
   },
@@ -33591,7 +33591,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1739,
     id: 1768
   },
@@ -33667,7 +33667,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 400,
     id: 1772
   },
@@ -33686,7 +33686,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 323,
     id: 1773
   },
@@ -33724,7 +33724,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 421,
     id: 1775
   },
@@ -33762,7 +33762,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 212,
     id: 1777
   },
@@ -33781,7 +33781,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9',
-    page_start: NaN,
+    page_start: null,
     page_end: 563,
     id: 1778
   },
@@ -33800,7 +33800,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2872,
     id: 1779
   },
@@ -33819,7 +33819,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 1274,
     id: 1780
   },
@@ -33857,7 +33857,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 154,
     id: 1782
   },
@@ -33876,7 +33876,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: null,
     id: 1783
   },
@@ -33914,7 +33914,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1357,
     id: 1785
   },
@@ -33933,7 +33933,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 974,
     id: 1786
   },
@@ -33952,7 +33952,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 896,
     id: 1787
   },
@@ -33971,7 +33971,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 164,
     id: 1788
   },
@@ -33990,7 +33990,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 235,
     id: 1789
   },
@@ -34009,7 +34009,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1338,
     id: 1790
   },
@@ -34028,7 +34028,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 224,
     id: 1791
   },
@@ -34047,7 +34047,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 803,
     id: 1792
   },
@@ -34085,7 +34085,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 576,
     id: 1794
   },
@@ -34104,7 +34104,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2976,
     id: 1795
   },
@@ -34123,7 +34123,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2171,
     id: 1796
   },
@@ -34142,7 +34142,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 794,
     id: 1797
   },
@@ -34161,7 +34161,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 171,
     id: 1798
   },
@@ -34180,7 +34180,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 303,
     id: 1799
   },
@@ -34218,7 +34218,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 257,
     id: 1801
   },
@@ -34237,7 +34237,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 93,
     id: 1802
   },
@@ -34256,7 +34256,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 294,
     id: 1803
   },
@@ -34275,7 +34275,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 35,
     id: 1804
   },
@@ -34294,7 +34294,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 67,
     id: 1805
   },
@@ -34313,7 +34313,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2490,
     id: 1806
   },
@@ -34332,7 +34332,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 472,
     id: 1807
   },
@@ -34370,7 +34370,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1851,
     id: 1809
   },
@@ -34389,7 +34389,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8 BOOK',
-    page_start: NaN,
+    page_start: null,
     page_end: 60,
     id: 1810
   },
@@ -34408,7 +34408,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5/6/01',
-    page_start: NaN,
+    page_start: null,
     page_end: 501,
     id: 1811
   },
@@ -34427,7 +34427,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 471,
     id: 1812
   },
@@ -34446,7 +34446,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: null,
     id: 1813
   },
@@ -34465,7 +34465,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 28,
     id: 1814
   },
@@ -34484,7 +34484,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 957,
     id: 1815
   },
@@ -34522,7 +34522,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 907,
     id: 1817
   },
@@ -34541,7 +34541,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 126,
     id: 1818
   },
@@ -34560,7 +34560,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 872,
     id: 1819
   },
@@ -34579,7 +34579,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 157,
     id: 1820
   },
@@ -34598,7 +34598,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 170,
     id: 1821
   },
@@ -34617,7 +34617,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 369,
     id: 1822
   },
@@ -34636,7 +34636,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1094,
     id: 1823
   },
@@ -34655,7 +34655,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 89,
     id: 1824
   },
@@ -34674,7 +34674,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2795,
     id: 1825
   },
@@ -34693,7 +34693,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1622,
     id: 1826
   },
@@ -34712,7 +34712,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2100,
     id: 1827
   },
@@ -34731,7 +34731,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2293,
     id: 1828
   },
@@ -34750,7 +34750,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 580,
     id: 1829
   },
@@ -34769,7 +34769,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 385,
     id: 1830
   },
@@ -34826,7 +34826,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 62,
     id: 1833
   },
@@ -34845,7 +34845,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1314,
     id: 1834
   },
@@ -34864,7 +34864,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 444,
     id: 1835
   },
@@ -34883,7 +34883,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 399,
     id: 1836
   },
@@ -34902,7 +34902,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 820,
     id: 1837
   },
@@ -34940,7 +34940,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 401,
     id: 1839
   },
@@ -34959,7 +34959,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 46,
     id: 1840
   },
@@ -34978,7 +34978,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 149,
     id: 1841
   },
@@ -34997,7 +34997,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 229,
     id: 1842
   },
@@ -35016,7 +35016,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 456,
     id: 1843
   },
@@ -35035,7 +35035,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 483,
     id: 1844
   },
@@ -35054,7 +35054,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 406,
     id: 1845
   },
@@ -35073,7 +35073,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2122,
     id: 1846
   },
@@ -35149,7 +35149,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 15,
     id: 1850
   },
@@ -35187,7 +35187,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 476,
     id: 1852
   },
@@ -35225,7 +35225,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 54,
     id: 1854
   },
@@ -35244,7 +35244,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 882,
     id: 1855
   },
@@ -35263,7 +35263,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2042,
     id: 1856
   },
@@ -35282,7 +35282,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 5330,
     id: 1857
   },
@@ -35301,7 +35301,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2633,
     id: 1858
   },
@@ -35320,7 +35320,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2348,
     id: 1859
   },
@@ -35339,7 +35339,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1697,
     id: 1860
   },
@@ -35358,7 +35358,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 242,
     id: 1861
   },
@@ -35377,7 +35377,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 490,
     id: 1862
   },
@@ -35396,7 +35396,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 51,
     id: 1863
   },
@@ -35415,7 +35415,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 2818,
     id: 1864
   },
@@ -35453,7 +35453,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 518,
     id: 1866
   },
@@ -35491,7 +35491,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 64,
     id: 1868
   },
@@ -35529,7 +35529,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2478,
     id: 1870
   },
@@ -35548,7 +35548,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 80,
     id: 1871
   },
@@ -35567,7 +35567,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 151,
     id: 1872
   },
@@ -35586,7 +35586,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 460,
     id: 1873
   },
@@ -35605,7 +35605,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 405,
     id: 1874
   },
@@ -35624,7 +35624,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2072,
     id: 1875
   },
@@ -35643,7 +35643,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1500,
     id: 1876
   },
@@ -35662,7 +35662,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 1351,
     id: 1877
   },
@@ -35700,7 +35700,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 144,
     id: 1879
   },
@@ -35719,7 +35719,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2046,
     id: 1880
   },
@@ -35738,7 +35738,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1880,
     id: 1881
   },
@@ -35757,7 +35757,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 461,
     id: 1882
   },
@@ -35795,7 +35795,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2333,
     id: 1884
   },
@@ -35814,7 +35814,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 598,
     id: 1885
   },
@@ -35833,7 +35833,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1249,
     id: 1886
   },
@@ -35852,7 +35852,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 285,
     id: 1887
   },
@@ -35871,7 +35871,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 221,
     id: 1888
   },
@@ -35909,7 +35909,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 173,
     id: 1890
   },
@@ -35928,7 +35928,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 278,
     id: 1891
   },
@@ -35947,7 +35947,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 442,
     id: 1892
   },
@@ -35985,7 +35985,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 48,
     id: 1894
   },
@@ -36004,7 +36004,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 2419,
     id: 1895
   },
@@ -36061,7 +36061,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 7307,
     id: 1898
   },
@@ -36118,7 +36118,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 1149,
     id: 1901
   },
@@ -36137,7 +36137,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 567,
     id: 1902
   },
@@ -36175,7 +36175,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 722,
     id: 1904
   },
@@ -36251,7 +36251,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 586,
     id: 1908
   },
@@ -36270,7 +36270,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2141,
     id: 1909
   },
@@ -36289,7 +36289,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2896,
     id: 1910
   },
@@ -36308,7 +36308,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1844,
     id: 1911
   },
@@ -36327,12 +36327,12 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 194,
     id: 1912
   },
   {
-    title: 'A comparative study on the environmental impact of CO<inf>2</inf> supermarket refrigeration systems',
+    title: 'A comparative study on the environmental impact of CO<sub>2</sub> supermarket refrigeration systems',
     authors: null,
     research_org: null,
     publication_date: '2014',
@@ -36346,7 +36346,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 276,
     id: 1913
   },
@@ -36365,7 +36365,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2022,
     id: 1914
   },
@@ -36384,7 +36384,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 752,
     id: 1915
   },
@@ -36403,7 +36403,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2027,
     id: 1916
   },
@@ -36422,7 +36422,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 848,
     id: 1917
   },
@@ -36441,7 +36441,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1826,
     id: 1918
   },
@@ -36460,7 +36460,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 1414,
     id: 1919
   },
@@ -36479,7 +36479,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'SUPPL. 2',
-    page_start: NaN,
+    page_start: null,
     page_end: 94,
     id: 1920
   },
@@ -36498,7 +36498,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 198,
     id: 1921
   },
@@ -36517,7 +36517,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 588,
     id: 1922
   },
@@ -36612,7 +36612,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 4,
     id: 1927
   },
@@ -36631,7 +36631,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1122,
     id: 1928
   },
@@ -36669,7 +36669,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 104,
     id: 1930
   },
@@ -36688,7 +36688,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2858,
     id: 1931
   },
@@ -36726,7 +36726,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 209,
     id: 1933
   },
@@ -36745,7 +36745,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1852,
     id: 1934
   },
@@ -36764,7 +36764,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 5,
     id: 1935
   },
@@ -36783,7 +36783,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 449,
     id: 1936
   },
@@ -36802,7 +36802,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 93,
     id: 1937
   },
@@ -36821,7 +36821,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 104,
     id: 1938
   },
@@ -36840,7 +36840,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 129,
     id: 1939
   },
@@ -36859,7 +36859,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 535,
     id: 1940
   },
@@ -36897,7 +36897,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 4034,
     id: 1942
   },
@@ -36935,7 +36935,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 11158,
     id: 1944
   },
@@ -36973,7 +36973,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 10,
     id: 1946
   },
@@ -36992,7 +36992,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 2',
-    page_start: NaN,
+    page_start: null,
     page_end: 99,
     id: 1947
   },
@@ -37011,7 +37011,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2319,
     id: 1948
   },
@@ -37030,7 +37030,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2566,
     id: 1949
   },
@@ -37068,7 +37068,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 27,
     id: 1951
   },
@@ -37111,7 +37111,7 @@ export const references: ReferenceItem[] = [
     id: 1953
   },
   {
-    title: 'Energy, exergy, CO<inf>2</inf> emission, and economic comparison between low temperature radiant panel systems and radiator systems',
+    title: 'Energy, exergy, CO<sub>2</sub> emission, and economic comparison between low temperature radiant panel systems and radiator systems',
     authors: null,
     research_org: null,
     publication_date: '2011',
@@ -37125,7 +37125,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2148,
     id: 1954
   },
@@ -37144,7 +37144,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 732,
     id: 1955
   },
@@ -37163,7 +37163,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1611,
     id: 1956
   },
@@ -37182,7 +37182,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 338,
     id: 1957
   },
@@ -37201,7 +37201,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8/9/01',
-    page_start: NaN,
+    page_start: null,
     page_end: 1830,
     id: 1958
   },
@@ -37220,7 +37220,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '19',
-    page_start: NaN,
+    page_start: null,
     page_end: 85,
     id: 1959
   },
@@ -37239,7 +37239,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 828,
     id: 1960
   },
@@ -37258,7 +37258,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8/9/01',
-    page_start: NaN,
+    page_start: null,
     page_end: 864,
     id: 1961
   },
@@ -37277,7 +37277,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 158,
     id: 1962
   },
@@ -37334,7 +37334,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 111,
     id: 1965
   },
@@ -37410,7 +37410,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 93,
     id: 1969
   },
@@ -37429,7 +37429,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1359,
     id: 1970
   },
@@ -37505,7 +37505,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 811,
     id: 1974
   },
@@ -37581,7 +37581,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 561,
     id: 1978
   },
@@ -37600,7 +37600,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 45,
     id: 1979
   },
@@ -37638,7 +37638,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 379,
     id: 1981
   },
@@ -37657,7 +37657,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 353,
     id: 1982
   },
@@ -37676,7 +37676,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 94,
     id: 1983
   },
@@ -37695,7 +37695,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1078,
     id: 1984
   },
@@ -37714,7 +37714,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 212,
     id: 1985
   },
@@ -37733,7 +37733,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 271,
     id: 1986
   },
@@ -37752,7 +37752,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 289,
     id: 1987
   },
@@ -37771,7 +37771,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 27,
     id: 1988
   },
@@ -37790,7 +37790,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1878,
     id: 1989
   },
@@ -37847,7 +37847,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 188,
     id: 1992
   },
@@ -37866,12 +37866,12 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 240,
     id: 1993
   },
   {
-    title: 'Characterization of novel shape-stabilized phase change material mortar: Portland cement containing Na<inf>2</inf>SO<inf>4</inf>·10H<inf>2</inf>O and fly ash for energy-efficient building',
+    title: 'Characterization of novel shape-stabilized phase change material mortar: Portland cement containing Na<sub>2</sub>SO<sub>4</sub>·10H<sub>2</sub>O and fly ash for energy-efficient building',
     authors: null,
     research_org: null,
     publication_date: '2019',
@@ -37885,7 +37885,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '11',
-    page_start: NaN,
+    page_start: null,
     page_end: 5823,
     id: 1994
   },
@@ -37904,7 +37904,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3100,
     id: 1995
   },
@@ -37942,7 +37942,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 180,
     id: 1997
   },
@@ -37961,7 +37961,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 336,
     id: 1998
   },
@@ -37980,7 +37980,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3003,
     id: 1999
   },
@@ -38018,7 +38018,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 252,
     id: 2001
   },
@@ -38037,7 +38037,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 470,
     id: 2002
   },
@@ -38094,7 +38094,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 89,
     id: 2005
   },
@@ -38113,7 +38113,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 631,
     id: 2006
   },
@@ -38151,7 +38151,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 6,
     id: 2008
   },
@@ -38189,7 +38189,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 6,
     id: 2010
   },
@@ -38208,7 +38208,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 268,
     id: 2011
   },
@@ -38227,7 +38227,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 549,
     id: 2012
   },
@@ -38265,7 +38265,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 735,
     id: 2014
   },
@@ -38284,7 +38284,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 40,
     id: 2015
   },
@@ -38322,7 +38322,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 35,
     id: 2017
   },
@@ -38341,7 +38341,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 227,
     id: 2018
   },
@@ -38360,7 +38360,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 18,
     id: 2019
   },
@@ -38379,7 +38379,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 294,
     id: 2020
   },
@@ -38398,7 +38398,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1096,
     id: 2021
   },
@@ -38436,7 +38436,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 91,
     id: 2023
   },
@@ -38455,7 +38455,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 528,
     id: 2024
   },
@@ -38474,7 +38474,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 76,
     id: 2025
   },
@@ -38512,7 +38512,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 942,
     id: 2027
   },
@@ -38531,7 +38531,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 321,
     id: 2028
   },
@@ -38569,7 +38569,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 10,
     id: 2030
   },
@@ -38588,7 +38588,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 71,
     id: 2031
   },
@@ -38607,7 +38607,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 981,
     id: 2032
   },
@@ -38645,7 +38645,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 868,
     id: 2034
   },
@@ -38664,7 +38664,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1255,
     id: 2035
   },
@@ -38683,7 +38683,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 663,
     id: 2036
   },
@@ -38702,7 +38702,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 317,
     id: 2037
   },
@@ -38721,7 +38721,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 636,
     id: 2038
   },
@@ -38740,7 +38740,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 808,
     id: 2039
   },
@@ -38759,7 +38759,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 253,
     id: 2040
   },
@@ -38778,7 +38778,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 160,
     id: 2041
   },
@@ -38797,7 +38797,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 593,
     id: 2042
   },
@@ -38816,7 +38816,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 690,
     id: 2043
   },
@@ -38835,7 +38835,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 322,
     id: 2044
   },
@@ -38854,7 +38854,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 13,
     id: 2045
   },
@@ -38873,7 +38873,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 281,
     id: 2046
   },
@@ -38892,7 +38892,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 224,
     id: 2047
   },
@@ -38949,7 +38949,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 496,
     id: 2050
   },
@@ -38968,7 +38968,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 163,
     id: 2051
   },
@@ -38987,7 +38987,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 289,
     id: 2052
   },
@@ -39006,7 +39006,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 993,
     id: 2053
   },
@@ -39025,7 +39025,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 411,
     id: 2054
   },
@@ -39044,7 +39044,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1116,
     id: 2055
   },
@@ -39063,7 +39063,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 333,
     id: 2056
   },
@@ -39082,7 +39082,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 758,
     id: 2057
   },
@@ -39101,7 +39101,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 333,
     id: 2058
   },
@@ -39139,7 +39139,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 2615,
     id: 2060
   },
@@ -39158,7 +39158,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 312,
     id: 2061
   },
@@ -39177,7 +39177,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 96,
     id: 2062
   },
@@ -39196,7 +39196,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 502,
     id: 2063
   },
@@ -39215,7 +39215,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 314,
     id: 2064
   },
@@ -39234,7 +39234,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 244,
     id: 2065
   },
@@ -39253,7 +39253,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 323,
     id: 2066
   },
@@ -39272,7 +39272,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '11',
-    page_start: NaN,
+    page_start: null,
     page_end: 14728,
     id: 2067
   },
@@ -39291,7 +39291,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 728,
     id: 2068
   },
@@ -39310,7 +39310,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 87,
     id: 2069
   },
@@ -39329,7 +39329,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 101,
     id: 2070
   },
@@ -39348,7 +39348,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 31,
     id: 2071
   },
@@ -39367,7 +39367,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 335,
     id: 2072
   },
@@ -39386,7 +39386,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 264,
     id: 2073
   },
@@ -39405,7 +39405,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 607,
     id: 2074
   },
@@ -39424,7 +39424,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 799,
     id: 2075
   },
@@ -39443,7 +39443,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3050,
     id: 2076
   },
@@ -39462,7 +39462,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1877,
     id: 2077
   },
@@ -39481,7 +39481,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 85,
     id: 2078
   },
@@ -39500,7 +39500,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 579,
     id: 2079
   },
@@ -39519,7 +39519,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 141,
     id: 2080
   },
@@ -39538,7 +39538,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 150,
     id: 2081
   },
@@ -39557,7 +39557,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 63,
     id: 2082
   },
@@ -39576,7 +39576,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 246,
     id: 2083
   },
@@ -39595,7 +39595,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 57,
     id: 2084
   },
@@ -39614,7 +39614,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 95,
     id: 2085
   },
@@ -39633,7 +39633,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 238,
     id: 2086
   },
@@ -39652,7 +39652,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 198,
     id: 2087
   },
@@ -39671,7 +39671,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1390,
     id: 2088
   },
@@ -39690,7 +39690,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 232,
     id: 2089
   },
@@ -39709,7 +39709,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 737,
     id: 2090
   },
@@ -39728,7 +39728,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 158,
     id: 2091
   },
@@ -39747,7 +39747,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 352,
     id: 2092
   },
@@ -39766,7 +39766,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 32,
     id: 2093
   },
@@ -39785,7 +39785,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 118,
     id: 2094
   },
@@ -39804,7 +39804,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 522,
     id: 2095
   },
@@ -39823,7 +39823,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 239,
     id: 2096
   },
@@ -39842,7 +39842,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 3679,
     id: 2097
   },
@@ -39861,7 +39861,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 2955,
     id: 2098
   },
@@ -39880,7 +39880,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 328,
     id: 2099
   },
@@ -39899,7 +39899,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 1022,
     id: 2100
   },
@@ -39918,7 +39918,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 396,
     id: 2101
   },
@@ -39937,7 +39937,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 793,
     id: 2102
   },
@@ -39956,7 +39956,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 132,
     id: 2103
   },
@@ -39975,7 +39975,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 219,
     id: 2104
   },
@@ -39994,7 +39994,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 5052,
     id: 2105
   },
@@ -40013,7 +40013,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 2405,
     id: 2106
   },
@@ -40032,7 +40032,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 330,
     id: 2107
   },
@@ -40051,7 +40051,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 773,
     id: 2108
   },
@@ -40070,7 +40070,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 605,
     id: 2109
   },
@@ -40089,7 +40089,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 50,
     id: 2110
   },
@@ -40108,7 +40108,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 25,
     id: 2111
   },
@@ -40146,7 +40146,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 6232,
     id: 2113
   },
@@ -40165,7 +40165,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 81,
     id: 2114
   },
@@ -40184,7 +40184,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 104,
     id: 2115
   },
@@ -40260,7 +40260,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 1876,
     id: 2119
   },
@@ -40298,7 +40298,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 783,
     id: 2121
   },
@@ -40317,7 +40317,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 86,
     id: 2122
   },
@@ -40336,7 +40336,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 211,
     id: 2123
   },
@@ -40355,7 +40355,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 54,
     id: 2124
   },
@@ -40374,7 +40374,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 981,
     id: 2125
   },
@@ -40393,7 +40393,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'P1',
-    page_start: NaN,
+    page_start: null,
     page_end: 272,
     id: 2126
   },
@@ -40412,7 +40412,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 859,
     id: 2127
   },
@@ -40431,7 +40431,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 164,
     id: 2128
   },
@@ -40450,7 +40450,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2814,
     id: 2129
   },
@@ -40469,7 +40469,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3991,
     id: 2130
   },
@@ -40488,7 +40488,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3999,
     id: 2131
   },
@@ -40507,7 +40507,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2220,
     id: 2132
   },
@@ -40526,7 +40526,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 608,
     id: 2133
   },
@@ -40564,7 +40564,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1634,
     id: 2135
   },
@@ -40583,7 +40583,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 510,
     id: 2136
   },
@@ -40602,7 +40602,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 262,
     id: 2137
   },
@@ -40621,7 +40621,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1194,
     id: 2138
   },
@@ -40640,7 +40640,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 12085,
     id: 2139
   },
@@ -40659,7 +40659,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 386,
     id: 2140
   },
@@ -40678,7 +40678,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 378,
     id: 2141
   },
@@ -40697,7 +40697,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 576,
     id: 2142
   },
@@ -40716,7 +40716,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1287,
     id: 2143
   },
@@ -40735,7 +40735,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3119,
     id: 2144
   },
@@ -40754,7 +40754,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 142,
     id: 2145
   },
@@ -40773,7 +40773,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 140,
     id: 2146
   },
@@ -40792,7 +40792,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 174,
     id: 2147
   },
@@ -40811,7 +40811,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 38,
     id: 2148
   },
@@ -40830,7 +40830,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 650,
     id: 2149
   },
@@ -40849,7 +40849,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 228,
     id: 2150
   },
@@ -40868,7 +40868,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 181,
     id: 2151
   },
@@ -40887,7 +40887,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 83,
     id: 2152
   },
@@ -40925,7 +40925,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '14',
-    page_start: NaN,
+    page_start: null,
     page_end: 8683,
     id: 2154
   },
@@ -40982,7 +40982,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '13',
-    page_start: NaN,
+    page_start: null,
     page_end: 7408,
     id: 2157
   },
@@ -41001,7 +41001,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 187,
     id: 2158
   },
@@ -41039,7 +41039,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 691,
     id: 2160
   },
@@ -41058,7 +41058,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 1615,
     id: 2161
   },
@@ -41077,7 +41077,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 397,
     id: 2162
   },
@@ -41096,7 +41096,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'S2',
-    page_start: NaN,
+    page_start: null,
     page_end: 73,
     id: 2163
   },
@@ -41115,7 +41115,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 55,
     id: 2164
   },
@@ -41153,7 +41153,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 173,
     id: 2166
   },
@@ -41172,7 +41172,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 106,
     id: 2167
   },
@@ -41191,7 +41191,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 532,
     id: 2168
   },
@@ -41210,7 +41210,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 901,
     id: 2169
   },
@@ -41229,7 +41229,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 26,
     id: 2170
   },
@@ -41267,7 +41267,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 45,
     id: 2172
   },
@@ -41286,7 +41286,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6.3',
-    page_start: NaN,
+    page_start: null,
     page_end: 406,
     id: 2173
   },
@@ -41324,7 +41324,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 327,
     id: 2175
   },
@@ -41343,7 +41343,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 52,
     id: 2176
   },
@@ -41362,7 +41362,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 370,
     id: 2177
   },
@@ -41400,7 +41400,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 743,
     id: 2179
   },
@@ -41419,7 +41419,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 86,
     id: 2180
   },
@@ -41438,7 +41438,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 350,
     id: 2181
   },
@@ -41457,7 +41457,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 26,
     id: 2182
   },
@@ -41476,7 +41476,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 162,
     id: 2183
   },
@@ -41495,7 +41495,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1786,
     id: 2184
   },
@@ -41514,7 +41514,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 737,
     id: 2185
   },
@@ -41533,7 +41533,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 801,
     id: 2186
   },
@@ -41552,7 +41552,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1055,
     id: 2187
   },
@@ -41571,7 +41571,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2428,
     id: 2188
   },
@@ -41590,7 +41590,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2792,
     id: 2189
   },
@@ -41628,7 +41628,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 53,
     id: 2191
   },
@@ -41666,7 +41666,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 619,
     id: 2193
   },
@@ -41704,7 +41704,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 172,
     id: 2195
   },
@@ -41723,7 +41723,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 287,
     id: 2196
   },
@@ -41742,7 +41742,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 376,
     id: 2197
   },
@@ -41761,7 +41761,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 120,
     id: 2198
   },
@@ -41780,7 +41780,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 175,
     id: 2199
   },
@@ -41799,7 +41799,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1011,
     id: 2200
   },
@@ -41818,7 +41818,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 53,
     id: 2201
   },
@@ -41837,7 +41837,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 674,
     id: 2202
   },
@@ -41856,7 +41856,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 83,
     id: 2203
   },
@@ -41875,7 +41875,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 222,
     id: 2204
   },
@@ -41894,7 +41894,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 248,
     id: 2205
   },
@@ -41913,7 +41913,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1528,
     id: 2206
   },
@@ -41932,7 +41932,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 52,
     id: 2207
   },
@@ -41951,7 +41951,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 611,
     id: 2208
   },
@@ -41970,7 +41970,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'P2',
-    page_start: NaN,
+    page_start: null,
     page_end: 85,
     id: 2209
   },
@@ -41989,7 +41989,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3223,
     id: 2210
   },
@@ -42008,7 +42008,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3175,
     id: 2211
   },
@@ -42027,7 +42027,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2803,
     id: 2212
   },
@@ -42046,7 +42046,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2719,
     id: 2213
   },
@@ -42065,7 +42065,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2212,
     id: 2214
   },
@@ -42084,7 +42084,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 246,
     id: 2215
   },
@@ -42103,7 +42103,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 118,
     id: 2216
   },
@@ -42122,7 +42122,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 373,
     id: 2217
   },
@@ -42141,7 +42141,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 64,
     id: 2218
   },
@@ -42160,7 +42160,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 345,
     id: 2219
   },
@@ -42179,7 +42179,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 489,
     id: 2220
   },
@@ -42198,7 +42198,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1258,
     id: 2221
   },
@@ -42217,7 +42217,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 393,
     id: 2222
   },
@@ -42236,7 +42236,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 117,
     id: 2223
   },
@@ -42255,7 +42255,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1772,
     id: 2224
   },
@@ -42274,7 +42274,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 46,
     id: 2225
   },
@@ -42293,7 +42293,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 1',
-    page_start: NaN,
+    page_start: null,
     page_end: 113,
     id: 2226
   },
@@ -42312,7 +42312,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 474,
     id: 2227
   },
@@ -42331,7 +42331,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 285,
     id: 2228
   },
@@ -42350,7 +42350,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2435,
     id: 2229
   },
@@ -42369,7 +42369,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 290,
     id: 2230
   },
@@ -42388,7 +42388,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 507,
     id: 2231
   },
@@ -42407,7 +42407,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 101,
     id: 2232
   },
@@ -42426,7 +42426,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 153,
     id: 2233
   },
@@ -42445,7 +42445,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 98,
     id: 2234
   },
@@ -42464,7 +42464,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3805,
     id: 2235
   },
@@ -42502,7 +42502,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2286,
     id: 2237
   },
@@ -42521,7 +42521,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1866,
     id: 2238
   },
@@ -42540,7 +42540,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 368,
     id: 2239
   },
@@ -42559,7 +42559,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8 BOOK',
-    page_start: NaN,
+    page_start: null,
     page_end: 8,
     id: 2240
   },
@@ -42578,7 +42578,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 202,
     id: 2241
   },
@@ -42597,7 +42597,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 284,
     id: 2242
   },
@@ -42616,7 +42616,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 322,
     id: 2243
   },
@@ -42635,7 +42635,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 313,
     id: 2244
   },
@@ -42673,7 +42673,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART B',
-    page_start: NaN,
+    page_start: null,
     page_end: 610,
     id: 2246
   },
@@ -42711,7 +42711,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 19,
     id: 2248
   },
@@ -42730,7 +42730,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 215,
     id: 2249
   },
@@ -42749,7 +42749,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 876,
     id: 2250
   },
@@ -42768,7 +42768,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 719,
     id: 2251
   },
@@ -42787,7 +42787,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 244,
     id: 2252
   },
@@ -42806,7 +42806,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 705,
     id: 2253
   },
@@ -42825,7 +42825,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 579,
     id: 2254
   },
@@ -42844,7 +42844,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 653,
     id: 2255
   },
@@ -42901,7 +42901,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 338,
     id: 2258
   },
@@ -42958,7 +42958,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 48,
     id: 2261
   },
@@ -42996,7 +42996,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 103,
     id: 2263
   },
@@ -43034,7 +43034,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 33,
     id: 2265
   },
@@ -43053,7 +43053,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 147,
     id: 2266
   },
@@ -43072,7 +43072,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 186,
     id: 2267
   },
@@ -43186,7 +43186,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 107,
     id: 2273
   },
@@ -43205,7 +43205,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 99,
     id: 2274
   },
@@ -43300,7 +43300,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 694,
     id: 2279
   },
@@ -43338,7 +43338,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 591,
     id: 2281
   },
@@ -43357,7 +43357,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 5468,
     id: 2282
   },
@@ -43395,7 +43395,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 145,
     id: 2284
   },
@@ -43414,7 +43414,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 93,
     id: 2285
   },
@@ -43433,7 +43433,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 90,
     id: 2286
   },
@@ -43471,7 +43471,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 21,
     id: 2288
   },
@@ -43490,7 +43490,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 38,
     id: 2289
   },
@@ -43509,7 +43509,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 125,
     id: 2290
   },
@@ -43528,7 +43528,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 51,
     id: 2291
   },
@@ -43547,7 +43547,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 830,
     id: 2292
   },
@@ -43566,7 +43566,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '11',
-    page_start: NaN,
+    page_start: null,
     page_end: 949,
     id: 2293
   },
@@ -43604,7 +43604,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 98,
     id: 2295
   },
@@ -43623,7 +43623,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2924,
     id: 2296
   },
@@ -43642,7 +43642,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 456,
     id: 2297
   },
@@ -43661,7 +43661,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 464,
     id: 2298
   },
@@ -43680,7 +43680,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 520,
     id: 2299
   },
@@ -43699,7 +43699,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 240,
     id: 2300
   },
@@ -43718,7 +43718,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3961,
     id: 2301
   },
@@ -43737,7 +43737,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 95,
     id: 2302
   },
@@ -43794,7 +43794,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 957,
     id: 2305
   },
@@ -43813,7 +43813,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 152,
     id: 2306
   },
@@ -43851,7 +43851,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 642,
     id: 2308
   },
@@ -43870,7 +43870,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 18,
     id: 2309
   },
@@ -43889,7 +43889,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 336,
     id: 2310
   },
@@ -43908,7 +43908,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 204,
     id: 2311
   },
@@ -43927,7 +43927,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 405,
     id: 2312
   },
@@ -43946,7 +43946,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 731,
     id: 2313
   },
@@ -43965,7 +43965,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 453,
     id: 2314
   },
@@ -43984,7 +43984,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 174,
     id: 2315
   },
@@ -44022,7 +44022,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 59,
     id: 2317
   },
@@ -44041,7 +44041,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3233,
     id: 2318
   },
@@ -44060,7 +44060,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '11',
-    page_start: NaN,
+    page_start: null,
     page_end: 4090,
     id: 2319
   },
@@ -44079,7 +44079,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 542,
     id: 2320
   },
@@ -44098,7 +44098,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 316,
     id: 2321
   },
@@ -44117,7 +44117,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 237,
     id: 2322
   },
@@ -44136,7 +44136,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 138,
     id: 2323
   },
@@ -44155,7 +44155,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 136,
     id: 2324
   },
@@ -44174,7 +44174,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 728,
     id: 2325
   },
@@ -44193,7 +44193,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 89,
     id: 2326
   },
@@ -44212,7 +44212,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 346,
     id: 2327
   },
@@ -44231,7 +44231,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1133,
     id: 2328
   },
@@ -44250,7 +44250,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '11',
-    page_start: NaN,
+    page_start: null,
     page_end: 15151,
     id: 2329
   },
@@ -44269,7 +44269,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 202,
     id: 2330
   },
@@ -44288,7 +44288,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 478,
     id: 2331
   },
@@ -44307,7 +44307,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 419,
     id: 2332
   },
@@ -44326,7 +44326,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 166,
     id: 2333
   },
@@ -44345,7 +44345,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 59,
     id: 2334
   },
@@ -44364,7 +44364,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 456,
     id: 2335
   },
@@ -44383,7 +44383,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 335,
     id: 2336
   },
@@ -44402,7 +44402,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2278,
     id: 2337
   },
@@ -44421,7 +44421,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 21,
     id: 2338
   },
@@ -44440,7 +44440,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6/7/01',
-    page_start: NaN,
+    page_start: null,
     page_end: 973,
     id: 2339
   },
@@ -44459,7 +44459,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1118,
     id: 2340
   },
@@ -44478,7 +44478,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2263,
     id: 2341
   },
@@ -44497,7 +44497,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 974,
     id: 2342
   },
@@ -44516,7 +44516,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1623,
     id: 2343
   },
@@ -44554,7 +44554,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 171,
     id: 2345
   },
@@ -44573,7 +44573,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 48,
     id: 2346
   },
@@ -44592,7 +44592,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 38,
     id: 2347
   },
@@ -44611,7 +44611,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 10,
     id: 2348
   },
@@ -44630,7 +44630,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 362,
     id: 2349
   },
@@ -44649,7 +44649,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 265,
     id: 2350
   },
@@ -44668,7 +44668,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 708,
     id: 2351
   },
@@ -44687,7 +44687,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 413,
     id: 2352
   },
@@ -44706,7 +44706,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 214,
     id: 2353
   },
@@ -44725,7 +44725,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 308,
     id: 2354
   },
@@ -44744,7 +44744,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 1210,
     id: 2355
   },
@@ -44763,7 +44763,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 440,
     id: 2356
   },
@@ -44782,7 +44782,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 1209,
     id: 2357
   },
@@ -44820,7 +44820,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 304,
     id: 2359
   },
@@ -44839,7 +44839,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 46,
     id: 2360
   },
@@ -44858,7 +44858,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 203,
     id: 2361
   },
@@ -44877,7 +44877,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9',
-    page_start: NaN,
+    page_start: null,
     page_end: 931,
     id: 2362
   },
@@ -44896,7 +44896,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 987,
     id: 2363
   },
@@ -45010,7 +45010,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 15,
     id: 2369
   },
@@ -45029,7 +45029,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 293,
     id: 2370
   },
@@ -45048,7 +45048,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1646,
     id: 2371
   },
@@ -45067,7 +45067,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 701,
     id: 2372
   },
@@ -45086,7 +45086,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 1421,
     id: 2373
   },
@@ -45105,7 +45105,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 190,
     id: 2374
   },
@@ -45143,7 +45143,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 67,
     id: 2376
   },
@@ -45219,7 +45219,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 150,
     id: 2380
   },
@@ -45238,7 +45238,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1038,
     id: 2381
   },
@@ -45276,7 +45276,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 91,
     id: 2383
   },
@@ -45295,7 +45295,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 1377,
     id: 2384
   },
@@ -45314,7 +45314,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1246,
     id: 2385
   },
@@ -45352,7 +45352,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 201,
     id: 2387
   },
@@ -45371,7 +45371,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1299,
     id: 2388
   },
@@ -45409,7 +45409,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3456,
     id: 2390
   },
@@ -45428,7 +45428,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'July',
-    page_start: NaN,
+    page_start: null,
     page_end: 1418,
     id: 2391
   },
@@ -45447,7 +45447,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 471,
     id: 2392
   },
@@ -45466,7 +45466,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '11',
-    page_start: NaN,
+    page_start: null,
     page_end: 3146,
     id: 2393
   },
@@ -45504,7 +45504,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 382,
     id: 2395
   },
@@ -45523,7 +45523,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 534,
     id: 2396
   },
@@ -45542,7 +45542,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 792,
     id: 2397
   },
@@ -45561,7 +45561,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 145,
     id: 2398
   },
@@ -45580,7 +45580,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 301,
     id: 2399
   },
@@ -45599,7 +45599,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 931,
     id: 2400
   },
@@ -45618,7 +45618,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 36,
     id: 2401
   },
@@ -45637,7 +45637,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 103,
     id: 2402
   },
@@ -45675,7 +45675,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 277,
     id: 2404
   },
@@ -45694,7 +45694,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 344,
     id: 2405
   },
@@ -45732,7 +45732,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 37,
     id: 2407
   },
@@ -45751,7 +45751,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 180,
     id: 2408
   },
@@ -45789,7 +45789,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 356,
     id: 2410
   },
@@ -45808,7 +45808,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 203,
     id: 2411
   },
@@ -45827,7 +45827,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 118,
     id: 2412
   },
@@ -45846,7 +45846,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 192,
     id: 2413
   },
@@ -45865,7 +45865,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 11,
     id: 2414
   },
@@ -45884,7 +45884,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 1422,
     id: 2415
   },
@@ -45903,7 +45903,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 703,
     id: 2416
   },
@@ -45922,7 +45922,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 563,
     id: 2417
   },
@@ -45960,7 +45960,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 374,
     id: 2419
   },
@@ -45998,7 +45998,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 15,
     id: 2421
   },
@@ -46017,7 +46017,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1082,
     id: 2422
   },
@@ -46036,7 +46036,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 213,
     id: 2423
   },
@@ -46055,7 +46055,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 491,
     id: 2424
   },
@@ -46074,7 +46074,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 16,
     id: 2425
   },
@@ -46093,7 +46093,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 29,
     id: 2426
   },
@@ -46112,7 +46112,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1240,
     id: 2427
   },
@@ -46131,7 +46131,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 468,
     id: 2428
   },
@@ -46150,7 +46150,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 358,
     id: 2429
   },
@@ -46169,7 +46169,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 772,
     id: 2430
   },
@@ -46188,7 +46188,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 74,
     id: 2431
   },
@@ -46207,7 +46207,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 162,
     id: 2432
   },
@@ -46226,7 +46226,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 405,
     id: 2433
   },
@@ -46245,7 +46245,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 304,
     id: 2434
   },
@@ -46264,7 +46264,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 170,
     id: 2435
   },
@@ -46283,7 +46283,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 349,
     id: 2436
   },
@@ -46302,7 +46302,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 142,
     id: 2437
   },
@@ -46321,7 +46321,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 516,
     id: 2438
   },
@@ -46340,7 +46340,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 13,
     id: 2439
   },
@@ -46359,7 +46359,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 75,
     id: 2440
   },
@@ -46397,7 +46397,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 16,
     id: 2442
   },
@@ -46416,7 +46416,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 441,
     id: 2443
   },
@@ -46435,7 +46435,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 501,
     id: 2444
   },
@@ -46454,7 +46454,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 67,
     id: 2445
   },
@@ -46473,7 +46473,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 165,
     id: 2446
   },
@@ -46492,7 +46492,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 763,
     id: 2447
   },
@@ -46530,7 +46530,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 338,
     id: 2449
   },
@@ -46549,7 +46549,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1425,
     id: 2450
   },
@@ -46568,7 +46568,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2400,
     id: 2451
   },
@@ -46587,7 +46587,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 202,
     id: 2452
   },
@@ -46606,7 +46606,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1789,
     id: 2453
   },
@@ -46625,7 +46625,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 196,
     id: 2454
   },
@@ -46644,7 +46644,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 2380,
     id: 2455
   },
@@ -46663,7 +46663,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 308,
     id: 2456
   },
@@ -46682,7 +46682,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 781,
     id: 2457
   },
@@ -46701,7 +46701,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 210,
     id: 2458
   },
@@ -46720,7 +46720,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 242,
     id: 2459
   },
@@ -46739,7 +46739,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 28,
     id: 2460
   },
@@ -46758,7 +46758,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 121,
     id: 2461
   },
@@ -46777,7 +46777,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'VOL. 2',
-    page_start: NaN,
+    page_start: null,
     page_end: 258,
     id: 2462
   },
@@ -46796,7 +46796,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 479,
     id: 2463
   },
@@ -46815,7 +46815,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 383,
     id: 2464
   },
@@ -46834,7 +46834,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'February',
-    page_start: NaN,
+    page_start: null,
     page_end: 4867,
     id: 2465
   },
@@ -46872,7 +46872,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 186,
     id: 2467
   },
@@ -46891,7 +46891,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 132,
     id: 2468
   },
@@ -46910,7 +46910,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 114,
     id: 2469
   },
@@ -46929,7 +46929,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 291,
     id: 2470
   },
@@ -46948,7 +46948,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 739,
     id: 2471
   },
@@ -46967,7 +46967,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 92,
     id: 2472
   },
@@ -46986,7 +46986,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 40,
     id: 2473
   },
@@ -47005,7 +47005,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 269,
     id: 2474
   },
@@ -47024,7 +47024,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 324,
     id: 2475
   },
@@ -47043,7 +47043,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 807,
     id: 2476
   },
@@ -47081,7 +47081,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 483,
     id: 2478
   },
@@ -47100,7 +47100,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 168,
     id: 2479
   },
@@ -47119,7 +47119,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 381,
     id: 2480
   },
@@ -47157,7 +47157,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 40,
     id: 2482
   },
@@ -47176,7 +47176,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 453,
     id: 2483
   },
@@ -47195,7 +47195,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 1143,
     id: 2484
   },
@@ -47214,7 +47214,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 70,
     id: 2485
   },
@@ -47233,7 +47233,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 398,
     id: 2486
   },
@@ -47252,7 +47252,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 489,
     id: 2487
   },
@@ -47271,7 +47271,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 124,
     id: 2488
   },
@@ -47290,7 +47290,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '11',
-    page_start: NaN,
+    page_start: null,
     page_end: 2029,
     id: 2489
   },
@@ -47328,7 +47328,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 834,
     id: 2491
   },
@@ -47347,7 +47347,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 870,
     id: 2492
   },
@@ -47366,7 +47366,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 39,
     id: 2493
   },
@@ -47385,7 +47385,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 766,
     id: 2494
   },
@@ -47404,7 +47404,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 557,
     id: 2495
   },
@@ -47423,7 +47423,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 1894,
     id: 2496
   },
@@ -47442,7 +47442,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 620,
     id: 2497
   },
@@ -47480,7 +47480,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 192,
     id: 2499
   },
@@ -47499,7 +47499,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 49,
     id: 2500
   },
@@ -47765,7 +47765,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9',
-    page_start: NaN,
+    page_start: null,
     page_end: 1236,
     id: 2514
   },
@@ -47803,7 +47803,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 482,
     id: 2516
   },
@@ -47822,7 +47822,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 109,
     id: 2517
   },
@@ -47841,7 +47841,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 443,
     id: 2518
   },
@@ -47860,7 +47860,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 227,
     id: 2519
   },
@@ -47898,7 +47898,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 514,
     id: 2521
   },
@@ -47917,7 +47917,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 279,
     id: 2522
   },
@@ -47955,7 +47955,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 789,
     id: 2524
   },
@@ -47993,7 +47993,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 504,
     id: 2526
   },
@@ -48050,7 +48050,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 374,
     id: 2529
   },
@@ -48069,7 +48069,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 3247,
     id: 2530
   },
@@ -48088,7 +48088,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1199,
     id: 2531
   },
@@ -48107,7 +48107,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 505,
     id: 2532
   },
@@ -48126,7 +48126,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1103,
     id: 2533
   },
@@ -48164,7 +48164,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 220,
     id: 2535
   },
@@ -48183,7 +48183,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 229,
     id: 2536
   },
@@ -48202,7 +48202,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1296,
     id: 2537
   },
@@ -48259,7 +48259,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 941,
     id: 2540
   },
@@ -48316,7 +48316,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 286,
     id: 2543
   },
@@ -48335,7 +48335,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 406,
     id: 2544
   },
@@ -48373,7 +48373,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 427,
     id: 2546
   },
@@ -48392,7 +48392,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 229,
     id: 2547
   },
@@ -48411,7 +48411,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 514,
     id: 2548
   },
@@ -48430,7 +48430,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 216,
     id: 2549
   },
@@ -48468,7 +48468,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 491,
     id: 2551
   },
@@ -48487,7 +48487,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 117,
     id: 2552
   },
@@ -48506,7 +48506,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 925,
     id: 2553
   },
@@ -48525,7 +48525,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 370,
     id: 2554
   },
@@ -48563,7 +48563,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 474,
     id: 2556
   },
@@ -48582,7 +48582,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 4451,
     id: 2557
   },
@@ -48601,7 +48601,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 78,
     id: 2558
   },
@@ -48658,7 +48658,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 226,
     id: 2561
   },
@@ -48677,7 +48677,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 462,
     id: 2562
   },
@@ -48696,7 +48696,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 859,
     id: 2563
   },
@@ -48715,7 +48715,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3W2',
-    page_start: NaN,
+    page_start: null,
     page_end: 89,
     id: 2564
   },
@@ -48734,7 +48734,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 532,
     id: 2565
   },
@@ -48772,7 +48772,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 403,
     id: 2567
   },
@@ -48791,7 +48791,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1158,
     id: 2568
   },
@@ -48810,7 +48810,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 161,
     id: 2569
   },
@@ -48829,7 +48829,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 226,
     id: 2570
   },
@@ -48848,7 +48848,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 62,
     id: 2571
   },
@@ -48867,7 +48867,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 129,
     id: 2572
   },
@@ -48886,7 +48886,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 219,
     id: 2573
   },
@@ -48905,7 +48905,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 150,
     id: 2574
   },
@@ -48924,7 +48924,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 204,
     id: 2575
   },
@@ -48943,7 +48943,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 294,
     id: 2576
   },
@@ -48962,7 +48962,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 442,
     id: 2577
   },
@@ -48981,7 +48981,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1/2/01',
-    page_start: NaN,
+    page_start: null,
     page_end: 175,
     id: 2578
   },
@@ -49000,7 +49000,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 295,
     id: 2579
   },
@@ -49019,7 +49019,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 303,
     id: 2580
   },
@@ -49038,7 +49038,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 290,
     id: 2581
   },
@@ -49057,7 +49057,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3082,
     id: 2582
   },
@@ -49076,7 +49076,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 99,
     id: 2583
   },
@@ -49095,7 +49095,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1958,
     id: 2584
   },
@@ -49114,7 +49114,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 157,
     id: 2585
   },
@@ -49133,7 +49133,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1028,
     id: 2586
   },
@@ -49152,7 +49152,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 522,
     id: 2587
   },
@@ -49171,7 +49171,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 250,
     id: 2588
   },
@@ -49190,7 +49190,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 171,
     id: 2589
   },
@@ -49209,7 +49209,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 563,
     id: 2590
   },
@@ -49228,7 +49228,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 281,
     id: 2591
   },
@@ -49247,7 +49247,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 202,
     id: 2592
   },
@@ -49266,7 +49266,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 672,
     id: 2593
   },
@@ -49285,7 +49285,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 286,
     id: 2594
   },
@@ -49304,7 +49304,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 470,
     id: 2595
   },
@@ -49323,7 +49323,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1190,
     id: 2596
   },
@@ -49342,7 +49342,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 177,
     id: 2597
   },
@@ -49361,7 +49361,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 288,
     id: 2598
   },
@@ -49380,7 +49380,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 273,
     id: 2599
   },
@@ -49418,7 +49418,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 103,
     id: 2601
   },
@@ -49437,7 +49437,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 113,
     id: 2602
   },
@@ -49456,7 +49456,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 621,
     id: 2603
   },
@@ -49475,7 +49475,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 29,
     id: 2604
   },
@@ -49513,7 +49513,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 386,
     id: 2606
   },
@@ -49532,7 +49532,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 613,
     id: 2607
   },
@@ -49551,7 +49551,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 563,
     id: 2608
   },
@@ -49570,7 +49570,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 135,
     id: 2609
   },
@@ -49589,7 +49589,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 79,
     id: 2610
   },
@@ -49608,12 +49608,12 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 221,
     id: 2611
   },
   {
-    title: 'Impacts of energy efficiency retrofitting measures on indoor PM<inf>2.5</inf> concentrations across different income groups in England: a modelling study',
+    title: 'Impacts of energy efficiency retrofitting measures on indoor PM<sub>2.5</sub> concentrations across different income groups in England: a modelling study',
     authors: null,
     research_org: null,
     publication_date: '2016',
@@ -49627,7 +49627,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 83,
     id: 2612
   },
@@ -49703,7 +49703,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 780,
     id: 2616
   },
@@ -49722,7 +49722,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 326,
     id: 2617
   },
@@ -49741,7 +49741,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 299,
     id: 2618
   },
@@ -49760,7 +49760,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 544,
     id: 2619
   },
@@ -49779,7 +49779,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 12,
     id: 2620
   },
@@ -49798,7 +49798,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 91,
     id: 2621
   },
@@ -49817,7 +49817,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 391,
     id: 2622
   },
@@ -49836,7 +49836,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2607,
     id: 2623
   },
@@ -49855,7 +49855,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1100,
     id: 2624
   },
@@ -49874,7 +49874,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 394,
     id: 2625
   },
@@ -49893,7 +49893,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 13,
     id: 2626
   },
@@ -49912,7 +49912,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 203,
     id: 2627
   },
@@ -49931,7 +49931,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 128,
     id: 2628
   },
@@ -49950,7 +49950,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 156,
     id: 2629
   },
@@ -49969,7 +49969,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 210,
     id: 2630
   },
@@ -49988,7 +49988,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 388,
     id: 2631
   },
@@ -50007,7 +50007,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 206,
     id: 2632
   },
@@ -50026,7 +50026,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 427,
     id: 2633
   },
@@ -50045,7 +50045,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 408,
     id: 2634
   },
@@ -50064,7 +50064,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3231,
     id: 2635
   },
@@ -50083,7 +50083,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2173,
     id: 2636
   },
@@ -50102,7 +50102,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 511,
     id: 2637
   },
@@ -50121,7 +50121,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1969,
     id: 2638
   },
@@ -50140,7 +50140,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1283,
     id: 2639
   },
@@ -50159,7 +50159,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 81,
     id: 2640
   },
@@ -50178,7 +50178,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 17,
     id: 2641
   },
@@ -50197,7 +50197,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'C',
-    page_start: NaN,
+    page_start: null,
     page_end: 32,
     id: 2642
   },
@@ -50216,7 +50216,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 206,
     id: 2643
   },
@@ -50235,7 +50235,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 845,
     id: 2644
   },
@@ -50254,7 +50254,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 583,
     id: 2645
   },
@@ -50273,7 +50273,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 85,
     id: 2646
   },
@@ -50311,7 +50311,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'VOL. 2',
-    page_start: NaN,
+    page_start: null,
     page_end: 266,
     id: 2648
   },
@@ -50330,7 +50330,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 24,
     id: 2649
   },
@@ -50349,7 +50349,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 89,
     id: 2650
   },
@@ -50406,7 +50406,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'C',
-    page_start: NaN,
+    page_start: null,
     page_end: 214,
     id: 2653
   },
@@ -50425,7 +50425,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 149,
     id: 2654
   },
@@ -50444,7 +50444,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 1018,
     id: 2655
   },
@@ -50463,7 +50463,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 745,
     id: 2656
   },
@@ -50482,7 +50482,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 5377,
     id: 2657
   },
@@ -50501,7 +50501,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 12,
     id: 2658
   },
@@ -50520,7 +50520,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 183,
     id: 2659
   },
@@ -50539,7 +50539,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 83,
     id: 2660
   },
@@ -50558,7 +50558,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 73,
     id: 2661
   },
@@ -50577,7 +50577,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 376,
     id: 2662
   },
@@ -50596,7 +50596,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 391,
     id: 2663
   },
@@ -50615,7 +50615,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 289,
     id: 2664
   },
@@ -50634,7 +50634,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PARTA',
-    page_start: NaN,
+    page_start: null,
     page_end: 320,
     id: 2665
   },
@@ -50653,7 +50653,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 462,
     id: 2666
   },
@@ -50672,7 +50672,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PART 2',
-    page_start: NaN,
+    page_start: null,
     page_end: 145,
     id: 2667
   },
@@ -50691,7 +50691,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3424,
     id: 2668
   },
@@ -50710,7 +50710,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3652,
     id: 2669
   },
@@ -50729,7 +50729,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 595,
     id: 2670
   },
@@ -50748,7 +50748,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 28,
     id: 2671
   },
@@ -50767,7 +50767,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 359,
     id: 2672
   },
@@ -50786,7 +50786,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 441,
     id: 2673
   },
@@ -50805,7 +50805,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 103,
     id: 2674
   },
@@ -50824,7 +50824,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 206,
     id: 2675
   },
@@ -50843,7 +50843,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 10,
     id: 2676
   },
@@ -50881,7 +50881,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 123,
     id: 2678
   },
@@ -50900,7 +50900,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PARTS A AND B',
-    page_start: NaN,
+    page_start: null,
     page_end: 1455,
     id: 2679
   },
@@ -50938,7 +50938,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 10,
     id: 2681
   },
@@ -50957,7 +50957,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 141,
     id: 2682
   },
@@ -50976,7 +50976,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 32,
     id: 2683
   },
@@ -50995,7 +50995,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9',
-    page_start: NaN,
+    page_start: null,
     page_end: 2273,
     id: 2684
   },
@@ -51014,7 +51014,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 133,
     id: 2685
   },
@@ -51033,7 +51033,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 437,
     id: 2686
   },
@@ -51052,7 +51052,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 617,
     id: 2687
   },
@@ -51071,7 +51071,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 568,
     id: 2688
   },
@@ -51090,7 +51090,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 2168,
     id: 2689
   },
@@ -51109,7 +51109,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 1960,
     id: 2690
   },
@@ -51128,7 +51128,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 220,
     id: 2691
   },
@@ -51147,7 +51147,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 49,
     id: 2692
   },
@@ -51185,7 +51185,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 483,
     id: 2694
   },
@@ -51242,7 +51242,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 373,
     id: 2697
   },
@@ -51299,7 +51299,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 294,
     id: 2700
   },
@@ -51375,7 +51375,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 56,
     id: 2704
   },
@@ -51413,7 +51413,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 234,
     id: 2706
   },
@@ -51546,7 +51546,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 290,
     id: 2713
   },
@@ -51565,7 +51565,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 302,
     id: 2714
   },
@@ -51603,7 +51603,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 159,
     id: 2716
   },
@@ -51641,7 +51641,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 647,
     id: 2718
   },
@@ -51660,7 +51660,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3022,
     id: 2719
   },
@@ -51717,7 +51717,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 3608,
     id: 2722
   },
@@ -51736,7 +51736,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 644,
     id: 2723
   },
@@ -51755,7 +51755,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 930,
     id: 2724
   },
@@ -51774,7 +51774,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 609,
     id: 2725
   },
@@ -51793,7 +51793,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 70,
     id: 2726
   },
@@ -51812,7 +51812,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 214,
     id: 2727
   },
@@ -51831,7 +51831,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 30,
     id: 2728
   },
@@ -51850,7 +51850,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 213,
     id: 2729
   },
@@ -51869,7 +51869,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 134,
     id: 2730
   },
@@ -51888,7 +51888,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 25,
     id: 2731
   },
@@ -51907,7 +51907,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1725,
     id: 2732
   },
@@ -51926,7 +51926,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 78,
     id: 2733
   },
@@ -51945,7 +51945,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 148,
     id: 2734
   },
@@ -52002,7 +52002,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 54,
     id: 2737
   },
@@ -52021,7 +52021,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 156,
     id: 2738
   },
@@ -52040,7 +52040,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 358,
     id: 2739
   },
@@ -52059,7 +52059,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 199,
     id: 2740
   },
@@ -52078,7 +52078,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 732,
     id: 2741
   },
@@ -52097,7 +52097,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 158,
     id: 2742
   },
@@ -52116,7 +52116,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1025,
     id: 2743
   },
@@ -52135,7 +52135,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 431,
     id: 2744
   },
@@ -52154,7 +52154,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 166,
     id: 2745
   },
@@ -52173,7 +52173,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 25,
     id: 2746
   },
@@ -52192,7 +52192,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1236,
     id: 2747
   },
@@ -52211,7 +52211,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 95,
     id: 2748
   },
@@ -52230,7 +52230,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 191,
     id: 2749
   },
@@ -52249,7 +52249,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 111,
     id: 2750
   },
@@ -52268,7 +52268,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1002,
     id: 2751
   },
@@ -52287,7 +52287,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 58,
     id: 2752
   },
@@ -52306,7 +52306,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1399,
     id: 2753
   },
@@ -52325,7 +52325,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 229,
     id: 2754
   },
@@ -52344,7 +52344,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 1436,
     id: 2755
   },
@@ -52363,7 +52363,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 32,
     id: 2756
   },
@@ -52382,7 +52382,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 67,
     id: 2757
   },
@@ -52401,7 +52401,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 98,
     id: 2758
   },
@@ -52420,7 +52420,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 248,
     id: 2759
   },
@@ -52439,7 +52439,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 292,
     id: 2760
   },
@@ -52458,7 +52458,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 336,
     id: 2761
   },
@@ -52477,7 +52477,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 862,
     id: 2762
   },
@@ -52496,7 +52496,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 434,
     id: 2763
   },
@@ -52515,7 +52515,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 478,
     id: 2764
   },
@@ -52534,7 +52534,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 608,
     id: 2765
   },
@@ -52553,7 +52553,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 72,
     id: 2766
   },
@@ -52572,7 +52572,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 41,
     id: 2767
   },
@@ -52591,7 +52591,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 421,
     id: 2768
   },
@@ -52610,7 +52610,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 580,
     id: 2769
   },
@@ -52629,7 +52629,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 1109,
     id: 2770
   },
@@ -52648,7 +52648,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 165,
     id: 2771
   },
@@ -52667,7 +52667,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 80,
     id: 2772
   },
@@ -52686,7 +52686,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 82,
     id: 2773
   },
@@ -52705,7 +52705,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 31,
     id: 2774
   },
@@ -52724,7 +52724,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'VOL. 3',
-    page_start: NaN,
+    page_start: null,
     page_end: 173,
     id: 2775
   },
@@ -52743,7 +52743,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 619,
     id: 2776
   },
@@ -52762,7 +52762,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2013,
     id: 2777
   },
@@ -52800,7 +52800,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 4801,
     id: 2779
   },
@@ -52819,7 +52819,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 43,
     id: 2780
   },
@@ -52838,7 +52838,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 466,
     id: 2781
   },
@@ -52857,7 +52857,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 121,
     id: 2782
   },
@@ -52895,7 +52895,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 32,
     id: 2784
   },
@@ -52914,7 +52914,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 876,
     id: 2785
   },
@@ -52933,7 +52933,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 355,
     id: 2786
   },
@@ -52952,7 +52952,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 38,
     id: 2787
   },
@@ -53009,7 +53009,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '23',
-    page_start: NaN,
+    page_start: null,
     page_end: 2441,
     id: 2790
   },
@@ -53028,7 +53028,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 1001,
     id: 2791
   },
@@ -53047,7 +53047,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'PARTS A AND B',
-    page_start: NaN,
+    page_start: null,
     page_end: 136,
     id: 2792
   },
@@ -53066,7 +53066,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 966,
     id: 2793
   },
@@ -53085,7 +53085,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 367,
     id: 2794
   },
@@ -53123,7 +53123,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 103,
     id: 2796
   },
@@ -53142,7 +53142,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 1152,
     id: 2797
   },
@@ -53161,7 +53161,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 632,
     id: 2798
   },
@@ -53180,7 +53180,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '11',
-    page_start: NaN,
+    page_start: null,
     page_end: 1182,
     id: 2799
   },
@@ -53199,7 +53199,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 37,
     id: 2800
   },
@@ -53275,7 +53275,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 350,
     id: 2804
   },
@@ -53332,7 +53332,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 86,
     id: 2807
   },
@@ -53389,7 +53389,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 607,
     id: 2810
   },
@@ -53522,7 +53522,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 52,
     id: 2817
   },
@@ -53541,7 +53541,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 274,
     id: 2818
   },
@@ -53560,7 +53560,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 172,
     id: 2819
   },
@@ -53579,7 +53579,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 204,
     id: 2820
   },
@@ -53598,7 +53598,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 534,
     id: 2821
   },
@@ -53617,7 +53617,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 971,
     id: 2822
   },
@@ -53636,7 +53636,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 336,
     id: 2823
   },
@@ -53655,7 +53655,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 10,
     id: 2824
   },
@@ -53674,7 +53674,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 216,
     id: 2825
   },
@@ -53693,7 +53693,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 547,
     id: 2826
   },
@@ -53712,7 +53712,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 104,
     id: 2827
   },
@@ -53731,7 +53731,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 412,
     id: 2828
   },
@@ -53769,7 +53769,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9.79E+12',
-    page_start: NaN,
+    page_start: null,
     page_end: 400,
     id: 2830
   },
@@ -53807,7 +53807,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 150,
     id: 2832
   },
@@ -53826,7 +53826,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 24,
     id: 2833
   },
@@ -53845,7 +53845,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 355,
     id: 2834
   },
@@ -53883,7 +53883,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 495,
     id: 2836
   },
@@ -53902,7 +53902,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 439,
     id: 2837
   },
@@ -53921,7 +53921,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 665,
     id: 2838
   },
@@ -53940,7 +53940,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 276,
     id: 2839
   },
@@ -53959,7 +53959,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 487,
     id: 2840
   },
@@ -53978,7 +53978,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 24,
     id: 2841
   },
@@ -53997,7 +53997,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 38,
     id: 2842
   },
@@ -54016,7 +54016,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1101,
     id: 2843
   },
@@ -54035,7 +54035,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 473,
     id: 2844
   },
@@ -54054,7 +54054,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 557,
     id: 2845
   },
@@ -54092,7 +54092,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 2349,
     id: 2847
   },
@@ -54130,7 +54130,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 91,
     id: 2849
   },
@@ -54149,7 +54149,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 115,
     id: 2850
   },
@@ -54168,7 +54168,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 12,
     id: 2851
   },
@@ -54187,7 +54187,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 356,
     id: 2852
   },
@@ -54206,7 +54206,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 160,
     id: 2853
   },
@@ -54225,7 +54225,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: 'Special Issue  E',
-    page_start: NaN,
+    page_start: null,
     page_end: 70,
     id: 2854
   },
@@ -54244,7 +54244,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 812,
     id: 2855
   },
@@ -54263,7 +54263,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 723,
     id: 2856
   },
@@ -54282,7 +54282,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 57,
     id: 2857
   },
@@ -54301,7 +54301,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 140,
     id: 2858
   },
@@ -54320,7 +54320,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 188,
     id: 2859
   },
@@ -54339,7 +54339,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 170,
     id: 2860
   },
@@ -54358,7 +54358,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 191,
     id: 2861
   },
@@ -54377,7 +54377,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 962,
     id: 2862
   },
@@ -54396,7 +54396,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 192,
     id: 2863
   },
@@ -54415,7 +54415,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1605,
     id: 2864
   },
@@ -54434,7 +54434,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 614,
     id: 2865
   },
@@ -54453,7 +54453,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 1013,
     id: 2866
   },
@@ -54472,7 +54472,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 826,
     id: 2867
   },
@@ -54491,7 +54491,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3711,
     id: 2868
   },
@@ -54510,7 +54510,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 26,
     id: 2869
   },
@@ -54529,7 +54529,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 18,
     id: 2870
   },
@@ -54548,7 +54548,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 392,
     id: 2871
   },
@@ -54567,7 +54567,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 530,
     id: 2872
   },
@@ -54605,7 +54605,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2/3/01',
-    page_start: NaN,
+    page_start: null,
     page_end: 528,
     id: 2874
   },
@@ -54624,7 +54624,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 488,
     id: 2875
   },
@@ -54643,7 +54643,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 26,
     id: 2876
   },
@@ -54662,7 +54662,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 3122,
     id: 2877
   },
@@ -54795,7 +54795,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 60,
     id: 2884
   },
@@ -54852,7 +54852,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 877,
     id: 2887
   },
@@ -54909,7 +54909,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 371,
     id: 2890
   },
@@ -54947,7 +54947,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 990,
     id: 2892
   },
@@ -55023,7 +55023,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 78,
     id: 2896
   },
@@ -55080,7 +55080,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 41,
     id: 2899
   },
@@ -55118,7 +55118,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 6163,
     id: 2901
   },
@@ -55137,7 +55137,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 974,
     id: 2902
   },
@@ -55156,7 +55156,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 381,
     id: 2903
   },
@@ -55175,7 +55175,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1060,
     id: 2904
   },
@@ -55194,7 +55194,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 351,
     id: 2905
   },
@@ -55213,7 +55213,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 277,
     id: 2906
   },
@@ -55232,7 +55232,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 589,
     id: 2907
   },
@@ -55251,7 +55251,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 614,
     id: 2908
   },
@@ -55270,7 +55270,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 102,
     id: 2909
   },
@@ -55327,7 +55327,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 389,
     id: 2912
   },
@@ -55346,7 +55346,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 290,
     id: 2913
   },
@@ -55365,7 +55365,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1652,
     id: 2914
   },
@@ -55384,7 +55384,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 93,
     id: 2915
   },
@@ -55403,7 +55403,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 167,
     id: 2916
   },
@@ -55422,7 +55422,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 267,
     id: 2917
   },
@@ -55441,7 +55441,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 198,
     id: 2918
   },
@@ -55460,7 +55460,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 17,
     id: 2919
   },
@@ -55498,7 +55498,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 174,
     id: 2921
   },
@@ -55517,7 +55517,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 74,
     id: 2922
   },
@@ -55536,7 +55536,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 474,
     id: 2923
   },
@@ -55555,7 +55555,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 42,
     id: 2924
   },
@@ -55574,7 +55574,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 109,
     id: 2925
   },
@@ -55593,7 +55593,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 649,
     id: 2926
   },
@@ -55612,7 +55612,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 70,
     id: 2927
   },
@@ -55631,7 +55631,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 336,
     id: 2928
   },
@@ -55650,7 +55650,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 53,
     id: 2929
   },
@@ -55669,7 +55669,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 29,
     id: 2930
   },
@@ -55688,7 +55688,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 249,
     id: 2931
   },
@@ -55707,7 +55707,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 363,
     id: 2932
   },
@@ -55726,7 +55726,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3071,
     id: 2933
   },
@@ -55745,7 +55745,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 90,
     id: 2934
   },
@@ -55764,7 +55764,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 515,
     id: 2935
   },
@@ -55802,7 +55802,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 196,
     id: 2937
   },
@@ -55821,7 +55821,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 595,
     id: 2938
   },
@@ -55840,7 +55840,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 231,
     id: 2939
   },
@@ -55859,7 +55859,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 84,
     id: 2940
   },
@@ -55878,7 +55878,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 149,
     id: 2941
   },
@@ -55897,7 +55897,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 62,
     id: 2942
   },
@@ -55916,7 +55916,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 170,
     id: 2943
   },
@@ -55935,7 +55935,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 175,
     id: 2944
   },
@@ -55954,7 +55954,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 856,
     id: 2945
   },
@@ -55973,7 +55973,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 322,
     id: 2946
   },
@@ -55992,7 +55992,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 262,
     id: 2947
   },
@@ -56030,7 +56030,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 124,
     id: 2949
   },
@@ -56049,7 +56049,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 103,
     id: 2950
   },
@@ -56087,7 +56087,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 174,
     id: 2952
   },
@@ -56201,7 +56201,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '10',
-    page_start: NaN,
+    page_start: null,
     page_end: 185,
     id: 2958
   },
@@ -56258,7 +56258,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 14,
     id: 2961
   },
@@ -56277,7 +56277,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 361,
     id: 2962
   },
@@ -56296,7 +56296,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 100,
     id: 2963
   },
@@ -56315,7 +56315,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 150,
     id: 2964
   },
@@ -56334,7 +56334,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 154,
     id: 2965
   },
@@ -56353,7 +56353,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 883,
     id: 2966
   },
@@ -56372,7 +56372,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 70,
     id: 2967
   },
@@ -56391,7 +56391,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 764,
     id: 2968
   },
@@ -56410,7 +56410,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 1161,
     id: 2969
   },
@@ -56429,7 +56429,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 727,
     id: 2970
   },
@@ -56448,7 +56448,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 57,
     id: 2971
   },
@@ -56467,7 +56467,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 897,
     id: 2972
   },
@@ -56486,7 +56486,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 167,
     id: 2973
   },
@@ -56505,7 +56505,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 15,
     id: 2974
   },
@@ -56524,7 +56524,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 723,
     id: 2975
   },
@@ -56581,7 +56581,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 947,
     id: 2978
   },
@@ -56600,7 +56600,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 205,
     id: 2979
   },
@@ -56619,7 +56619,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 666,
     id: 2980
   },
@@ -56638,7 +56638,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 123,
     id: 2981
   },
@@ -56657,7 +56657,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 274,
     id: 2982
   },
@@ -56676,7 +56676,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 120,
     id: 2983
   },
@@ -56695,7 +56695,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 237,
     id: 2984
   },
@@ -56714,7 +56714,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1069,
     id: 2985
   },
@@ -56733,7 +56733,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 279,
     id: 2986
   },
@@ -56752,7 +56752,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 528,
     id: 2987
   },
@@ -56809,7 +56809,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 434,
     id: 2990
   },
@@ -56847,7 +56847,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 170,
     id: 2992
   },
@@ -56866,7 +56866,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 128,
     id: 2993
   },
@@ -56885,7 +56885,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 518,
     id: 2994
   },
@@ -56904,7 +56904,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 398,
     id: 2995
   },
@@ -56923,7 +56923,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9',
-    page_start: NaN,
+    page_start: null,
     page_end: 1220,
     id: 2996
   },
@@ -56942,7 +56942,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 428,
     id: 2997
   },
@@ -56961,7 +56961,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 185,
     id: 2998
   },
@@ -56999,7 +56999,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 680,
     id: 3000
   },
@@ -57018,7 +57018,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 591,
     id: 3001
   },
@@ -57037,7 +57037,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 230,
     id: 3002
   },
@@ -57075,7 +57075,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 364,
     id: 3004
   },
@@ -57094,7 +57094,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1062,
     id: 3005
   },
@@ -57113,7 +57113,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '7',
-    page_start: NaN,
+    page_start: null,
     page_end: 846,
     id: 3006
   },
@@ -57132,7 +57132,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 321,
     id: 3007
   },
@@ -57151,7 +57151,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 148,
     id: 3008
   },
@@ -57170,7 +57170,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 171,
     id: 3009
   },
@@ -57189,7 +57189,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 462,
     id: 3010
   },
@@ -57208,7 +57208,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 171,
     id: 3011
   },
@@ -57341,7 +57341,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 28,
     id: 3018
   },
@@ -57379,7 +57379,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 327,
     id: 3020
   },
@@ -57398,7 +57398,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 106,
     id: 3021
   },
@@ -57436,7 +57436,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 111,
     id: 3023
   },
@@ -57455,7 +57455,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 39,
     id: 3024
   },
@@ -57474,7 +57474,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 112,
     id: 3025
   },
@@ -57493,7 +57493,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1/2/01',
-    page_start: NaN,
+    page_start: null,
     page_end: 67,
     id: 3026
   },
@@ -57531,7 +57531,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1258,
     id: 3028
   },
@@ -57569,7 +57569,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1272,
     id: 3030
   },
@@ -57588,7 +57588,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 572,
     id: 3031
   },
@@ -57607,7 +57607,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 381,
     id: 3032
   },
@@ -57626,7 +57626,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 68,
     id: 3033
   },
@@ -57645,7 +57645,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 26,
     id: 3034
   },
@@ -57664,7 +57664,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 180,
     id: 3035
   },
@@ -57683,7 +57683,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 51,
     id: 3036
   },
@@ -57702,7 +57702,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 462,
     id: 3037
   },
@@ -57721,7 +57721,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 132,
     id: 3038
   },
@@ -57740,7 +57740,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 398,
     id: 3039
   },
@@ -57759,7 +57759,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 963,
     id: 3040
   },
@@ -57816,7 +57816,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 181,
     id: 3043
   },
@@ -57835,7 +57835,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 880,
     id: 3044
   },
@@ -57854,7 +57854,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 248,
     id: 3045
   },
@@ -57873,7 +57873,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 323,
     id: 3046
   },
@@ -57892,7 +57892,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 118,
     id: 3047
   },
@@ -57911,7 +57911,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '62',
-    page_start: NaN,
+    page_start: null,
     page_end: 146,
     id: 3048
   },
@@ -57930,7 +57930,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 19,
     id: 3049
   },
@@ -57949,7 +57949,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 724,
     id: 3050
   },
@@ -57968,7 +57968,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 351,
     id: 3051
   },
@@ -57987,7 +57987,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1383,
     id: 3052
   },
@@ -58006,7 +58006,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 68,
     id: 3053
   },
@@ -58025,7 +58025,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 762,
     id: 3054
   },
@@ -58082,7 +58082,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 238,
     id: 3057
   },
@@ -58101,7 +58101,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 942,
     id: 3058
   },
@@ -58120,7 +58120,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 88,
     id: 3059
   },
@@ -58158,7 +58158,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 667,
     id: 3061
   },
@@ -58177,7 +58177,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 126,
     id: 3062
   },
@@ -58196,7 +58196,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 4007,
     id: 3063
   },
@@ -58215,7 +58215,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 4857,
     id: 3064
   },
@@ -58234,7 +58234,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 214,
     id: 3065
   },
@@ -58253,7 +58253,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 545,
     id: 3066
   },
@@ -58291,7 +58291,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1351,
     id: 3068
   },
@@ -58310,7 +58310,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 699,
     id: 3069
   },
@@ -58329,7 +58329,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 756,
     id: 3070
   },
@@ -58348,7 +58348,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 10836,
     id: 3071
   },
@@ -58386,7 +58386,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 332,
     id: 3073
   },
@@ -58405,7 +58405,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '47',
-    page_start: NaN,
+    page_start: null,
     page_end: 17162,
     id: 3074
   },
@@ -58424,7 +58424,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 160,
     id: 3075
   },
@@ -58443,7 +58443,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 80,
     id: 3076
   },
@@ -58462,7 +58462,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 181,
     id: 3077
   },
@@ -58481,7 +58481,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 351,
     id: 3078
   },
@@ -58500,7 +58500,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 311,
     id: 3079
   },
@@ -58538,7 +58538,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 21,
     id: 3081
   },
@@ -58557,7 +58557,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 541,
     id: 3082
   },
@@ -58576,7 +58576,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 372,
     id: 3083
   },
@@ -58614,7 +58614,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 287,
     id: 3085
   },
@@ -58633,7 +58633,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1045,
     id: 3086
   },
@@ -58671,7 +58671,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 500,
     id: 3088
   },
@@ -58690,7 +58690,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '12',
-    page_start: NaN,
+    page_start: null,
     page_end: 2871,
     id: 3089
   },
@@ -58709,7 +58709,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 642,
     id: 3090
   },
@@ -58728,7 +58728,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 267,
     id: 3091
   },
@@ -58747,7 +58747,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 945,
     id: 3092
   },
@@ -58766,7 +58766,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 92,
     id: 3093
   },
@@ -58804,7 +58804,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 325,
     id: 3095
   },
@@ -58823,7 +58823,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 296,
     id: 3096
   },
@@ -58842,7 +58842,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 1175,
     id: 3097
   },
@@ -58880,7 +58880,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 367,
     id: 3099
   },
@@ -58899,7 +58899,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 13,
     id: 3100
   },
@@ -58937,7 +58937,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 428,
     id: 3102
   },
@@ -58956,7 +58956,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 3176,
     id: 3103
   },
@@ -58975,7 +58975,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 666,
     id: 3104
   },
@@ -58994,7 +58994,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '5',
-    page_start: NaN,
+    page_start: null,
     page_end: 558,
     id: 3105
   },
@@ -59013,7 +59013,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 427,
     id: 3106
   },
@@ -59051,7 +59051,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '6',
-    page_start: NaN,
+    page_start: null,
     page_end: 976,
     id: 3108
   },
@@ -59070,7 +59070,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 294,
     id: 3109
   },
@@ -59089,7 +59089,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 449,
     id: 3110
   },
@@ -59108,7 +59108,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 546,
     id: 3111
   },
@@ -59127,7 +59127,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 26,
     id: 3112
   },
@@ -59146,7 +59146,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 660,
     id: 3113
   },
@@ -59165,7 +59165,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '16',
-    page_start: NaN,
+    page_start: null,
     page_end: 70,
     id: 3114
   },
@@ -59184,7 +59184,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2431,
     id: 3115
   },
@@ -59203,7 +59203,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 19,
     id: 3116
   },
@@ -59222,7 +59222,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9.78E+12',
-    page_start: NaN,
+    page_start: null,
     page_end: 118,
     id: 3117
   },
@@ -59241,7 +59241,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 68,
     id: 3118
   },
@@ -59260,7 +59260,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 710,
     id: 3119
   },
@@ -59284,7 +59284,7 @@ export const references: ReferenceItem[] = [
     id: 3120
   },
   {
-    title: 'Energy savings and ventilation performance from CO<inf>2</inf>-based demand controlled ventilation: Simulation results from ASHRAE RP-1747 (ASHRAE RP-1747)',
+    title: 'Energy savings and ventilation performance from CO<sub>2</sub>-based demand controlled ventilation: Simulation results from ASHRAE RP-1747 (ASHRAE RP-1747)',
     authors: null,
     research_org: null,
     publication_date: '2020',
@@ -59298,7 +59298,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 281,
     id: 3121
   },
@@ -59336,7 +59336,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 335,
     id: 3123
   },
@@ -59355,7 +59355,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 230,
     id: 3124
   },
@@ -59374,7 +59374,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '9',
-    page_start: NaN,
+    page_start: null,
     page_end: 1734,
     id: 3125
   },
@@ -59393,7 +59393,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 1221,
     id: 3126
   },
@@ -59412,7 +59412,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 256,
     id: 3127
   },
@@ -59431,7 +59431,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 71,
     id: 3128
   },
@@ -59450,7 +59450,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 577,
     id: 3129
   },
@@ -59469,7 +59469,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 196,
     id: 3130
   },
@@ -59488,7 +59488,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 225,
     id: 3131
   },
@@ -59507,7 +59507,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 388,
     id: 3132
   },
@@ -59526,7 +59526,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 2219,
     id: 3133
   },
@@ -59545,7 +59545,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 197,
     id: 3134
   },
@@ -59564,7 +59564,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '8',
-    page_start: NaN,
+    page_start: null,
     page_end: 977,
     id: 3135
   },
@@ -59583,7 +59583,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '3',
-    page_start: NaN,
+    page_start: null,
     page_end: 286,
     id: 3136
   },
@@ -59602,7 +59602,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '2',
-    page_start: NaN,
+    page_start: null,
     page_end: 428,
     id: 3137
   },
@@ -59640,7 +59640,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '11/12/01',
-    page_start: NaN,
+    page_start: null,
     page_end: 878,
     id: 3139
   },
@@ -59659,7 +59659,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 96,
     id: 3140
   },
@@ -59678,7 +59678,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '1',
-    page_start: NaN,
+    page_start: null,
     page_end: 61,
     id: 3141
   },
@@ -59716,7 +59716,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 331,
     id: 3143
   },
@@ -59792,7 +59792,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: '4',
-    page_start: NaN,
+    page_start: null,
     page_end: 570,
     id: 3147
   },
@@ -59849,7 +59849,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 274,
     id: 3150
   },
@@ -59868,7 +59868,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 140,
     id: 3151
   },
@@ -59887,7 +59887,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 496,
     id: 3152
   },
@@ -59906,7 +59906,7 @@ export const references: ReferenceItem[] = [
     subject: null,
     volume: null,
     issue: null,
-    page_start: NaN,
+    page_start: null,
     page_end: 470,
     id: 3153
   }

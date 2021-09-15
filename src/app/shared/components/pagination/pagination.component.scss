@@ -1,9 +1,17 @@
-a {
-	color: #3276B1;
-	font-weight: bold;
+* {
+  user-select: none;
 }
 
-.page-item.active .page-link {
-	background-color: #3276B1;
-	border-color: #3276B1;
+li.active > .page-link {
+  background-color: #3276B1;
+  border-color: #3276B1;
+}
+
+li:not(.active) > .page-link {
+  cursor: pointer;
+}
+
+.page-link {
+  min-width: 45px;
+  text-align: center;
 }

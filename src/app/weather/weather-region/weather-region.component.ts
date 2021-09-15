@@ -1,7 +1,7 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { Regions } from '../../shared/classes/constants';
-import { WeatherRegions } from '../../shared/classes/weather';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Region } from '@constants/region';
+import { Weather, WeatherService } from '../weather.service';
 
 @Component({
   selector: 'app-weather-region',
@@ -10,22 +10,23 @@ import { WeatherRegions } from '../../shared/classes/weather';
 })
 
 export class WeatherRegionComponent implements OnInit {
+  region: Region;
+  countries: { [country: string]: Weather[] };
 
-  @Input() region: Regions;
-
-  constructor(private route: ActivatedRoute) {
-    route.url.subscribe(values => {
-      for (const region of WeatherRegions) {
-        if (region.region == values[1].path) {
-          this.region = region;
-        }
-      }
-    });
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+    private weatherService: WeatherService
+  ) {
   }
 
   ngOnInit(): void {
-    if (!this.region) {
-      throw new Error('WeatherRegionComponent attribute "region" is required');
+    const region = this.route.snapshot.paramMap.get('region');
+    if (!this.weatherService.validRegion(region)) {
+      this.router.navigate(['/weather']);
+      return;
     }
+    this.region = region as Region;
+    this.countries = this.weatherService.nestedWeather[this.region];
   }
 }
