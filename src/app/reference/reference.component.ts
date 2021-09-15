@@ -1,7 +1,7 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { ReferenceItem } from '../shared/classes/constants';
-import { references } from '../shared/classes/reference';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Reference } from '@classes/constants';
+import { references } from '@classes/reference';
 
 @Component({
   selector: 'app-reference',
@@ -9,33 +9,32 @@ import { references } from '../shared/classes/reference';
   styleUrls: ['./reference.component.scss']
 })
 
-export class ReferenceTemplateComponent implements OnInit {
+export class ReferenceComponent implements OnInit {
 
-  @Input() reference_item: ReferenceItem;
-  @Input() reference: any[] = references;
-  @Input() day: string;
-  @Input() date: string;
-  @Input() time: string;
+  reference: Reference;
+  private id: number;
 
-  constructor(private route: ActivatedRoute) {
-    route.url.subscribe(values => {
-      const time = new Date();
-      this.day = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][time.getDay()];
-      this.date = time.getMonth() + 1 + '/' + time.getDate() + '/' + time.getFullYear();
-      this.time = time.getHours() + ':' + ('0' + time.getMinutes()).slice(-2);
-
-      for (const reference of this.reference) {
-        if (reference.id == values[1].path) {
-          this.reference_item = reference;
-        }
-      }
-    });
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router
+  ) {
   }
 
   ngOnInit(): void {
-    if (!this.reference_item) {
-      throw new Error('ReferenceTemplateComponent attribute "reference_item" is required');
+    const id = this.route.snapshot.paramMap.get('id');
+
+    if (!/^\d+$/.test(id)) {
+      this.router.navigate(['/references']);
+      return;
     }
+    this.id = Number(id);
+
+    const match = references.find(reference => reference.id === this.id);
+    if (!match) {
+      this.router.navigate(['/references']);
+      return;
+    }
+    this.reference = match;
   }
 
 }

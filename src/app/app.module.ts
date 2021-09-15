@@ -1,5 +1,7 @@
+import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -13,7 +15,12 @@ import {
   faPenSquare,
   faTasks
 } from '@fortawesome/free-solid-svg-icons';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
+import { CountryPipe } from '@pipes/country.pipe';
+import { PluralPipe } from '@pipes/plural.pipe';
+import { RegionPipe } from '@pipes/region.pipe';
+import { StatePipe } from '@pipes/state.pipe';
+import { UrlPipe } from '@pipes/url.pipe';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -27,13 +34,11 @@ import { LicensingComponent } from './licensing/licensing.component';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { QuickStartComponent } from './quick-start/quick-start.component';
+import { ReferenceComponent } from './reference/reference.component';
 import { ReferencesComponent } from './references/references.component';
 import { PaginationComponent } from './shared/components/pagination/pagination.component';
-import { RecentReleaseComponent } from './shared/components/recent-release/recent-release.component';
-import { ReferenceItemComponent } from './shared/components/reference-item/reference-item.component';
 import { SupportTrainingComponent } from './support-training/support-training.component';
 import { WeatherCountryComponent } from './weather/weather-country/weather-country.component';
-import { WeatherLocationUsCanComponent } from './weather/weather-location-us-can/weather-location-us-can.component';
 import { WeatherLocationComponent } from './weather/weather-location/weather-location.component';
 import { WeatherComponent } from './weather/weather-main/weather.component';
 import { WeatherRegionComponent } from './weather/weather-region/weather-region.component';
@@ -45,6 +50,7 @@ import { WeatherSourcesComponent } from './weather/weather-sources/weather-sourc
   declarations: [
     AppComponent,
     ContributingComponent,
+    CountryPipe,
     DocumentationComponent,
     DownloadsComponent,
     FooterComponent,
@@ -53,15 +59,17 @@ import { WeatherSourcesComponent } from './weather/weather-sources/weather-sourc
     LicensingComponent,
     NavbarComponent,
     PaginationComponent,
+    PluralPipe,
     QuickStartComponent,
-    RecentReleaseComponent,
-    ReferenceItemComponent,
+    ReferenceComponent,
     ReferencesComponent,
+    RegionPipe,
+    StatePipe,
     SupportTrainingComponent,
+    UrlPipe,
     WeatherComponent,
     WeatherCountryComponent,
     WeatherLocationComponent,
-    WeatherLocationUsCanComponent,
     WeatherRegionComponent,
     WeatherSearchComponent,
     WeatherSimulationComponent,
@@ -70,9 +78,12 @@ import { WeatherSourcesComponent } from './weather/weather-sources/weather-sourc
   imports: [
     AppRoutingModule,
     BrowserModule,
+    CommonModule,
     FontAwesomeModule,
     FormsModule,
-    NgbModule
+    HttpClientModule,
+    NgbCollapseModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

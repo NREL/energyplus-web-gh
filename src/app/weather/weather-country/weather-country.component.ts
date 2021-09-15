@@ -1,7 +1,8 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { Countries, Regions } from '../../shared/classes/constants';
-import { WeatherLocations, WeatherRegions } from '../../shared/classes/weather';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Country } from '@constants/country';
+import { Region } from '@constants/region';
+import { Weather, WeatherService } from '../weather.service';
 
 @Component({
   selector: 'app-weather-country',
@@ -10,38 +11,56 @@ import { WeatherLocations, WeatherRegions } from '../../shared/classes/weather';
 })
 
 export class WeatherCountryComponent implements OnInit {
+  country: Country;
+  region: Region;
+  state?: string;
+  states?: string[];
+  locations?: Weather[];
 
-  @Input() region: Regions;
-  @Input() country: Countries;
-  @Input() states: any[] = [];
-
-  constructor(private route: ActivatedRoute) {
-    route.url.subscribe(values => {
-      for (const region of WeatherRegions) {
-        if (region.region == values[1].path) {
-          this.region = region;
-        }
-      }
-
-      for (const country of this.region.countries) {
-        if (country.acronym == values[2].path || country.name == values[2].path) {
-          this.country = country;
-        }
-      }
-
-      for (const location of WeatherLocations) {
-        if (location.state_route != '' && location.state_name != '' && location.state_route != 'CA-Zones' && location.state_name != 'California Climate Zones' && location.country == this.country.acronym) {
-          this.states.push({state_route: location.state_route, state_name: location.state_name});
-        }
-      }
-      this.states = this.states.filter((value, index, array) => !array.filter((v, i) => JSON.stringify(value) == JSON.stringify(v) && i < index).length);
-    });
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+    private weatherService: WeatherService
+  ) {
   }
 
   ngOnInit(): void {
-    if (!this.states) {
-      throw new Error('WeatherCountryComponent attribute "states" is required.');
+    const region = this.route.snapshot.paramMap.get('region');
+    if (!this.weatherService.validRegion(region)) {
+      this.router.navigate(['/weather']);
+      return;
     }
+    this.region = region as Region;
 
+    const country = this.route.snapshot.paramMap.get('country');
+    if (!this.weatherService.validCountry(this.region, country)) {
+      this.router.navigate(['/weather-region', this.region]);
+      return;
+    }
+    this.country = country as Country;
+
+    const state = this.route.snapshot.paramMap.get('state');
+
+    if (this.weatherService.countryHasStates(this.country)) {
+      const states = new Set<string>();
+      this.weatherService.nestedWeather[this.region][country].forEach(location => {
+        states.add(location.data.state);
+      });
+      this.states = Array.from(states);
+      if (state) {
+        if (!this.states.includes(state)) {
+          this.router.navigate(['/weather-region', this.region, this.country]);
+          return;
+        }
+        this.state = state;
+        this.locations = this.weatherService.nestedWeather[this.region][country].filter(location => location.data.state === this.state);
+      }
+    } else {
+      if (state) {
+        this.router.navigate(['/weather-region', this.region, this.country]);
+        return;
+      }
+      this.locations = this.weatherService.nestedWeather[this.region][country];
+    }
   }
 }

@@ -1,7 +1,8 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { Countries, Locations, Regions } from '../../shared/classes/constants';
-import { WeatherRegions } from '../../shared/classes/weather';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Country } from '@constants/country';
+import { Region } from '@constants/region';
+import { Weather, WeatherService } from '../weather.service';
 
 @Component({
   selector: 'app-weather-location',
@@ -10,67 +11,71 @@ import { WeatherRegions } from '../../shared/classes/weather';
 })
 
 export class WeatherLocationComponent implements OnInit {
+  country: Country;
+  region: Region;
+  state?: string;
+  location: Weather;
 
-  @Input() region: Regions;
-  @Input() country: Countries;
-  @Input() state: string;
-  @Input() location: Locations;
-  @Input() us_state: string;
-  @Input() can_state: string;
-  @Input() us_states: Locations[] = [];
-  @Input() can_states: Locations[] = [];
-  @Input() state_route: string;
-  @Input() state_name: string;
-
-  constructor(private route: ActivatedRoute) {
-    route.url.subscribe(values => {
-
-      for (const region of WeatherRegions) {
-        if (region.region == values[1].path) {
-          this.region = region;
-        }
-      }
-
-      for (const country of this.region.countries) {
-        if (country.acronym == values[2].path || country.name == values[2].path) {
-          this.country = country;
-        }
-      }
-
-      if (this.country.acronym == 'USA') {
-        const us_state = values[3].path;
-
-        for (const location of this.country.locations) {
-          if (location.state_route == us_state || location.state_name == us_state) {
-            this.state_route = location.state_route;
-            this.us_state = location.state_name;
-            this.us_states.push(location);
-          }
-        }
-      } else if (this.country.acronym == 'CAN') {
-        const can_state = values[3].path;
-
-        for (const location of this.country.locations) {
-          if (location.state_route == can_state || location.state_name == can_state) {
-            this.state_route = location.state_route;
-            this.can_state = location.state_name;
-            this.can_states.push(location);
-          }
-        }
-      } else {
-        for (const location of this.country.locations) {
-          if (location.title == values[3].path) {
-            this.location = location;
-          }
-        }
-      }
-    });
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+    private weatherService: WeatherService
+  ) {
   }
 
   ngOnInit(): void {
-    if (!this.location && !this.us_states && !this.can_states) {
-      throw new Error('WeatherLocationComponent attribute "location" or "us_states" or "can_states" is required.');
+    const region = this.route.snapshot.paramMap.get('region');
+    if (!this.weatherService.validRegion(region)) {
+      this.router.navigate(['/weather']);
+      return;
     }
+    this.region = region as Region;
+
+    const country = this.route.snapshot.paramMap.get('country');
+    const countries = this.weatherService.nestedWeather[this.region];
+    if (!Object.keys(countries).includes(country)) {
+      this.router.navigate(['/weather-region', region]);
+      return;
+    }
+    this.country = country as Country;
+
+    const state = this.route.snapshot.paramMap.get('state');
+
+    let filteredLocations: Weather[];
+
+    if (this.weatherService.countryHasStates(this.country)) {
+      const states = new Set<string>();
+      this.weatherService.nestedWeather[this.region][country].forEach(location => {
+        states.add(location.data.state);
+      });
+      const validStates = Array.from(states);
+      if (!state || !validStates.includes(state)) {
+        this.router.navigate(['/weather-region', this.region, this.country]);
+        return;
+      }
+      this.state = state;
+      filteredLocations = this.weatherService.nestedWeather[this.region][country].filter(location => location.data.state === this.state);
+    } else {
+      if (state) {
+        this.router.navigate(['/weather-region', this.region, this.country]);
+        return;
+      }
+      filteredLocations = this.weatherService.nestedWeather[this.region][country];
+    }
+
+    const title = this.route.snapshot.paramMap.get('title');
+
+    const match = filteredLocations.find(location => location.properties.title === title);
+    if (!match) {
+      if (this.state) {
+        this.router.navigate(['/weather-region', this.region, this.country, this.state]);
+      } else {
+        this.router.navigate(['/weather-region', this.region, this.country]);
+      }
+      return;
+    }
+
+    this.location = match;
   }
 
 }
