@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ReferenceItem } from '../../../classes/constants';
-import { references } from '../../../classes/reference';
+import { ReferenceItem } from '../../shared/classes/constants';
+import { references } from '../../shared/classes/reference';
 
 @Component({
   selector: 'app-reference',
