@@ -1,7 +1,7 @@
 import { formatDate } from '@angular/common';
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { references } from '../shared/classes/reference';
+import { references } from '@classes/reference';
 
 @Component({
   selector: 'app-references',

@@ -1,21 +1,102 @@
 :host {
   display: block;
+  font-size: 14px;
   margin: 20px 0;
+
+  * {
+    font-size: 14px;
+  }
+}
+
+a {
+  font-weight: normal;
 }
 
 .energyplus-logo {
-  width: 48px;
+  width: 71px;
 }
 
 .active-link {
-  background-color: lightgrey;
-  color: gray;
+  background-color: #e7e7e7;
+  color: #555;
+}
+
+.navbar {
+  padding: 0 1rem;
+}
+
+.navbar-brand {
+  color: #5e5e5e;
+  font-size: 18px;
+}
+
+.navbar-toggler {
+  font-size: 1.25rem;
+}
+
+.dropdown-container {
+  display: flex;
+  height: 100%;
+
+  > a {
+    flex-grow: 1;
+    padding-right: 20px !important;
+
+    &.active-link {
+      padding-right: 0 !important;
+    }
+  }
+}
+
+.dropdown-toggle {
+  background-color: #e7e7e7;
+  border-radius: 0;
+  box-shadow: none;
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+  width: 20px;
+}
+
+.dropdown-menu {
+  margin-top: 0;
 }
 
 .dropdown-toggle::after {
   display: none;
 }
 
-a {
-  font-weight: normal;
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .links {
+    height: 50px;
+
+    ul:not(.dropdown-menu) {
+      height: 100%;
+
+      li {
+        display: flex;
+
+        a {
+          align-items: center;
+          display: flex;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .dropdown-menu {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+
+    a {
+      padding-left: 40px;
+    }
+  }
 }
