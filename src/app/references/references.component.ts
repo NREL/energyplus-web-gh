@@ -39,15 +39,6 @@ export class ReferencesComponent {
     });
   }
 
-  ngOnInit(): void {
-    this.sortedRefs = this.references.sort((a, b) => {
-      return (formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[2] + formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[0] + formatDate(a.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[1]
-      < formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[2] + formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[0] + formatDate(b.publication_date, 'MM/dd/yyyy', 'en_US').split('/')[1] ? 1 : -1);
-    }).reduce((arr, item, i) => {
-      return i % this.resultsPerPage === 0 ? [...arr, [item]] : [...arr.slice(0, -1), [...arr.slice(-1)[0], item]];
-    }, []);
-  }
-
   onClickSort(sortBy: string): void {
     this.sort = !this.sort;
 

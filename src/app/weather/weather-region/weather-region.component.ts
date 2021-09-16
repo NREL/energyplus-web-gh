@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { Country } from '@constants/country';
 import { Region } from '@constants/region';
 import { Weather, WeatherService } from '../weather.service';
 
@@ -11,7 +12,7 @@ import { Weather, WeatherService } from '../weather.service';
 
 export class WeatherRegionComponent implements OnInit {
   region: Region;
-  countries: { [country: string]: Weather[] };
+  countries: Country[];
 
   constructor(
     private route: ActivatedRoute,
@@ -27,6 +28,6 @@ export class WeatherRegionComponent implements OnInit {
       return;
     }
     this.region = region as Region;
-    this.countries = this.weatherService.nestedWeather[this.region];
+    this.countries = Object.keys(this.weatherService.nestedWeather[this.region]) as Country[];
   }
 }

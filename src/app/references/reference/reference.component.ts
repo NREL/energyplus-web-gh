@@ -11,8 +11,8 @@ import { references } from '@classes/reference';
 
 export class ReferenceComponent implements OnInit {
 
-  reference: Reference;
-  private id: number;
+  reference!: Reference;
+  private id!: number;
 
   constructor(
     private route: ActivatedRoute,
