@@ -1,2 +1,30 @@
+.font-default {
+	font-size: 0.9rem;
+}
 
+@media screen and (min-width: 993px) and (max-width: 1200px) {
 
+	.btn-width {
+
+		width: 300px;
+		height: 40px;
+		text-align: center;
+
+	}
+
+}
+
+@media screen and (min-width: 1201px) {
+
+	.btn-width {
+
+		width: 345px;
+		height: 40px;
+
+	}
+
+}
+
+.mt-n1 {
+	margin-top: 50px;
+}
