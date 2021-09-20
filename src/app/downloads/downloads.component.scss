@@ -1,0 +1,123 @@
+.font-default {
+	font-size: 0.9rem;
+}
+
+.ml-n1 {
+	margin-left: -15px;
+}
+
+.mt-n1 {
+	margin-top: -15px;
+}
+
+@media screen and (min-width: 1199px) {
+
+	.btn-latest-release {
+		margin: 10px 1px 1px 1px;
+	}
+
+	.btn-latest-release-mac {
+		margin: 10px 1px 1px 1px;
+	}
+
+	.btn-release-small {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1198px) {
+
+	.btn-latest-release {
+		font-size: 0.9rem;
+		margin: 10px 1px 1px 1px;
+	}
+
+	.btn-latest-release-mac {
+		font-size: 0.9rem;
+		margin: 10px 1px 1px 1px;
+	}
+
+	.btn-release-small {
+		margin-right: 10px;
+	}
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+	.btn-latest-release {
+		font-size: 0.9rem;
+		margin: 10px 1px 1px 1px;
+	}
+
+	.btn-latest-release-mac {
+		font-size: 0.9rem;
+		margin: 10px 1px 1px 1px;
+	}
+
+	.btn-release-small {
+		margin-left: 15px;
+	}
+
+	.btn-supported-platforms {
+		margin-top: 20px;
+	}
+
+	.btn-installation-instructions {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+	.btn-latest-release {
+		font-size: 0.9rem;
+		margin: 10px 2px 2px 2px;
+	}
+
+	.btn-latest-release-mac {
+		font-size: 0.9rem;
+		margin: 10px 2px 2px 2px;
+	}
+
+	.btn-release-small {
+		margin-right: 10px;
+	}
+
+}
+
+@media screen and (max-width: 575px) {
+
+	.btn-latest-release {
+		font-size: 0.9rem;
+		width: 130px;
+		margin: 10px 2px 2px 2px;
+	}
+
+	.btn-latest-release-mac {
+		font-size: 0.9rem;
+		margin: 10px 2px 2px 2px;
+		width: 70px;
+	}
+
+	.btn-release-small {
+		margin-left: 5px;
+	}
+
+	.btn-supported-platforms {
+		margin-top: 20px;
+	}
+
+	.btn-installation-instructions {
+		margin: 20px 0 0 15px;;
+	}
+
+	.btn-old-release {
+		width: 150px;
+	}
+
+	.btn-old-tp {
+		width: 200px;
+	}
+}
