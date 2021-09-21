@@ -1,42 +1,40 @@
 <div class="container container-fluid">
-  <header role="banner" id="page-header"></header>
   <div class="row">
-    <section class="col-sm-12" style="margin-left:-15px;">
-      <a id="main-content"></a>
-      <h1 class="page-header" style="width:1130px;">Weather Data</h1>
+    <section class="col-sm-12">
+      <h1 class="page-header">Weather Data</h1>
       <div>
-        <section style="width:71rem;font-size:0.9rem;">
+        <section class="font-default">
           <p>Weather data for {{ weatherService.stats.total | number }} locations are now available in EnergyPlus weather format — {{ weatherService.stats.usa | number }} locations in the USA, {{ weatherService.stats.canada | number }} locations in Canada, and more than {{ floor(weatherService.stats.total - weatherService.stats.usa - weatherService.stats.canada - 1) | number }} locations in {{ weatherService.stats.totalCountries - 2 | number }} other countries throughout the world.
             The weather data are arranged by World Meteorological Organization region and Country.</p>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-xs-12 col-md-4">
               <h3>View Weather Data</h3>
               <p>Select a region below to view weather data.</p>
               <div class="btn-group-vertical" role="group">
-                <a *ngFor="let region of allRegions" [routerLink]="['/weather-region', region]" class="btn btn-body border btn-hover" type="button" style="text-align:left;font-size:0.9rem;">{{ region | region }}</a>
+                <a *ngFor="let region of allRegions" [routerLink]="['/weather-region', region]" class="btn btn-body border btn-hover text-left font-default" type="button">{{ region | region }}</a>
               </div>
             </div>
-            <div class="col-md-1 pad-top-150"></div>
-            <div class="col-md-4">
-              <h3>Search Weather Data</h3>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+              <h3 class="search-input">Search Weather Data</h3>
               <div>
                 <div class="form-item form-group">
                   <label for="keyword" style="margin-top:30px;margin-left:1px;"><strong>Keyword Search</strong></label>
                   <input id="keyword" [formControl]="keyword" (keyup.enter)="keyword.value.trim() && search(keyword.value.trim())" class="form-control form-text mb-1" maxlength="128" required>
                   <div class="input-error"><span *ngIf="keyword.dirty && !keyword.value.trim()" class="text-danger">Please enter a search keyword.</span></div>
                 </div>
-                <button (click)="search(keyword.value.trim())" [disabled]="!keyword.value.trim()" class="btn btn-primary btn-bg-dark form-submit form-group" value="Search" style="font-size:0.9rem;padding-left:15px;padding-right:15px;height:35px;box-shadow:none;">Search</button>
+                <button (click)="search(keyword.value.trim())" [disabled]="!keyword.value.trim()" class="btn btn-primary btn-bg-dark form-submit form-group shadow-none font-default" value="Search">Search</button>
               </div>
             </div>
           </div>
-          <div class="row" style="padding-top:20px;">
+          <div class="row pt-4">
             <div class="col-md-12">
               <h3>Browse Weather Data</h3>
               <p>Click on the markers in the map below to access weather data.</p>
               <iframe id="geomap" src="https://render.githubusercontent.com/view/geojson?color_mode=auto&commit=e6cdd73f63d359ddfe52a475bf33c231eb5eccae&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f4e52454c2f456e65726779506c75732f653663646437336636336433353964646665353261343735626633336332333165623565636361652f776561746865722f6d61737465722e67656f6a736f6e&nwo=NREL%2FEnergyPlus&path=weather%2Fmaster.geojson&repository_id=14620185&repository_type=Repository#f3709489-4cfd-46cb-83ac-bff1345becf9" sandbox="allow-downloads allow-scripts allow-same-origin allow-top-navigation" title="Weather File GeoJSON"></iframe>
             </div>
           </div>
-          <p style="margin-top:20px;">The Auxiliary Programs document that is packaged with EnergyPlus includes information about weather data in general, the EnergyPlus weather data format, and weather file conversion.
+          <p>The Auxiliary Programs document that is packaged with EnergyPlus includes information about weather data in general, the EnergyPlus weather data format, and weather file conversion.
             If you cannot find weather data for your location, see the
             <a routerLink="/weather/simulation">Weather Data for Simulation</a>
             page for other sources of weather data. Information about the sources of weather data is available on the

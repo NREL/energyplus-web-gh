@@ -1,0 +1,40 @@
+
+.btn-bg-dark {
+	background-color: #3276B1;
+	border-color: #3276B1;
+	color: #fff;
+	font-weight: normal;
+}
+
+.dl-btn {
+	background-color:#3276B1
+}
+
+/* styles for mobile (.xs & .sm) */
+@media screen and (max-width: 767px) {
+ 
+ 	.eplus-dl {
+		padding: 1rem 5rem; 
+	}
+	
+}
+
+/* styles for ipad (.md) */
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+ 
+ 	.eplus-dl {
+		padding: 1rem 5rem; 
+	}
+	
+}
+
+/* styles for larger screen (.lg) */
+@media screen and (min-width:1024px) {
+	
+	.eplus-dl {
+		padding-top:120px;
+		padding-left:30px;
+	}	
+
+
+}
