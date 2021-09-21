@@ -6,29 +6,3 @@
 p {
   font-size: 0.9rem;
 }
-
-.font-default {
-  font-size: 0.9rem;
-}
-
-@media screen and (max-width: 576px) {
-
-  .card-quick-link {
-    width: 300px;
-  }
-
-  .card-ep-gm {
-    width: 220px;
-  }
-}
-
-@media screen and (min-width: 576px) {
-  .ep-general-model {
-    width: 850px;
-  }
-
-}
-
-.ep-command {
-  width: 860px;
-}
