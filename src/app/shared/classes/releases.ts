@@ -39,4 +39,7 @@ export const releases: ReleaseItem[] = [{
 }, {
   version: 'EnergyPlus 9.4.0',
   url: 'https://github.com/NREL/EnergyPlus/releases/tag/v9.4.0'
+}, {
+  version: 'EnergyPlus 9.5.0',
+  url: 'https://github.com/NREL/EnergyPlus/releases/tag/v9.5.0'
 }];
