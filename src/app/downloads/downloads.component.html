@@ -13,21 +13,21 @@
         <div class="row no-gutters">
           <h6 class="col-12 mb-2 mt-4 card-subtitle text-muted">Select your platform to start the download</h6>
           <div class="col-xs-12 col-sm-4 col-lg-4 mr-1">
-            <a class="btn btn-default btn-primary btn-block btn-bg-dark mb-1" role="button" href="https://github.com/NREL/EnergyPlus/releases/download/v9.6.0/EnergyPlus-9.6.0-f420c06a69-Windows-x86_64.exe">Windows (x64)</a>
-            <a class="card-link text-center ml-2" href="https://github.com/NREL/EnergyPlus/releases/download/v9.6.0/EnergyPlus-9.6.0-f420c06a69-Windows-i386.exe">Windows (x32)</a>
+            <a class="btn btn-default btn-primary btn-block btn-bg-dark mb-1" role="button" href="{{latestRelease.windows_main}}">Windows (x64)</a>
+            <a class="card-link text-center ml-2" href="{{latestRelease.windows_32}}">Windows (x32)</a>
           </div>
           <div class="col-xs-12 col-sm-4 col-lg-4 mr-1">
-            <a class="btn btn-default btn-primary btn-block btn-bg-dark mb-1" role="button" href="https://github.com/NREL/EnergyPlus/releases/download/v9.6.0/EnergyPlus-9.6.0-f420c06a69-Linux-Ubuntu20.04-x86_64.run">Ubuntu 20.04</a>
-             <a class="card-link text-center ml-2" href="https://github.com/NREL/EnergyPlus/releases/download/v9.6.0/EnergyPlus-9.6.0-f420c06a69-Linux-Ubuntu18.04-x86_64.run">Ubuntu 18.04</a>
+            <a class="btn btn-default btn-primary btn-block btn-bg-dark mb-1" role="button" href="{{latestRelease.ubuntu_main}}">Ubuntu 20.04</a>
+             <a class="card-link text-center ml-2" href="h{{latestRelease.ubuntu_18}}">Ubuntu 18.04</a>
           </div>
           <div class="col-xs-12 col-sm-2 col-lg-3">
-            <a class="btn btn-default btn-block btn-primary btn-bg-dark mb-1" role="button" href="https://github.com/NREL/EnergyPlus/releases/download/v9.6.0/EnergyPlus-9.6.0-f420c06a69-Darwin-macOS10.15-x86_64.dmg">Mac</a>
+            <a class="btn btn-default btn-block btn-primary btn-bg-dark mb-1" role="button" href="{{latestRelease.mac}}">Mac</a>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-5 col-lg-3 pl-5 card-subtitle text-muted">
         <h6 class="mt-4">Current version</h6>
-        <span class="badge badge-secondary badge-info btn-bg-light version-badge mr-2">9.6.0</span>
+        <span class="badge badge-secondary badge-info btn-bg-light version-badge mr-2">{{latestRelease.version}}</span>
         <a href="https://github.com/NREL/EnergyPlus/releases/latest" class="btn btn-primary btn-bg-dark mb-2" role="button">Release Notes</a>
       </div>
       <div class="col-xs-12 col-sm-6 col-lg-3 card-subtitle mb-2 pl-1 pr-0 text-muted">
