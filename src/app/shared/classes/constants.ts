@@ -5,6 +5,16 @@ export type ReleaseItem = {
   url: string,
 };
 
+export type CurrentRelease = {
+  version: string,
+  date: string,
+  mac: string,
+  windows_main: string,
+  windows_32: string,
+  ubuntu_main: string,
+  ubuntu_18: string
+};
+
 export type Reference = {
   id: number;
   title: string,

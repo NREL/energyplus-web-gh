@@ -1,4 +1,4 @@
-import { ReleaseItem } from './constants';
+import { ReleaseItem, CurrentRelease } from './constants';
 
 export const releases: ReleaseItem[] = [{
   version: 'EnergyPlus 8.2.0',
@@ -39,4 +39,17 @@ export const releases: ReleaseItem[] = [{
 }, {
   version: 'EnergyPlus 9.4.0',
   url: 'https://github.com/NREL/EnergyPlus/releases/tag/v9.4.0'
+}, {
+  version: 'EnergyPlus 9.5.0',
+  url: 'https://github.com/NREL/EnergyPlus/releases/tag/v9.5.0'
 }];
+
+export const latestRelease: CurrentRelease = {
+  version: '9.6.0',
+  date: 'September 30, 2021',
+  mac: 'https://github.com/NREL/EnergyPlus/releases/download/v9.6.0/EnergyPlus-9.6.0-f420c06a69-Darwin-macOS10.15-x86_64.dmg',
+  windows_main: 'https://github.com/NREL/EnergyPlus/releases/download/v9.6.0/EnergyPlus-9.6.0-f420c06a69-Windows-x86_64.exe',
+  windows_32: 'https://github.com/NREL/EnergyPlus/releases/download/v9.6.0/EnergyPlus-9.6.0-f420c06a69-Windows-i386.exe',
+  ubuntu_main: 'https://github.com/NREL/EnergyPlus/releases/download/v9.6.0/EnergyPlus-9.6.0-f420c06a69-Linux-Ubuntu20.04-x86_64.run',
+  ubuntu_18: 'https://github.com/NREL/EnergyPlus/releases/download/v9.6.0/EnergyPlus-9.6.0-f420c06a69-Linux-Ubuntu18.04-x86_64.run'
+}

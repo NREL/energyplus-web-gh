@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-// import { documentations } from '../shared/classes/documentations';
+import { latestRelease } from './../shared/classes/releases';
 
 @Component({
   selector: 'app-documentation',
@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./documentation.component.scss']
 })
 export class DocumentationComponent {
-  // readonly documentations = documentations;
+  readonly latestRelease = latestRelease;
 
   constructor() {
   }

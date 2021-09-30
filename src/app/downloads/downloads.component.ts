@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { releases } from './../shared/classes/releases';
+import { releases, latestRelease } from './../shared/classes/releases';
 
 @Component({
   selector: 'app-downloads',
@@ -8,6 +8,7 @@ import { releases } from './../shared/classes/releases';
 })
 export class DownloadsComponent {
   readonly releases = releases;
+  readonly latestRelease = latestRelease;
 
   constructor() {
   }
