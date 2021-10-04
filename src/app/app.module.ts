@@ -28,6 +28,7 @@ import { ContributingComponent } from './contributing/contributing.component';
 import { DocumentationComponent } from './documentation/documentation.component';
 import { DownloadsComponent } from './downloads/downloads.component';
 import { FooterComponent } from './footer/footer.component';
+import {GoogleAnalyticsService} from './google-analytics.service';
 import { HomeComponent } from './home/home.component';
 import { InstallationComponent } from './installation/installation.component';
 import { LicensingComponent } from './licensing/licensing.component';
@@ -86,7 +87,7 @@ import { WeatherSourcesComponent } from './weather/weather-sources/weather-sourc
     NgbDropdownModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [GoogleAnalyticsService],
   bootstrap: [AppComponent]
 })
 export class AppModule {
