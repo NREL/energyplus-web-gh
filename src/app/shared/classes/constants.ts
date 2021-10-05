@@ -1,18 +1,18 @@
-type Version = `EnergyPlus ${number}.${number}.${number}`;
+type Version = `${number}.${number}.${number}`;
 
 export type ReleaseItem = {
-  version: Version,
+  version: `EnergyPlus ${Version}`,
   url: string,
 };
 
 export type CurrentRelease = {
-  version: string,
+  version: Version,
   date: string,
-  mac: string,
-  windows_main: string,
-  windows_32: string,
-  ubuntu_main: string,
-  ubuntu_18: string
+  mac: `${string}.dmg`,
+  windows_main: `${string}.exe`,
+  windows_32: `${string}.exe`,
+  ubuntu_main: `${string}.run`,
+  ubuntu_18: `${string}.run`,
 };
 
 export type Reference = {

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { releases, latestRelease } from './../shared/classes/releases';
+import { latestRelease, releases } from '@classes/releases';
+import { GoogleAnalyticsService } from '../shared/services/google-analytics.service';
 
 @Component({
   selector: 'app-downloads',
@@ -10,7 +11,11 @@ export class DownloadsComponent {
   readonly releases = releases;
   readonly latestRelease = latestRelease;
 
-  constructor() {
+  constructor(private googleAnalyticsService: GoogleAnalyticsService) {
+  }
+
+  trackDownload(platform: 'windows' | 'mac' | 'linux', linkUrl: string) {
+    this.googleAnalyticsService.downloadEvent(platform, linkUrl);
   }
 
 }

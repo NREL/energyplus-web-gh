@@ -86,7 +86,6 @@ import { WeatherSourcesComponent } from './weather/weather-sources/weather-sourc
     NgbDropdownModule,
     ReactiveFormsModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {
