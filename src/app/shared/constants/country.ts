@@ -118,7 +118,7 @@ export const Countries: { [key in Country]: string } = {
   CHE: 'Switzerland',
   CHL: 'Chile',
   CHN: 'China',
-  COL: 'Columbia',
+  COL: 'Colombia',
   CUB: 'Cuba',
   CYP: 'Cyprus',
   CZE: 'Czech Republic',

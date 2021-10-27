@@ -31,7 +31,6 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { InstallationComponent } from './installation/installation.component';
 import { LicensingComponent } from './licensing/licensing.component';
-
 import { NavbarComponent } from './navbar/navbar.component';
 import { QuickStartComponent } from './quick-start/quick-start.component';
 import { ReferenceComponent } from './references/reference/reference.component';

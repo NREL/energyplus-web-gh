@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Country } from '@constants/country';
 import { Region } from '@constants/region';
-import { Weather, WeatherService } from '../weather.service';
+import { WeatherService } from '../weather.service';
 
 @Component({
   selector: 'app-weather-region',
