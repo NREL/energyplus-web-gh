@@ -58,7 +58,7 @@
                 }
               ],
               "extractLicenses": false,
-              "outputHashing": "all"
+              "outputHashing": "none"
             },
             "development": {
               "buildOptimizer": false,
