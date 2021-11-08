@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { GeoJSON } from '@classes/geojson';
 import { Country } from '@constants/country';
 import { allRegions, Region } from '@constants/region';
 import { BehaviorSubject } from 'rxjs';
@@ -29,11 +30,6 @@ export interface Weather {
   };
 }
 
-interface GeoJSON {
-  type: 'FeatureCollection';
-  features: Weather[];
-}
-
 @Injectable({
   providedIn: 'root'
 })
@@ -48,14 +44,19 @@ export class WeatherService {
   private _weatherLoadedSubject = new BehaviorSubject(false);
   readonly weatherLoaded$ = this._weatherLoadedSubject.asObservable().pipe(distinctUntilChanged());
 
-  constructor(private httpClient: HttpClient) {
-    this.httpClient.get<GeoJSON>('assets/weather/master.geojson').toPromise().then(geojson => {
-      this._weather = geojson.features;
-      this._initializeStats();
-      this._weatherLoadedSubject.next(true);
-    }).catch(error => {
-      console.error('Failed to load geojson', error);
-    });
+  constructor(
+    private httpClient: HttpClient,
+    private geojson: GeoJSON
+  ) {
+    if (geojson.features) {
+      this._initialize(geojson);
+    } else {
+      this.httpClient.get<GeoJSON>('assets/weather/master.geojson').toPromise().then(geojson => {
+        this._initialize(geojson);
+      }).catch(error => {
+        console.error('Failed to load geojson', error);
+      });
+    }
   }
 
   private _nestedWeather: {
@@ -84,6 +85,12 @@ export class WeatherService {
 
   countryHasStates(country: Country): boolean {
     return ['USA', 'CAN'].includes(country);
+  }
+
+  private _initialize(geojson: GeoJSON) {
+    this._weather = geojson.features;
+    this._initializeStats();
+    this._weatherLoadedSubject.next(true);
   }
 
   private _initializeStats(): void {
