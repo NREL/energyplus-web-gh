@@ -11,7 +11,7 @@ Run `ng generate component componentName` to generate a new component. You can a
 
 ## Build and Deploy
 
-Run `ng deploy` to build the project and push the build to the `gh-pages` branch on GitHub. The build artifacts will be stored in the `dist/` directory.
+The site is deployed automatically to the gh-pages branch via GitHub actions. When you are code updates, simply merge them into the main branch and GitHub will take care of the rest.
 
 ## Running unit tests
 
