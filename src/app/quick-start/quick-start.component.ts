@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { latestRelease } from './../shared/classes/releases';
+import { latestRelease } from '@classes/releases';
 
 @Component({
   selector: 'app-quick-start',
@@ -8,7 +8,7 @@ import { latestRelease } from './../shared/classes/releases';
 })
 
 export class QuickStartComponent {
-	readonly latestRelease = latestRelease;
+  readonly latestRelease = latestRelease;
 
   constructor() {
   }
