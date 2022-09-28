@@ -1,50 +1,24 @@
 body {
-	font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
-ul { 
- list-style: none;
+ul {
+  list-style: none;
 }
 
 .ml-n1 {
-	margin-left: -15px;
+  margin-left: -15px;
 }
 
 .mt-n1 {
-	margin-top: -15px;
+  margin-top: -15px;
 }
 
 .version-badge {
-	font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
-@media screen and (min-width: 1199px) {
-
-	
-}
-
-@media screen and (min-width: 992px) and (max-width: 1198px) {
-
-
-	
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-
-
-}
-
-@media screen and (min-width: 576px) and (max-width: 767px) {
-
-
-
-}
-
-@media screen and (max-width: 575px) {
-
-	
-
-
-
-
+.alt-builds {
+  display: flex;
+  flex-direction: column;
 }

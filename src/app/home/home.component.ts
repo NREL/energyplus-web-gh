@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { latestRelease } from './../shared/classes/releases';
+import { latestRelease } from '@classes/releases';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +7,6 @@ import { latestRelease } from './../shared/classes/releases';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-	readonly latestRelease = latestRelease;
-	
-  constructor() {
-  }
+  readonly latestRelease = latestRelease;
 
 }
