@@ -17,11 +17,14 @@
             <a class="card-link text-center ml-2" [href]="latestRelease.windows_32" (click)="trackDownload('windows', latestRelease.windows_32)">Windows (x32)</a>
           </div>
           <div class="col-xs-12 col-sm-4 col-lg-4 mr-1">
-            <a class="btn btn-default btn-primary btn-block btn-bg-dark mb-1" role="button" [href]="latestRelease.ubuntu_main" (click)="trackDownload('linux', latestRelease.ubuntu_main)">Ubuntu 20.04</a>
+            <a class="btn btn-default btn-primary btn-block btn-bg-dark mb-1" role="button" [href]="latestRelease.ubuntu_22" (click)="trackDownload('linux', latestRelease.ubuntu_22)">Ubuntu 22.04</a>
+            <a class="card-link text-center ml-2" [href]="latestRelease.ubuntu_20" (click)="trackDownload('linux', latestRelease.ubuntu_20)">Ubuntu 20.04</a>
             <a class="card-link text-center ml-2" [href]="latestRelease.ubuntu_18" (click)="trackDownload('linux', latestRelease.ubuntu_18)">Ubuntu 18.04</a>
           </div>
           <div class="col-xs-12 col-sm-2 col-lg-3">
-            <a class="btn btn-default btn-block btn-primary btn-bg-dark mb-1" role="button" [href]="latestRelease.mac" (click)="trackDownload('mac', latestRelease.mac)">Mac</a>
+            <a class="btn btn-default btn-block btn-primary btn-bg-dark mb-1" role="button" [href]="latestRelease.mac12" (click)="trackDownload('mac', latestRelease.mac12)">MacOS 12</a>
+            <a class="card-link text-center ml-2" [href]="latestRelease.mac11" (click)="trackDownload('linux', latestRelease.mac11)">MacOS 11</a>
+            <a class="card-link text-center ml-2" [href]="latestRelease.mac10" (click)="trackDownload('linux', latestRelease.mac10)">MacOS 10</a>
           </div>
         </div>
       </div>
@@ -33,9 +36,9 @@
       <div class="col-xs-12 col-sm-6 col-lg-3 card-subtitle mb-2 pl-1 pr-0 text-muted">
         <h6 class="mt-4">Supported Platforms Installation Instructions</h6>
         <ul class="pl-3">
-          <li><a routerLink="/installation" fragment="windows">Windows 10</a></li>
-          <li><a routerLink="/installation" fragment="linux">Ubuntu 18.04 and 20.04</a></li>
-          <li><a routerLink="/installation" fragment="mac">Mac OSX 10.15</a><li>
+          <li><a routerLink="/installation" fragment="windows">Windows 10 and 11</a></li>
+          <li><a routerLink="/installation" fragment="linux">Ubuntu 18.04, 20.04, and 22.04</a></li>
+          <li><a routerLink="/installation" fragment="mac">Mac OSX 10.15, 11.6, and 12.1</a><li>
         </ul>
       </div>
     </div>
