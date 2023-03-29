@@ -48,17 +48,20 @@ export const releases: ReleaseItem[] = [{
 }, {
   version: 'EnergyPlus 22.1.0',
   url: 'https://github.com/NREL/EnergyPlus/releases/tag/v22.1.0'
+}, {
+  version: 'EnergyPlus 22.2.0',
+  url: 'https://github.com/NREL/EnergyPlus/releases/tag/v22.2.0'
 }];
 
 export const latestRelease: CurrentRelease = {
-  version: '22.2.0',
-  date: 'September 30, 2022',
-  mac12: 'https://github.com/NREL/EnergyPlus/releases/download/v22.2.0/EnergyPlus-22.2.0-c249759bad-Darwin-macOS12.1-x86_64.dmg',
-  mac11: 'https://github.com/NREL/EnergyPlus/releases/download/v22.2.0/EnergyPlus-22.2.0-c249759bad-Darwin-macOS11.6-x86_64.dmg',
-  mac10: 'https://github.com/NREL/EnergyPlus/releases/download/v22.2.0/EnergyPlus-22.2.0-c249759bad-Darwin-macOS10.15-x86_64.dmg',
-  windows_main: 'https://github.com/NREL/EnergyPlus/releases/download/v22.2.0/EnergyPlus-22.2.0-c249759bad-Windows-x86_64.exe',
-  windows_32: 'https://github.com/NREL/EnergyPlus/releases/download/v22.2.0/EnergyPlus-22.2.0-c249759bad-Windows-i386.exe',
-  ubuntu_22: 'https://github.com/NREL/EnergyPlus/releases/download/v22.2.0/EnergyPlus-22.2.0-c249759bad-Linux-Ubuntu22.04-x86_64.run',
-  ubuntu_20: 'https://github.com/NREL/EnergyPlus/releases/download/v22.2.0/EnergyPlus-22.2.0-c249759bad-Linux-Ubuntu20.04-x86_64.run',
-  ubuntu_18: 'https://github.com/NREL/EnergyPlus/releases/download/v22.2.0/EnergyPlus-22.2.0-c249759bad-Linux-Ubuntu18.04-x86_64.run'
+  version: '23.1.0',
+  date: 'March 31, 2023',
+  mac12: 'https://github.com/NREL/EnergyPlus/releases/download/v23.1.0/EnergyPlus-23.1.0-87ed9199d4-Darwin-macOS12.1-x86_64.dmg',
+  mac11: 'https://github.com/NREL/EnergyPlus/releases/download/v23.1.0/EnergyPlus-23.1.0-87ed9199d4-Darwin-macOS11.6-x86_64.dmg',
+  mac10: 'https://github.com/NREL/EnergyPlus/releases/download/v23.1.0/EnergyPlus-23.1.0-87ed9199d4-Darwin-macOS10.15-x86_64.dmg',
+  windows_main: 'https://github.com/NREL/EnergyPlus/releases/download/v23.1.0/EnergyPlus-23.1.0-87ed9199d4-Windows-x86_64.exe',
+  windows_32: 'https://github.com/NREL/EnergyPlus/releases/download/v23.1.0/EnergyPlus-23.1.0-87ed9199d4-Windows-i386.exe',
+  ubuntu_22: 'https://github.com/NREL/EnergyPlus/releases/download/v23.1.0/EnergyPlus-23.1.0-87ed9199d4-Linux-Ubuntu22.04-x86_64.run',
+  ubuntu_20: 'https://github.com/NREL/EnergyPlus/releases/download/v23.1.0/EnergyPlus-23.1.0-87ed9199d4-Linux-Ubuntu20.04-x86_64.run',
+  ubuntu_18: 'https://github.com/NREL/EnergyPlus/releases/download/v23.1.0/EnergyPlus-23.1.0-87ed9199d4-Linux-Ubuntu18.04-x86_64.run'
 }
