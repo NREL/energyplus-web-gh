@@ -48,13 +48,13 @@ export const releases: ReleaseItem[] = [{
 }, {
   version: 'EnergyPlus 22.1.0',
   url: 'https://github.com/NREL/EnergyPlus/releases/tag/v22.1.0'
-}, {	
+}, {
   version: 'EnergyPlus 22.2.0',
   url: 'https://github.com/NREL/EnergyPlus/releases/tag/v22.2.0'
 }];
 
 export const latestRelease: CurrentRelease = {
-  version: '22.3.0',
+  version: '23.1.0',
   date: 'March 31, 2023',
   mac12: 'https://github.com/NREL/EnergyPlus/releases/download/v23.1.0/EnergyPlus-23.1.0-87ed9199d4-Darwin-macOS12.1-x86_64.dmg',
   mac11: 'https://github.com/NREL/EnergyPlus/releases/download/v23.1.0/EnergyPlus-23.1.0-87ed9199d4-Darwin-macOS11.6-x86_64.dmg',
