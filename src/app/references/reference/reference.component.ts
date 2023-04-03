@@ -21,7 +21,7 @@ export class ReferenceComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    const id = this.route.snapshot.paramMap.get('id');
+    const id = this.route.snapshot.paramMap.get('id') ?? '';
 
     if (!/^\d+$/.test(id)) {
       this.router.navigate(['/references']);

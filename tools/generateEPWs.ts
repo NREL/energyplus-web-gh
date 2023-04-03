@@ -75,9 +75,10 @@ allRegions.forEach(region => {
   });
 });
 
+fs.mkdirSync(path.resolve(__dirname, '../dist'), {recursive: true});
 const outputFile = path.resolve(__dirname, '../dist/EPWs.csv');
 fs.writeFileSync(outputFile, rows.join('\r\n'));
-console.log(`EPWs.csv saved to ${outputFile}`)
+console.log(`EPWs.csv saved to ${outputFile}`);
 
 function regions(region: string): string {
   return {

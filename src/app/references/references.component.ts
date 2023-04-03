@@ -1,6 +1,7 @@
 import { formatDate } from '@angular/common';
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Reference } from '@classes/constants';
 import { references } from '@classes/reference';
 
 @Component({
@@ -70,8 +71,8 @@ export class ReferencesComponent {
       throw new Error('Unknown header for sort.');
     }
 
-    this.sortedRefs = this.references.reduce((arr, item, i) => {
-      return i % this.resultsPerPage === 0 ? [...arr, [item]] : [...arr.slice(0, -1), [...arr.slice(-1)[0], item]];
+    this.sortedRefs = this.references.reduce<Reference[][]>((arr, item, i) => {
+      return (i % this.resultsPerPage) === 0 ? [...arr, [item]] : [...arr.slice(0, -1), [...arr.slice(-1)[0], item]];
     }, []);
   }
 
