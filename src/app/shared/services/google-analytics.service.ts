@@ -8,6 +8,7 @@ export class GoogleAnalyticsService {
     platform: 'windows' | 'mac' | 'linux',
     linkUrl: string
   ): void {
+    // @ts-ignore
     gtag('event', 'download', {
       platform,
       linkUrl
