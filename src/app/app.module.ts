@@ -36,6 +36,7 @@ import { QuickStartComponent } from './quick-start/quick-start.component';
 import { ReferenceComponent } from './references/reference/reference.component';
 import { ReferencesComponent } from './references/references.component';
 import { PaginationComponent } from './shared/components/pagination/pagination.component';
+import { ExternalLinkDirective } from './shared/directives/external-link.directive'
 import { SupportTrainingComponent } from './support-training/support-training.component';
 import { WeatherCountryComponent } from './weather/weather-country/weather-country.component';
 import { WeatherLocationComponent } from './weather/weather-location/weather-location.component';
@@ -52,6 +53,7 @@ import { WeatherSourcesComponent } from './weather/weather-sources/weather-sourc
     CountryPipe,
     DocumentationComponent,
     DownloadsComponent,
+    ExternalLinkDirective,
     FooterComponent,
     HomeComponent,
     InstallationComponent,

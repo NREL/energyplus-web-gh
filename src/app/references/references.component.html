@@ -15,26 +15,26 @@
               <thead>
               <tr>
                 <th class="views-field views-field-title pt-5 pb-1" scope="col" (click)="onClickSort('title')" [ngClass]="{'highlighted':isSelected === 'title'}">
-                  <a class="active" style="cursor:pointer;">Title<img *ngIf="isSelected === 'title'" [src]="image"></a>
+                  <a class="active" style="cursor:pointer;">Title<img *ngIf="isSelected === 'title'" [src]="image" aria-label="selected sort"></a>
                 </th>
                 <th class="view-field views-field-authors pt-5 pb-1" scope="col" (click)="onClickSort('authors')" [ngClass]="{'highlighted':isSelected === 'authors'}">
-                  <a class="active" style="cursor:pointer;">Authors<img *ngIf="isSelected === 'authors'" [src]="image"></a>
+                  <a class="active" style="cursor:pointer;">Authors<img *ngIf="isSelected === 'authors'" [src]="image" aria-label="selected sort"></a>
                 </th>
                 <th class="view-field views-field-research-org pt-5 pb-1" scope="col" (click)="onClickSort('research_org')" [ngClass]="{'highlighted':isSelected === 'research_org'}">
-                  <a class="active" style="cursor:pointer;">Research Org<img *ngIf="isSelected === 'research_org'" [src]="image"></a>
+                  <a class="active" style="cursor:pointer;">Research Org<img *ngIf="isSelected === 'research_org'" [src]="image" aria-label="selected sort"></a>
                 </th>
                 <th class="view-field views-field-publication-date pt-5 pb-1" scope="col" (click)="onClickSort('publication_date')" [ngClass]="{'highlighted':isSelected === 'publication_date'}">
-                  <a class="active" style="cursor:pointer;">Publication Date<img *ngIf="isSelected === 'publication_date'" [src]="image"></a>
+                  <a class="active" style="cursor:pointer;">Publication Date<img *ngIf="isSelected === 'publication_date'" [src]="image" aria-label="selected sort"></a>
                 </th>
                 <th class="view-field views-field-source-titles pt-5 pb-1" scope="col">Source Title</th>
                 <th class="view-field views-field-osti-id pt-5 pb-1" scope="col" (click)="onClickSort('osti_id')" [ngClass]="{'highlighted':isSelected === 'osti_id'}">
-                  <a class="active" style="cursor:pointer;">osti_id<img *ngIf="isSelected === 'osti_id'" [src]="image"></a>
+                  <a class="active" style="cursor:pointer;">osti_id<img *ngIf="isSelected === 'osti_id'" [src]="image" aria-label="selected sort"></a>
                 </th>
                 <th class="view-field views-field-doi pt-5 pb-1" scope="col" (click)="onClickSort('doi')" [ngClass]="{'highlighted':isSelected === 'doi'}">
-                  <a class="active" style="cursor:pointer;">doi<img *ngIf="isSelected === 'doi'" [src]="image"></a>
+                  <a class="active" style="cursor:pointer;">doi<img *ngIf="isSelected === 'doi'" [src]="image" aria-label="selected sort"></a>
                 </th>
                 <th class="view-field views-field-url pt-5 pb-1" scope="col" (click)="onClickSort('url')" [ngClass]="{'highlighted':isSelected === 'url'}">
-                  <a class="active" style="cursor:pointer;">url<img *ngIf="isSelected === 'url'" [src]="image"></a>
+                  <a class="active" style="cursor:pointer;">url<img *ngIf="isSelected === 'url'" [src]="image" aria-label="selected sort"></a>
                 </th>
               </tr>
               </thead>
@@ -47,7 +47,7 @@
                 <td>{{ referenceItem.source_title }}</td>
                 <td [ngClass]="{'highlighted': isSelected === 'osti_id'}">{{ referenceItem.osti_id }}</td>
                 <td [ngClass]="{'highlighted': isSelected === 'doi'}">{{ referenceItem.doi }}</td>
-                <td [ngClass]="{'highlighted': isSelected === 'url'}"><a href="{{ referenceItem.url }}">{{ referenceItem.url }}</a></td>
+                <td [ngClass]="{'highlighted': isSelected === 'url'}"><a href="{{ referenceItem.url }}" *ngIf="referenceItem.url">{{ referenceItem.url }}</a></td>
               </tr>
               </tbody>
             </table>

@@ -8,7 +8,7 @@
             The weather data are arranged by World Meteorological Organization region and Country.</p>
           <div class="row">
             <div class="col-xs-12 col-md-4">
-              <h3>View Weather Data</h3>
+              <h2>View Weather Data</h2>
               <p>Select a region below to view weather data.</p>
               <div class="btn-group-vertical" role="group">
                 <a *ngFor="let region of allRegions" [routerLink]="['/weather-region', region]" class="btn btn-body border btn-hover text-left font-default" type="button">{{ region | region }}</a>
@@ -16,7 +16,7 @@
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-6">
-              <h3 class="search-input">Search Weather Data</h3>
+              <h2 class="search-input">Search Weather Data</h2>
               <div>
                 <div class="form-item form-group">
                   <label for="keyword" style="margin-top:30px;margin-left:1px;"><strong>Keyword Search</strong></label>
@@ -29,14 +29,14 @@
           </div>
           <div class="row pt-4">
             <div class="col-md-12">
-              <h3>Browse Weather Data</h3>
+              <h2>Browse Weather Data</h2>
               <p>Click on the markers in the map below to access weather data.</p>
               <iframe id="geomap" src="https://viewscreen.githubusercontent.com/view/geojson?enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f4e52454c2f456e65726779506c75732f383765643931393964343965363062326539356633393237656433373266666235376261393431372f776561746865722f6d61737465722e67656f6a736f6e" sandbox="allow-downloads allow-scripts allow-same-origin allow-top-navigation" title="Weather File GeoJSON"></iframe>
             </div>
           </div>
           <div class="row pt-4">
             <div class="col-md-12">
-              <h3>Contributing Weather Data</h3>
+              <h2>Contributing Weather Data</h2>
               <p>
                 If you are interested in providing new, updated, or repaired weather data to our main repository, please submit a <a href="assets/nrel_custom/eplus_files/EnergyPlusTMWeatherContributorAgreement.pdf">contribution agreement</a> to <a href="mailto:edwin.lee@nrel.gov">Edwin Lee</a>.<br>
               </p>
@@ -44,7 +44,7 @@
           </div>
           <div class="row pt-4">
             <div class="col-md-12">
-              <h3>Additional Information</h3>
+              <h2>Additional Information</h2>
               <p>The Auxiliary Programs document that is packaged with EnergyPlus includes information about weather data in general, the EnergyPlus weather data format, and weather file conversion.
                 If you cannot find weather data for your location, see the
                 <a routerLink="/weather/simulation">Weather Data for Simulation</a>

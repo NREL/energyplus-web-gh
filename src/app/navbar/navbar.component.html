@@ -13,10 +13,10 @@
       <li class="nav-item">
         <div ngbDropdown placement="bottom-right">
           <div class="dropdown-container">
-            <a class="nav-link" routerLink="/documentation" [class.active-link]="rlaDocumentation.isActive || rlaReference.isActive" routerLinkActive #rlaDocumentation="routerLinkActive" (click)="menuCollapsed = true">Documentation</a>
-            <button *ngIf="rlaDocumentation.isActive || rlaReference.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle><fa-icon [icon]="['fas', 'caret-down']"></fa-icon></button>
+            <a class="nav-link" id="navbarDropdown" routerLink="/documentation" [class.active-link]="rlaDocumentation.isActive || rlaReference.isActive" routerLinkActive #rlaDocumentation="routerLinkActive" (click)="menuCollapsed = true" aria-haspopup="true" aria-expanded="false">Documentation</a>
+            <button *ngIf="rlaDocumentation.isActive || rlaReference.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle aria-label="dropdown toggle"><fa-icon [icon]="['fas', 'caret-down']" alt="dropdown toggle"></fa-icon></button>
           </div>
-          <ul ngbDropdownMenu class="dropdown-menu rounded-0">
+          <ul ngbDropdownMenu class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown">
             <li>
               <a class="nav-link dropdown-item" routerLink="/references" routerLinkActive="active-link" #rlaReference="routerLinkActive" (click)="menuCollapsed = true">References</a>
             </li>
@@ -32,10 +32,10 @@
       <li class="nav-item">
         <div ngbDropdown placement="bottom-right">
           <div class="dropdown-container">
-            <a class="nav-link" routerLink="/licensing" [class.active-link]="rlaLicensing.isActive || rlaContributing.isActive" routerLinkActive #rlaLicensing="routerLinkActive" (click)="menuCollapsed = true">Licensing</a>
-            <button *ngIf="rlaLicensing.isActive || rlaContributing.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle><fa-icon [icon]="['fas', 'caret-down']"></fa-icon></button>
+            <a class="nav-link" routerLink="/licensing" id="navbarDropdown2" [class.active-link]="rlaLicensing.isActive || rlaContributing.isActive" routerLinkActive #rlaLicensing="routerLinkActive" (click)="menuCollapsed = true" aria-haspopup="true" aria-expanded="false">Licensing</a>
+            <button *ngIf="rlaLicensing.isActive || rlaContributing.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle aria-label="dropdown toggle"><fa-icon [icon]="['fas', 'caret-down']" alt="dropdown toggle"></fa-icon></button>
           </div>
-          <ul ngbDropdownMenu class="dropdown-menu rounded-0">
+          <ul ngbDropdownMenu class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown2">
             <li>
               <a class="nav-link dropdown-item" routerLink="/contributing" routerLinkActive="active-link" #rlaContributing="routerLinkActive" (click)="menuCollapsed = true">Contributing</a>
             </li>
@@ -45,10 +45,10 @@
       <li class="nav-item">
         <div ngbDropdown placement="bottom-right">
           <div class="dropdown-container">
-            <a class="nav-link" routerLink="/weather" [class.active-link]="rlaWeather.isActive || rlaSimulation.isActive || rlaSources.isActive" routerLinkActive #rlaWeather="routerLinkActive" (click)="menuCollapsed = true">Weather</a>
-            <button *ngIf="rlaWeather.isActive || rlaSimulation.isActive || rlaSources.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle><fa-icon [icon]="['fas', 'caret-down']"></fa-icon></button>
+            <a class="nav-link" id="navbarDropdown3" routerLink="/weather" [class.active-link]="rlaWeather.isActive || rlaSimulation.isActive || rlaSources.isActive" routerLinkActive #rlaWeather="routerLinkActive" (click)="menuCollapsed = true" aria-haspopup="true" aria-expanded="false">Weather</a>
+            <button *ngIf="rlaWeather.isActive || rlaSimulation.isActive || rlaSources.isActive" class="btn nav-link pl-0 pr-0" ngbDropdownToggle aria-label="dropdown toggle"><fa-icon [icon]="['fas', 'caret-down']" alt="dropdown toggle"></fa-icon></button>
           </div>
-          <ul ngbDropdownMenu class="dropdown-menu rounded-0">
+          <ul ngbDropdownMenu class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown3">
             <li>
               <a class="nav-link dropdown-item" routerLink="/weather/simulation" routerLinkActive="active-link" #rlaSimulation="routerLinkActive" (click)="menuCollapsed = true">Weather Data for Simulation</a>
             </li>
