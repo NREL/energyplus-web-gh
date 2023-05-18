@@ -177,11 +177,11 @@
         run and what is in the input file. If EnergyPlus is run via an interface, the interface may intercept some of the output files and reformat them.</p>
       <p>EnergyPlus produces a number of files that are unique to EnergyPlus, including:</p>
       <ol>
-        <li><strong>ESO</strong> (<strong>E</strong>nergyPlus <strong>S</strong>tandard <strong>O</strong>utput): raw report variable ourpur in text form.</li>
-        <li><strong>SQL</strong>: if requested in the input file, the output variables stored in SQLite format. This format is most often by interfaces as it is convenient for automatic use.</li>
+        <li><strong>ESO</strong> (<strong>E</strong>nergyPlus <strong>S</strong>tandard <strong>O</strong>utput): raw report variable output in text form.</li>
+        <li><strong>SQL</strong> (<strong>S</strong>tructured <strong>Q</strong>uery <strong>L</strong>anguage): if requested in the input file, the output variables stored in SQLite format. This format is most often by interfaces as it is convenient for automatic use.</li>
         <li><strong>RDD</strong> (<strong>R</strong>eport variable <strong>D</strong>ata <strong>D</strong>ictionary): list of output variables available from the run.</li>
         <li><strong>MDD</strong> (report <strong>M</strong>eter <strong>D</strong>ata <strong>D</strong>itionary): list of output meters available from the run.</li>
-        <li><strong>EIO</strong> (<strong>E</strong> nergyPlus <strong>I</strong>nvariant <strong>O</strong>utput): additional EnergyPlus results, including diagnostic messages.</li>
+        <li><strong>EIO</strong> (<strong>E</strong>nergyPlus <strong>I</strong>nvariant <strong>O</strong>utput): additional EnergyPlus results, including diagnostic messages.</li>
         <li><strong>ERR</strong> (<strong>ERR</strong>ors): list of errors and warnings produced by the run.</li>
         <li><strong>MTR</strong> (<strong>M</strong>e<strong>T</strong>e<strong>R</strong> Output): raw report meter output, formatted as the ESO.</li>
         <li><strong>MTD</strong> (<strong>M</strong>e<strong>T</strong>er <strong>D</strong>etails): list of meter component variables.</li>
@@ -265,7 +265,7 @@
           </li>
         </ol>
         <h4 >Analysis</h4>
-        <p >This run was an annual simulation and the performance of the building and its systems was simulated from January 1 to December 1. Before proceeding to look at the output, take a moment to review a couple of the output files:</p>
+        <p>This run was an annual simulation and the performance of the building and its systems was simulated from January 1 to December 1. Before proceeding to look at the output, take a moment to review a couple of the output files:</p>
         <ol class="font-default">
           <li>Check that the error file (eplusout.err) does not contain any error messages. The file is plain text and can be opened in any text editor.</li>
           <li>Look at the EIO file (eplusout.eio) to see what the invariant output looks like. This file is also a plain text file.</li>
@@ -276,7 +276,7 @@
           <div><img src="assets/nrel_custom/images/quickstart_2.png" width="90%" aria-label="Directory Contents After Run"></div>
           <p class="text-center">Figure 2: Directory Contents After Run</p>
         </ol>
-        <p >EnergyPlus produces a number of different output files that contain different kinds of output. The summary table in eplusout.htm is useful and scanning through it will provide some information about the behavior of the boiler. For example (for EnergyPlus 9.0),
+        <p>EnergyPlus produces a number of different output files that contain different kinds of output. The summary table in eplusout.htm is useful and scanning through it will provide some information about the behavior of the boiler. For example (for EnergyPlus 9.0),
           the boiler used 68.52 GJ worth of natural gas annually. This is useful, but in many situations the results required are somewhat more granular. To see what outputs are available, open the report variable data dictionary (eplusout.rdd) and search for “Boiler”. The following items should show up:</p>
         <div>
           <div class="card card-body bg-light" style="font-family:Courier;font-size:0.8rem;">
@@ -292,7 +292,7 @@
             HVAC,Average,Boiler Part Load Ratio []<br/>
           </div>
         </div>
-        <p >Adding an additional output for the fourth item on the list (“HVAC,Sum,Boiler Gas Energy [J]”) will report information on the gas use more granularly than for entire run of the simulation. Furthermore, the outputs that EnergyPlus has produced in the ESO file are not in a form that is readily postprocessed.</p>
+        <p>Adding an additional output for the fourth item on the list (“HVAC,Sum,Boiler Gas Energy [J]”) will report information on the gas use more granularly than for entire run of the simulation. Furthermore, the outputs that EnergyPlus has produced in the ESO file are not in a form that is readily postprocessed.</p>
         <h3 id="outvar" >Adding an output variable</h3>
         <h4>Step-By-Step Instructions</h4>
         <ol class="font-size">
@@ -306,33 +306,34 @@
             The “-r” option (synonymous with “--readvars”) will execute the ReadVarsESO program after EnergyPlus runs to generates a CSV file from the ESO.
           </li>
         </ol>
-        <p ><strong>Note</strong>—Strictly speaking, making a separate copy of the input file before making any changes is not required. However, it is good practice to keep backup copies of working files in the event that you make a mistake in editing the file, and that’s the reason for creation of a new version of the input file.
+        <p><strong>Note</strong>—Strictly speaking, making a separate copy of the input file before making any changes is not required. However, it is good practice to keep backup copies of working files in the event that you make a mistake in editing the file, and that’s the reason for creation of a new version of the input file.
           Since the input files are text files, any procedure that tracks modifications of text files (e.g. most version control systems) could be used to keep backup copies.</p>
         <h4 >Analysis</h4>
-        <p >The CSV file that was written is named eplusout.csv. Load the file into your favorite spreadsheet program and you will find that it has quite a lot of data in it. The variables are arranged in columns, and the variable of interest is in the column named “CENTRAL BOILER:Boiler Gas Energy [J](Daily)”.
+        <p>The CSV file that was written is named eplusout.csv. Load the file into your favorite spreadsheet program and you will find that it has quite a lot of data in it. The variables are arranged in columns, and the variable of interest is in the column named “CENTRAL BOILER:Boiler Gas Energy [J](Daily)”.
           Find that column and note that it only has one entry per day. Even though the variable values are in the rows of the last hour of each day, each result applies to the whole day (and not just the last hour). Plotting the variable results in the graph shown in Figure 3.</p>
-        <div><img src="assets/nrel_custom/images/quickstart_3.png" width="100%" aria-label="Daily Boiler Gas Energy">
+        <div>
+          <img src="assets/nrel_custom/images/quickstart_3.png" width="100%" aria-label="Daily Boiler Gas Energy">
           <p class="text-center">Figure 3: Daily Boiler Gas Energy</p>
         </div>
-        <p >Energy use of the boiler is, as expected for a building located in northern Illinois, somewhat higher in the winter months. Boiler energy use is much lower, but nonzero, during summer months.</p>
+        <p>Energy use of the boiler is, as expected for a building located in northern Illinois, somewhat higher in the winter months. Boiler energy use is much lower, but nonzero, during summer months.</p>
         <h2 id="reading" >Wrap Up and Further Reading</h2>
-        <p >If you’ve made it this far, you’ve run a basic simulation, added an output variable, and seen how boiler energy use varies throughout the year for one the EnergyPlus example models. The example files are a very good way to familiarize yourself with the various feature of EnergyPlus, but additional documentation is available.
+        <p>If you’ve made it this far, you’ve run a basic simulation, added an output variable, and seen how boiler energy use varies throughout the year for one the EnergyPlus example models. The example files are a very good way to familiarize yourself with the various feature of EnergyPlus, but additional documentation is available.
           EnergyPlus is a complex program with many features, and the following documents are installed in /Documentation and provide additional details on the features:</p>
         <ul>
-          <li><a href="assets/nrel_custom/pdfs/pdfs_v{{latestRelease.version}}/EnergyPlusEssentials.pdf">EnergyPlus Essentials<img src="assets/images/icon_pdf.png" aria-label="pdf" class="figure-img ml-1"></a>
+          <li><a href="assets/nrel_custom/pdfs/pdfs_v{{latestRelease.version}}/EnergyPlusEssentials.pdf">EnergyPlus Essentials</a>
             – A longer introduction to the use of EnergyPlus, including more background on the program itself and the ecosystem. It also provides some guidance as to how to determine what potential sources of errors are when EnergyPlus runs into problems and how serious those problems might be.
           </li>
-          <li><a href="assets/nrel_custom/pdfs/pdfs_v{{latestRelease.version}}/EngineeringReference.pdf">Engineering Reference<img src="assets/images/icon_pdf.png" aria-label="pdf" class="figure-img ml-1"></a>
+          <li><a href="assets/nrel_custom/pdfs/pdfs_v{{latestRelease.version}}/EngineeringReference.pdf">Engineering Reference</a>
             – The Engineering Reference provides in-depth coverage of the theoretical basis behind the various calculations contained in the program. This reference includes more information on modeling equations, limitations, and literature references.
           </li>
-          <li><a href="assets/nrel_custom/pdfs/pdfs_v{{latestRelease.version}}/InputOutputReference.pdf">Input Output Reference<img src="assets/images/icon_pdf.png" aria-label="pdf" class="figure-img ml-1"></a>
+          <li><a href="assets/nrel_custom/pdfs/pdfs_v{{latestRelease.version}}/InputOutputReference.pdf">Input Output Reference</a>
             – This document is a thorough description of the various input and output files related to EnergyPlus, the format of these files, and how the files interact and interrelate
           </li>
-          <li><a href="assets/nrel_custom/pdfs/pdfs_v{{latestRelease.version}}/OutputDetailsAndExamples.pdf">Output Details and Examples<img src="assets/images/icon_pdf.png" aria-label="pdf" class="figure-img ml-1"></a>
+          <li><a href="assets/nrel_custom/pdfs/pdfs_v{{latestRelease.version}}/OutputDetailsAndExamples.pdf">Output Details and Examples</a>
             – While the Input Output Reference document touches on some of the outputs from EnergyPlus, this document has more details and specific examples. It also addresses the reference data sets that are included with the installation package.
           </li>
         </ul>
-        <p >Additional documentation and online information sources available to users can be found on the <a routerLink="/documentation">documentation page</a>.</p>
+        <p>Additional documentation and online information sources available to users can be found on the <a routerLink="/documentation">documentation page</a>.</p>
       </div>
     </div>
   </div>

@@ -54,3 +54,20 @@ a {
 a {
   color: #0B5E90;
 }
+
+a[href]::after {
+  font-family: 'Font Awesome 5 Free';
+  font-size: 0.85em;
+}
+
+a[href$='.pdf']::after {
+  content: '\f1c1';
+  display: inline;
+  margin-left: 0.25rem;
+}
+
+a[href$='.zip']::after {
+  content: '\f1c6';
+  display: inline;
+  margin-left: 0.25rem;
+}
