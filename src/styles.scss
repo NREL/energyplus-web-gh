@@ -29,12 +29,28 @@ a {
   font-weight: normal;
 }
 
+.text-muted {
+  color: #6b6b6b !important;
+}
+
 .btn-bg-light {
-  background-color: #5BC0DE;
+  background-color: #207C97 !important;
   color: #fff;
   font-weight: normal;
 }
 
 .font-default {
   font-size: 0.9rem;
+}
+
+.breadcrumb {
+  background-color: #F8F9FA !important;
+}
+
+.breadcrumb-item.active {
+  color: #6b6b6b !important;
+}
+
+a {
+  color: #0B5E90;
 }
