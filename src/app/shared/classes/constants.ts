@@ -15,7 +15,6 @@ export type CurrentRelease = {
   windows_32: `${string}.exe`,
   ubuntu_22: `${string}.run`,
   ubuntu_20: `${string}.run`,
-  ubuntu_18: `${string}.run`,
 };
 
 export type Reference = {
