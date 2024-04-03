@@ -54,16 +54,18 @@ export const releases: ReleaseItem[] = [{
 }, {
   version: 'EnergyPlus 23.1.0',
   url: 'https://github.com/NREL/EnergyPlus/releases/tag/v23.1.0'  
+}, {
+  version: 'EnergyPlus 23.2.0',
+  url: 'https://github.com/NREL/EnergyPlus/releases/tag/v23.2.0'  
 }];
 
 export const latestRelease: CurrentRelease = {
-  version: '23.2.0',
-  date: 'September 30, 2023',
-  mac12: 'https://github.com/NREL/EnergyPlus/releases/download/v23.2.0/EnergyPlus-23.2.0-7636e6b3e9-Darwin-macOS12.1-x86_64.dmg',
-  mac11: 'https://github.com/NREL/EnergyPlus/releases/download/v23.2.0/EnergyPlus-23.2.0-7636e6b3e9-Darwin-macOS11.6-x86_64.dmg',
-  mac10: 'https://github.com/NREL/EnergyPlus/releases/download/v23.2.0/EnergyPlus-23.2.0-7636e6b3e9-Darwin-macOS10.15-x86_64.dmg',
-  windows_main: 'https://github.com/NREL/EnergyPlus/releases/download/v23.2.0/EnergyPlus-23.2.0-7636e6b3e9-Windows-x86_64.exe',
-  windows_32: 'https://github.com/NREL/EnergyPlus/releases/download/v23.2.0/EnergyPlus-23.2.0-7636e6b3e9-Windows-i386.exe',
-  ubuntu_22: 'https://github.com/NREL/EnergyPlus/releases/download/v23.2.0/EnergyPlus-23.2.0-7636e6b3e9-Linux-Ubuntu22.04-x86_64.run',
-  ubuntu_20: 'https://github.com/NREL/EnergyPlus/releases/download/v23.2.0/EnergyPlus-23.2.0-7636e6b3e9-Linux-Ubuntu20.04-x86_64.run'
+  version: '24.1.0',
+  date: 'March 31, 2024',
+  mac12_arm: 'https://github.com/NREL/EnergyPlus/releases/download/v24.1.0/EnergyPlus-24.1.0-9d7789a3ac-Darwin-macOS12.1-arm64.dmg',
+  mac12: 'https://github.com/NREL/EnergyPlus/releases/download/v24.1.0/EnergyPlus-24.1.0-9d7789a3ac-Darwin-macOS12.1-x86_64.dmg',
+  mac11: 'https://github.com/NREL/EnergyPlus/releases/download/v24.1.0/EnergyPlus-24.1.0-9d7789a3ac-Darwin-macOS11.6-x86_64.dmg',
+  windows_main: 'https://github.com/NREL/EnergyPlus/releases/download/v24.1.0/EnergyPlus-24.1.0-9d7789a3ac-Windows-x86_64.exe',
+  ubuntu_22: 'https://github.com/NREL/EnergyPlus/releases/download/v24.1.0/EnergyPlus-24.1.0-9d7789a3ac-Linux-Ubuntu22.04-x86_64.run',
+  ubuntu_20: 'https://github.com/NREL/EnergyPlus/releases/download/v24.1.0/EnergyPlus-24.1.0-9d7789a3ac-Linux-Ubuntu20.04-x86_64.run'
 }
