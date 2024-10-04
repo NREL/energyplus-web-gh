@@ -9,11 +9,10 @@ export type CurrentRelease = {
   version: Version,
   date: string,
   mac12: `${string}.dmg`,
-  mac12_arm: `${string}.dmg`,
-  mac11: `${string}.dmg`,
+  mac13_arm: `${string}.dmg`,
   windows_main: `${string}.exe`,
   ubuntu_22: `${string}.run`,
-  ubuntu_20: `${string}.run`,
+  ubuntu_24: `${string}.run`,
 };
 
 export type Reference = {
