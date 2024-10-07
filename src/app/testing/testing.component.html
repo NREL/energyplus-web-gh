@@ -9,7 +9,20 @@
           <div class="content" style="font-size:0.9rem;">
             <div class="field field-name-body field-type-text-with-summary field-label-hidden">
               <div class="field-items">
-                <div class="field-item even" property="content:encoded"><p>An important ongoing part of EnergyPlus development is testing using industry standard methods as major builds are completed. The goal is to make EnergyPlus as bug-free as possible. Three major types of tests are<br>currently conducted:</p>
+                <div class="field-item even" property="content:encoded">
+                  <h2>Continuous Integration Testing</h2>
+                  <p>EnergyPlus uses an extensive set of <a href=https://en.wikipedia.org/wiki/Continuous_integration>Continuous Integration</a> tests to ensure that software code fixes to identified issues, as well as new code adding additional features to EnergyPlus, are not causing unexpected changes in the results. This is part of the <a href=https://github.com/NREL/EnergyPlus/actions>GitHub workflows</a> that test the software for each new change. The types of tests include:</p>
+                  <ul>
+                    <li>Regression tests run hundreds of EnergyPlus building models and automatically compare the results of the simulations between the new and existing source code.</li>
+                    <li>Unit tests that exercise individual or small groups of functions in the source code to ensure that changes to small units of code do not negatively impact the overall results.</li>
+                    <li>Build tests that create and compile EnergyPlus and almost all supporting utilities on various platforms (Windows, MacOS, Linux), including documentation and package installers, to ensure that deployments of new versions of EnergyPlus are done smoothly.</li>
+                    <li>Miscellaneous tests exercise the multitude of interacting pieces of the entire EnergyPlus package to reduce the unforeseen impacts of changing components on the overall software.</li>
+                  </ul>
+                  <p>Tracking of the speed and the number of lines and functions that are covered by the tests is also included. Most of these tests can be performed locally by each developer on the team so they can provide the best changes prior to committing them to the common repository.</p>
+                  <h2>Current Validation Testing</h2>
+                  <p>An important ongoing part of EnergyPlus development is testing using industry-standard methods as major builds are completed. The goal is to make EnergyPlus as bug-free as possible. Currently, the validation primarily follows ASHRAE Standard 140 and is conducted as part of the <a href=https://openstudio.net>OpenStudio</a> validation using the same standard. The automated validation system can be seen <a href=https://github.com/NREL/BESTEST-GSR>on the BESTEST-GSR repository</a>.  Note that the results are posted under [individual releases]( https://github.com/NREL/BESTEST-GSR/releases) that generally correspond with software releases of OpenStudio and EnergyPlus.</p>
+                  <h2>Earlier Validation Testing</h2>
+                  <p>Historically, two categories of validation tests were conducted:</p>
                   <ul>
                     <li>Analytical tests:
                       <ul>
@@ -25,10 +38,9 @@
                         <li>EnergyPlus Global Heat Balance tests</li>
                       </ul>
                     </li>
-                    <li>Release and executable tests</li>
                   </ul>
                   <p>The BESTest suites compare the results of multiple simulation programs for a series of load-related attributes. For more information on IEA SHC Task 34/Annex 43 (BESTest), visit the <a href="https://www.iea-shc.org/">IEA Solar Heating and Cooling Programme website</a>.</p>
-                  <p>EnergyPlus testing reports are available for many of these test suites.<br>As new releases are completed and as we conclude new tests, we will add the results to this page.<br>Click on the links below to view the reports for EnergyPlus version 8.2.0.</p>
+                  <p>EnergyPlus testing reports are available for many of these test suites.<br>As new releases are completed and as we conclude new tests, we will add the results to this page.<br>Click on the links below to view the reports for EnergyPlus version 8.3.0.</p>
                   <ul>
                     <li>ANSI/ASHRAE Standard 140-2011
                       <ul>

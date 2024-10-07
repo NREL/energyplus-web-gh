@@ -16,16 +16,15 @@
             <a class="btn btn-default btn-primary btn-block btn-bg-dark mb-1" role="button" [href]="latestRelease.windows_main" (click)="trackDownload('windows', latestRelease.windows_main)">Windows (x64)</a>
           </div>
           <div class="col-xs-12 col-sm-4 col-lg-4 mr-1">
-            <a class="btn btn-default btn-primary btn-block btn-bg-dark mb-1" role="button" [href]="latestRelease.ubuntu_22" (click)="trackDownload('linux', latestRelease.ubuntu_22)">Ubuntu 22.04</a>
+            <a class="btn btn-default btn-primary btn-block btn-bg-dark mb-1" role="button" [href]="latestRelease.ubuntu_24" (click)="trackDownload('linux', latestRelease.ubuntu_24)">Ubuntu 24.04</a>
             <div class="alt-builds">
-              <a class="card-link text-center ml-2" [href]="latestRelease.ubuntu_20" (click)="trackDownload('linux', latestRelease.ubuntu_20)">Ubuntu 20.04</a>
+              <a class="card-link text-center ml-2" [href]="latestRelease.ubuntu_22" (click)="trackDownload('linux', latestRelease.ubuntu_22)">Ubuntu 22.04</a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-2 col-lg-3">
-            <a class="btn btn-default btn-block btn-primary btn-bg-dark mb-1" role="button" [href]="latestRelease.mac12" (click)="trackDownload('mac', latestRelease.mac12)">MacOS 12</a>
+            <a class="btn btn-default btn-block btn-primary btn-bg-dark mb-1" role="button" [href]="latestRelease.mac13_arm" (click)="trackDownload('mac', latestRelease.mac13_arm)">MacOS 13 (ARM)</a>
             <div class="alt-builds">
-			  <a class="card-link text-center ml-2" [href]="latestRelease.mac12_arm" (click)="trackDownload('mac', latestRelease.mac12_arm)">MacOS 12 ARM</a>
-              <a class="card-link text-center ml-2" [href]="latestRelease.mac11" (click)="trackDownload('mac', latestRelease.mac11)">MacOS 11</a>
+			  <a class="card-link text-center ml-2" [href]="latestRelease.mac12" (click)="trackDownload('mac', latestRelease.mac12)">MacOS 12 (x64)</a>
             </div>
           </div>
         </div>
@@ -39,7 +38,7 @@
         <h3 class="mt-4">Supported Platforms Installation Instructions</h3>
         <ul class="pl-3">
           <li><a routerLink="/installation" fragment="windows">Windows 10 and 11</a></li>
-          <li><a routerLink="/installation" fragment="linux">Ubuntu 20.04, and 22.04</a></li>
+          <li><a routerLink="/installation" fragment="linux">Ubuntu 22.04, and 24.04</a></li>
           <li><a routerLink="/installation" fragment="mac">MacOS 11, 12, and ARM</a><li>
         </ul>
       </div>
