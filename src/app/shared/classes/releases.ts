@@ -65,9 +65,9 @@ export const releases: ReleaseItem[] = [{
 export const latestRelease: CurrentRelease = {
   version: '24.2.0',
   date: 'September 30, 2024',
-  mac13_arm: 'https://github.com/NREL/EnergyPlus/releases/download/v24.2.0a/EnergyPlus-24.1.0-94a887817b-Darwin-macOS13-arm64.dmg',
-  mac12: 'https://github.com/NREL/EnergyPlus/releases/download/v24.2.0a/EnergyPlus-24.1.0-94a887817b-Darwin-macOS12.1-x86_64.dmg',
-  windows_main: 'https://github.com/NREL/EnergyPlus/releases/download/v24.2.0a/EnergyPlus-24.1.0-94a887817b-Windows-x86_64.exe',
-  ubuntu_22: 'https://github.com/NREL/EnergyPlus/releases/download/v24.2.0a/EnergyPlus-24.1.0-94a887817b-Linux-Ubuntu22.04-x86_64.run',
-  ubuntu_24: 'https://github.com/NREL/EnergyPlus/releases/download/v24.2.0a/EnergyPlus-24.1.0-94a887817b-Linux-Ubuntu24.04-x86_64.run'
+  mac13_arm: 'https://github.com/NREL/EnergyPlus/releases/download/v24.2.0a/EnergyPlus-24.2.0-94a887817b-Darwin-macOS13-arm64.dmg',
+  mac12: 'https://github.com/NREL/EnergyPlus/releases/download/v24.2.0a/EnergyPlus-24.2.0-94a887817b-Darwin-macOS12.1-x86_64.dmg',
+  windows_main: 'https://github.com/NREL/EnergyPlus/releases/download/v24.2.0a/EnergyPlus-24.2.0-94a887817b-Windows-x86_64.exe',
+  ubuntu_22: 'https://github.com/NREL/EnergyPlus/releases/download/v24.2.0a/EnergyPlus-24.2.0-94a887817b-Linux-Ubuntu22.04-x86_64.run',
+  ubuntu_24: 'https://github.com/NREL/EnergyPlus/releases/download/v24.2.0a/EnergyPlus-24.2.0-94a887817b-Linux-Ubuntu24.04-x86_64.run'
 }
