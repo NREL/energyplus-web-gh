@@ -6,8 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./support-training.component.scss']
 })
 export class SupportTrainingComponent {
-
-  constructor() {
-  }
-
 }

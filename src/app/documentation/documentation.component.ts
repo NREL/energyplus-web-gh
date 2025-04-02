@@ -8,8 +8,4 @@ import { latestRelease } from './../shared/classes/releases';
 })
 export class DocumentationComponent {
   readonly latestRelease = latestRelease;
-
-  constructor() {
-  }
-
 }

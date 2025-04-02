@@ -17,6 +17,25 @@ h1.version-badge {
   margin-bottom: 30px;
 }
 
+ngb-accordion {
+  & > .card {
+    margin-bottom: 0;
+
+    ul {
+      margin-bottom: 0;
+    }
+  }
+
+  .card-header > button {
+    text-align: left;
+    width: 100%;
+
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
 a {
   color: #3276B1;
   font-weight: bold;

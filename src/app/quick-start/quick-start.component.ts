@@ -9,8 +9,4 @@ import { latestRelease } from '@classes/releases';
 
 export class QuickStartComponent {
   readonly latestRelease = latestRelease;
-
-  constructor() {
-  }
-
 }

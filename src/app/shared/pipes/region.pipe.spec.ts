@@ -1,4 +1,3 @@
-import { WeatherService } from '../../weather/weather.service';
 import { RegionPipe } from './region.pipe';
 
 describe('RegionPipe', () => {
