@@ -1,7 +1,7 @@
 // tslint:disable:max-line-length
 import { Reference } from './constants';
 
-// @ts-ignore: 2590
+// @ts-expect-error TS2590
 export const references: Reference[] = [
   {
     title: 'EnergyPlus Hysteresis PCM Model: Cooperative Research and Development Final Report, CRADA Number CRD-16-639',

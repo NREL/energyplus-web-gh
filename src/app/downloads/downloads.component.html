@@ -24,7 +24,7 @@
           <div class="col-xs-12 col-sm-2 col-lg-3">
             <a class="btn btn-default btn-block btn-primary btn-bg-dark mb-1" role="button" [href]="latestRelease.mac13_arm" (click)="trackDownload('mac', latestRelease.mac13_arm)">MacOS 13 (ARM)</a>
             <div class="alt-builds">
-			  <a class="card-link text-center ml-2" [href]="latestRelease.mac12" (click)="trackDownload('mac', latestRelease.mac12)">MacOS 12 (x64)</a>
+              <a class="card-link text-center ml-2" [href]="latestRelease.mac12" (click)="trackDownload('mac', latestRelease.mac12)">MacOS 12 (x64)</a>
             </div>
           </div>
         </div>
@@ -47,13 +47,19 @@
   <div class="card card-body bg-light pb-1">
     <h2 class="card-title mb-2"><fa-icon [icon]="['fab', 'github']"></fa-icon> Recent Releases</h2>
     <p>Recent releases of EnergyPlus (version 8.2 to current) can be downloaded from the GitHub Repository.</p>
-    <h3 class="card-subtitle mb-2 text-muted">
-      <ul>
-        <li class="mt-1" *ngFor="let release of releases">
-          <a class="card-link" [attr.href]="release.url">{{ release.version }}</a>
-        </li>
-      </ul>
-    </h3>
+    <div class="card-subtitle mb-2 text-muted">
+      <ngb-accordion [closeOthers]="true">
+        <ngb-panel *ngFor="let group of releaseGroups | keyvalue: naturalSort" [title]="group.key + '.x'">
+          <ng-template ngbPanelContent>
+            <ul>
+              <li class="mt-1" *ngFor="let release of group.value">
+                <a class="card-link" [attr.href]="release.url">{{ release.version }}</a>
+              </li>
+            </ul>
+          </ng-template>
+        </ngb-panel>
+      </ngb-accordion>
+    </div>
     <p>NOTE: All Windows releases of version 8.6 and prior releases have been removed as they contained a vulnerability that was addressed starting with version 8.7. We apologize for any inconvenience.</p>
   </div>
   <div class="card card-body bg-light">

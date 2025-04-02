@@ -15,7 +15,7 @@ import {
   faPenSquare,
   faTasks
 } from '@fortawesome/free-solid-svg-icons';
-import { NgbCollapseModule, NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbAccordionModule, NgbCollapseModule, NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap'
 import { CountryPipe } from '@pipes/country.pipe';
 import { PluralPipe } from '@pipes/plural.pipe';
 import { RegionPipe } from '@pipes/region.pipe';
@@ -83,6 +83,7 @@ import { WeatherSourcesComponent } from './weather/weather-sources/weather-sourc
     FontAwesomeModule,
     FormsModule,
     HttpClientModule,
+    NgbAccordionModule,
     NgbCollapseModule,
     NgbDropdownModule,
     ReactiveFormsModule

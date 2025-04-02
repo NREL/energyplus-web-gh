@@ -6,7 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./testing.component.scss']
 })
 export class TestingComponent {
-
-  constructor() {
-  }
 }
