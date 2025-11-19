@@ -63,14 +63,17 @@ export const releases: ReleaseItem[] = [{
 }, {
   version: 'EnergyPlus 24.2.0',
   url: 'https://github.com/NREL/EnergyPlus/releases/tag/v24.2.0a'
+}, {
+  version: 'EnergyPlus 25.1.0',
+  url: 'https://github.com/NREL/EnergyPlus/releases/tag/v25.1.0-WithDSOASpaceListFixes'
 }];
 
 export const latestRelease: CurrentRelease = {
-  version: '25.1.0',
-  date: 'March 31, 2025',
-  mac13_arm: 'https://github.com/NREL/EnergyPlus/releases/download/v25.1.0/EnergyPlus-25.1.0-68a4a7c774-Darwin-macOS13-arm64.dmg',
-  mac12: 'https://github.com/NREL/EnergyPlus/releases/download/v25.1.0/EnergyPlus-25.1.0-68a4a7c774-Darwin-macOS12.1-x86_64.dmg',
-  windows_main: 'https://github.com/NREL/EnergyPlus/releases/download/v25.1.0/EnergyPlus-25.1.0-68a4a7c774-Windows-x86_64.exe',
-  ubuntu_22: 'https://github.com/NREL/EnergyPlus/releases/download/v25.1.0/EnergyPlus-25.1.0-68a4a7c774-Linux-Ubuntu22.04-x86_64.run',
-  ubuntu_24: 'https://github.com/NREL/EnergyPlus/releases/download/v25.1.0/EnergyPlus-25.1.0-68a4a7c774-Linux-Ubuntu24.04-x86_64.run'
+  version: '25.2.0',
+  date: 'November 14, 2025',
+  mac13_arm: 'https://github.com/NREL/EnergyPlus/releases/download/v25.2.0/EnergyPlus-25.2.0-cf7368216c-Darwin-macOS13-arm64.dmg',
+  mac12: 'https://github.com/NREL/EnergyPlus/releases/download/v25.2.0/EnergyPlus-25.2.0-cf7368216c-Darwin-macOS12.1-x86_64.dmg',
+  windows_main: 'https://github.com/NREL/EnergyPlus/releases/download/v25.2.0/EnergyPlus-25.2.0-cf7368216c-Windows-x86_64.exe',
+  ubuntu_22: 'https://github.com/NREL/EnergyPlus/releases/download/v25.2.0/EnergyPlus-25.2.0-cf7368216c-Linux-Ubuntu22.04-x86_64.run',
+  ubuntu_24: 'https://github.com/NREL/EnergyPlus/releases/download/v25.2.0/EnergyPlus-25.2.0-cf7368216c-Linux-Ubuntu24.04-x86_64.run'
 }
