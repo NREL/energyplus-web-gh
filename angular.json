@@ -31,6 +31,7 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/CNAME",
+              "src/epupdate.htm",
               "src/favicon.ico",
               "src/assets"
             ],
